@@ -46,7 +46,11 @@ export default function Expertise() {
           height={84}
         />
       </div>
-      <Button>Demander un devis personnalisé</Button>
+      <div className="flex justify-center mt-16">
+        <Button className="bg-[#FBAC18] text-white px-7 py-6 rounded-full">
+          Demander un devis personnalisé
+        </Button>
+      </div>
     </div>
   );
 }

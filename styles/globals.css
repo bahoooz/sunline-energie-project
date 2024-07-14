@@ -18,3 +18,32 @@ body {
   background-position: left;
   background-size: cover;
 }
+
+.slick-slide > div {
+  margin: 0 20px !important;
+}
+
+.slick-prev:before,
+.slick-next:before {
+  color: black!important;
+}
+
+.slick-prev, .slick-next {
+  height: 100px !important;
+  width: 100px !important;
+  z-index: 10;
+}
+
+@media screen and (min-width: 640px) {
+  .slick-prev, .slick-next {
+    height: 20px !important;
+    width: 20px !important;
+    z-index: 10;
+  }
+}
+
+#garanties-home {
+  background-image: url("/assets/garanties-img.jpg");
+  background-size: cover;
+  background-position: center;
+}
