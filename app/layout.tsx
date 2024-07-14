@@ -9,8 +9,7 @@ export const metadata: Metadata = {
     default: "Sunline Energie",
     template: `Sunline Energie`,
   },
-  description:
-    "",
+  description: "",
   icons: {
     icon: "/logo.png",
   },

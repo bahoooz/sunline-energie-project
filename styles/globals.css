@@ -9,13 +9,12 @@
 }
 
 body {
-  min-height: 100vh;
   overflow-x: hidden;
 }
 
 #header-home {
   background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)),
     url("/assets/sunpower-solar-storage-battery.jpeg.webp.png");
-  background-position: center;
+  background-position: left;
   background-size: cover;
 }
