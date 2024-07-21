@@ -1,6 +1,7 @@
 import React from "react";
 import BoxExpertise from "./BoxExpertise";
 import { Button } from "@nextui-org/button";
+import Link from "next/link";
 
 export default function Expertise() {
   return (
@@ -47,7 +48,11 @@ export default function Expertise() {
         />
       </div>
       <div className="flex justify-center mt-16">
-        <Button className="bg-[#FBAC18] text-white px-7 py-6 rounded-full">
+        <Button
+          as={Link}
+          href="/contact"
+          className="bg-[#FBAC18] text-white px-7 py-6 rounded-full"
+        >
           Demander un devis personnalisé
         </Button>
       </div>

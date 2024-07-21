@@ -6,6 +6,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  scroll-behavior: smooth;
 }
 
 body {
@@ -46,4 +47,8 @@ body {
   background-image: url("/assets/garanties-img.jpg");
   background-size: cover;
   background-position: center;
+}
+
+#accordion > div {
+  background-color: #F7F7F7 !important;
 }

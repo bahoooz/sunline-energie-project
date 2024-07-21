@@ -1,6 +1,7 @@
 import React from "react";
 import { Button } from "@nextui-org/button";
 import BoxHeaderHome from "./BoxHeaderHome";
+import Link from "next/link";
 
 export default function HeaderHome() {
   return (
@@ -12,7 +13,11 @@ export default function HeaderHome() {
             engagement durable
           </h1>
           <div className="flex flex-col items-center gap-5 lg:flex-row lg:items-center">
-            <Button className="bg-[#292929] text-white text-base px-8 py-6 w-fit">
+            <Button
+              as={Link}
+              href="#offres-panneaux-solaires"
+              className="bg-[#292929] text-white text-base px-8 py-6 w-fit"
+            >
               Découvrez nos offres
             </Button>
             <p className="text-white text-sm lg:mt-2">
@@ -26,13 +31,13 @@ export default function HeaderHome() {
           title="Autoconsommation"
           desc="L’autoconsommation solaire permet de produire et consommer sa propre électricité à partir du soleil. C’est une solution durable qui réduit les factures d’énergie, en optant pour l’énergie solaire, vous contribuez activement à la transition énergétique."
           link_tag="Nos offres"
-          link=""
+          link="/offres"
         />
         <BoxHeaderHome
           title="Qualité"
           desc="Nous nous engageons à fournir des produits et des services de la plus haute qualité. Nous travaillons avec des fabricants réputés et nous assurons que nos installations répondent aux normes les plus élevées."
           link_tag="Nos réalisations"
-          link=""
+          link="#installations-solaires"
         />
         <BoxHeaderHome
           title="Service Client"
@@ -41,7 +46,7 @@ Pendant 10 ans, si vous ne faites pas les
 économies promises, on vous rembourse la
 différence. Nous vous offrons également la maintenance de votre installation pendant 5ans."
           link_tag="Nos garanties"
-          link=""
+          link="/garanties"
         />
       </div>
     </div>

@@ -1,9 +1,9 @@
 import React from "react";
-import SliderOffres from "./SliderOffres";
+import SliderOffres from "./Home/SliderOffres";
 
 export default function OffresPanneauxSolaires() {
   return (
-    <div className="mt-20">
+    <div className="mt-20" id="offres-panneaux-solaires">
       <div className="text-center">
         <p className="text-[#425A9E] font-semibold mb-5">
           A chacun son offre clé en main

@@ -1,8 +1,10 @@
 import Expertise from "@/components/Home/Expertise";
 import GarantiesComplementaires from "@/components/Home/GarantiesComplementaires";
 import HeaderHome from "@/components/Home/HeaderHome";
-import OffresPanneauxSolaires from "@/components/Home/OffresPanneauxSolaires";
+import OffresPanneauxSolaires from "@/components/OffresPanneauxSolaires";
 import Partenaires from "@/components/Home/Partenaires";
+import SunlineExpertSolaire from "@/components/Home/SunlineExpertSolaire";
+import InstallationsSolaires from "@/components/InstallationsSolaires";
 
 /* eslint-disable prettier/prettier */
 export default function Home() {
@@ -13,6 +15,8 @@ export default function Home() {
     <Expertise />
     <OffresPanneauxSolaires />
     <GarantiesComplementaires />
+    <SunlineExpertSolaire />
+    <InstallationsSolaires />
     </>
   );
 }

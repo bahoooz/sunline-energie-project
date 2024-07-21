@@ -41,7 +41,7 @@ export default function SliderOffres() {
           price={"5 990"}
           desc="Le solaire abordable, performant et intelligent, rapidement rentable, avec
 ou sans ombrage"
-          link={"youtube.com"}
+          link={"/suneco"}
           list={
             <>
               <li className="flex gap-3">
@@ -94,7 +94,7 @@ ou sans ombrage"
           price={"10 430"}
           desc="Le solaire de dernière génération garantie 30 ans, à
 performances exceptionnelles et au design élégant"
-          link={"youtube.com"}
+          link={"/sunprime"}
           list={
             <>
               <li className="flex gap-3">

@@ -3,6 +3,7 @@ import { Metadata } from "next";
 
 import { fontSans } from "@/config/fonts";
 import NavbarComponent from "@/components/Navbar";
+import Footer from "@/components/Footer";
 
 export const metadata: Metadata = {
   title: {
@@ -27,6 +28,7 @@ export default function RootLayout({
       <body>
         <NavbarComponent />
         {children}
+        <Footer />
       </body>
     </html>
   );

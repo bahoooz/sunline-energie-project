@@ -25,54 +25,64 @@ export default function NavbarComponent() {
     "Nous contacter",
   ];
   return (
-    <Navbar onMenuOpenChange={setIsMenuOpen}>
+    <Navbar onMenuOpenChange={setIsMenuOpen} className="h-20 static">
       <NavbarContent>
         <NavbarMenuToggle
           aria-label={isMenuOpen ? "Close menu" : "Open menu"}
           className="sm:hidden"
         />
-        <NavbarBrand className="justify-end sm:justify-start">
-          <Image className="w-12" src={"/logo.png"} width={67} height={83} alt="logo" />
-          <p className="font-bold text-inherit">Sunline</p>
+        <NavbarBrand
+          as={Link}
+          href={"/"}
+          className="justify-end sm:justify-start"
+        >
+          <Image
+            className="w-40"
+            src={"/logo_black.png"}
+            width={252}
+            height={83}
+            alt="logo"
+          />
         </NavbarBrand>
       </NavbarContent>
-      <NavbarContent className="hidden sm:flex gap-4" justify="center">
+      <NavbarContent
+        className="hidden sm:flex gap-8 font-bold"
+        justify="center"
+      >
         <NavbarItem>
-          <Link color="foreground" href="#">
+          <Link color="foreground" href="/offres">
             Solutions photovoltaïques
           </Link>
         </NavbarItem>
         <NavbarItem>
-          <Link color="foreground" href="#">
+          <Link color="foreground" href="/garanties">
             Garanties
           </Link>
         </NavbarItem>
         <NavbarItem>
-          <Link color="foreground" href="#">
+          <Link color="foreground" href="/avis">
             Avis
           </Link>
         </NavbarItem>
         <NavbarItem>
-          <Link color="foreground" href="#">
+          <Link color="foreground" href="/contact">
             Nous contacter
           </Link>
         </NavbarItem>
       </NavbarContent>
       <NavbarMenu>
-        {menuItems.map((item, index) => (
-          <NavbarMenuItem key={`${item}-${index}`}>
-            <Link
-              color={
-                index === 2 ? "primary" : index === menuItems.length - 1 ? "danger" : "foreground"
-              }
-              className="w-full"
-              href="#"
-              size="lg"
-            >
-              {item}
-            </Link>
-          </NavbarMenuItem>
-        ))}
+        <NavbarMenuItem>
+          <Link href={"/offres"}>Solutions photovoltaïques</Link>
+        </NavbarMenuItem>
+        <NavbarMenuItem>
+          <Link href={"/garanties"}>Garanties</Link>
+        </NavbarMenuItem>
+        <NavbarMenuItem>
+          <Link href={"/avis"}>Avis</Link>
+        </NavbarMenuItem>
+        <NavbarMenuItem>
+          <Link href={"/contact"}>Nous contacter</Link>
+        </NavbarMenuItem>
       </NavbarMenu>
     </Navbar>
   );

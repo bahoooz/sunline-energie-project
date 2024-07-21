@@ -3,9 +3,13 @@ import CardGaranties from "./CardGaranties";
 
 export default function GarantiesComplementaires() {
   return (
-    <div id="garanties-home" className="min-h-[600px] w-full mt-20 py-20 sm:py-28 xl:py-32">
+    <div
+      id="garanties-home"
+      className="min-h-[600px] w-full mt-20 py-20 sm:py-28 xl:py-32"
+    >
       <h2 className="text-2xl sm:text-3xl xl:text-4xl text-white text-center px-5">
-        Profitez de garanties complémentaires <br className="hidden sm:block" /> exclusives Sunline
+        Profitez de garanties complémentaires <br className="hidden sm:block" />{" "}
+        exclusives Sunline
       </h2>
       <div className="flex flex-col lg:flex-row lg:flex-wrap lg:justify-center gap-12 lg:gap-20 items-center mt-16 sm:mt-20 xl:mt-24 xl:px-12">
         <CardGaranties
