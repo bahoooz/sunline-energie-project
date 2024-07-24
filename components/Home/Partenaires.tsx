@@ -9,14 +9,14 @@ export default function Partenaires() {
       </h2>
       <div className="flex flex-col items-center mt-8 md:mt-16 gap-5 md:gap-20 lg:gap-36 md:flex-row md:justify-center">
         <Image
-          className="w-[220px]"
+          className="w-[220px] hover:scale-110 transition-all"
           src={"/assets/dualsun_logo.png"}
           width={322}
           height={82}
           alt="logo dualsun"
         />
         <Image
-          className="w-52"
+          className="w-52 hover:scale-110 transition-all"
           src={"/assets/enphase_logo.png"}
           width={301}
           height={55}

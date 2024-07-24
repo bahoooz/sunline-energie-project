@@ -152,20 +152,20 @@ export default function SelectionExperts({
           </div>
         </div>
       </div>
-      <div className="flex flex-col md:flex-row md:justify-center items-center mt-12 gap-5 md:gap-12 lg:gap-32 xl:gap-48">
+      <div className="flex flex-col md:flex-row md:justify-center items-center mt-20 gap-5 md:gap-12 lg:gap-32 xl:gap-48">
         <Image
           src={"/assets/dualsun_logo.png"}
           width={322}
           height={82}
           alt="logo dualsun"
-          className="w-[270px]"
+          className="w-[270px] hover:scale-110 transition-all"
         />
         <Image
           src={"/assets/enphase_logo.png"}
           width={301}
           height={55}
           alt="logo enphase"
-          className="w-[250px]"
+          className="w-[250px] hover:scale-110 transition-all"
         />
       </div>
     </div>

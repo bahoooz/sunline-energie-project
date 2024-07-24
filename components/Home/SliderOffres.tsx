@@ -2,8 +2,7 @@
 
 import React from "react";
 import Slider from "react-slick";
-import "slick-carousel/slick/slick.css";
-import "slick-carousel/slick/slick-theme.css";
+
 import BoxOffre from "./BoxOffre";
 import { Check, CheckCheck } from "lucide-react";
 
@@ -92,7 +91,7 @@ ou sans ombrage"
         <BoxOffre
           title="SunPrime"
           price={"10 430"}
-          desc="Le solaire de dernière génération garantie 30 ans, à
+          desc="Le solaire de dernière génération garantie 30 ans, aux
 performances exceptionnelles et au design élégant"
           link={"/sunprime"}
           list={

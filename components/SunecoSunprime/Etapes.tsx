@@ -77,7 +77,7 @@ export default function Etapes() {
               Installation & Raccordement au réseau public
             </h3>
             <p className="text-justify">
-              Nous faisons réaliser vos travaux par l’un den nos techniciens
+              Nous faisons réaliser vos travaux par l’un de nos techniciens
               locaux RGE agréé, pour vous garantir une installation de qualité.
             </p>
           </div>

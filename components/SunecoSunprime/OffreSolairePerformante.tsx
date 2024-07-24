@@ -39,7 +39,7 @@ export default function OffreSolairePerformante({
           </h3>
           <span className="text-5xl lg:pl-8">5 ans</span>
           <p className="text-3xl mt-10 w-4/5 lg:w-full lg:pl-8">
-            de maintenances <br className="hidden lg:block" /> offerte sur votre{" "}
+            de maintenance <br className="hidden lg:block" /> offerte sur votre{" "}
             <br className="hidden lg:block" />
             centrale solaire
           </p>

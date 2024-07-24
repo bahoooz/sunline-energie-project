@@ -1,11 +1,15 @@
-import { Fira_Code as FontMono, Inter as FontSans } from "next/font/google";
+import {
+  Lato as FontLato,
+  Lexend_Deca as FontLexendDeca,
+} from "next/font/google";
 
-export const fontSans = FontSans({
+export const fontLato = FontLato({
   subsets: ["latin"],
-  variable: "--font-sans",
+  variable: "--font-lato",
+  weight: ["400", "700"],
 });
 
-export const fontMono = FontMono({
+export const fontLexendDeca = FontLexendDeca({
   subsets: ["latin"],
-  variable: "--font-mono",
+  variable: "--font-lexend-deca",
 });

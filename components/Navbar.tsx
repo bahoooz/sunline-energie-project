@@ -18,23 +18,16 @@ import Link from "next/link";
 export default function NavbarComponent() {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
 
-  const menuItems = [
-    "Solutions photovoltaïques",
-    "Garanties",
-    "Avis",
-    "Nous contacter",
-  ];
   return (
-    <Navbar onMenuOpenChange={setIsMenuOpen} className="h-20 static">
+    <Navbar
+      onMenuOpenChange={setIsMenuOpen}
+      isMenuOpen={isMenuOpen}
+      className="h-20 static shadow-md"
+    >
       <NavbarContent>
-        <NavbarMenuToggle
-          aria-label={isMenuOpen ? "Close menu" : "Open menu"}
-          className="sm:hidden"
-        />
         <NavbarBrand
           as={Link}
           href={"/"}
-          className="justify-end sm:justify-start"
         >
           <Image
             className="w-40"
@@ -44,9 +37,13 @@ export default function NavbarComponent() {
             alt="logo"
           />
         </NavbarBrand>
+        <NavbarMenuToggle
+          aria-label={isMenuOpen ? "Close menu" : "Open menu"}
+          className="md:hidden"
+        />
       </NavbarContent>
       <NavbarContent
-        className="hidden sm:flex gap-8 font-bold"
+        className="hidden md:flex gap-8 font-bold"
         justify="center"
       >
         <NavbarItem>
@@ -70,18 +67,26 @@ export default function NavbarComponent() {
           </Link>
         </NavbarItem>
       </NavbarContent>
-      <NavbarMenu>
-        <NavbarMenuItem>
-          <Link href={"/offres"}>Solutions photovoltaïques</Link>
+      <NavbarMenu className="bg-black bg-opacity-50 text-white pt-8 gap-6 top-20">
+        <NavbarMenuItem className="text-xl">
+          <Link href={"/offres"} onClick={() => setIsMenuOpen(false)}>
+            Solutions photovoltaïques
+          </Link>
         </NavbarMenuItem>
-        <NavbarMenuItem>
-          <Link href={"/garanties"}>Garanties</Link>
+        <NavbarMenuItem className="text-xl">
+          <Link href={"/garanties"} onClick={() => setIsMenuOpen(false)}>
+            Garanties
+          </Link>
         </NavbarMenuItem>
-        <NavbarMenuItem>
-          <Link href={"/avis"}>Avis</Link>
+        <NavbarMenuItem className="text-xl">
+          <Link href={"/avis"} onClick={() => setIsMenuOpen(false)}>
+            Avis
+          </Link>
         </NavbarMenuItem>
-        <NavbarMenuItem>
-          <Link href={"/contact"}>Nous contacter</Link>
+        <NavbarMenuItem className="text-xl">
+          <Link href={"/contact"} onClick={() => setIsMenuOpen(false)}>
+            Nous contacter
+          </Link>
         </NavbarMenuItem>
       </NavbarMenu>
     </Navbar>

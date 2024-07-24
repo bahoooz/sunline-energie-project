@@ -15,7 +15,7 @@ body {
 
 #header-home {
   background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)),
-    url("/assets/sunpower-solar-storage-battery.jpeg.webp.png");
+    url("/assets/slider-home-1.png");
   background-position: left;
   background-size: cover;
 }
@@ -26,17 +26,20 @@ body {
 
 .slick-prev:before,
 .slick-next:before {
-  color: black!important;
+  color: black !important;
+  font-size: 30px !important;
 }
 
-.slick-prev, .slick-next {
+.slick-prev,
+.slick-next {
   height: 100px !important;
   width: 100px !important;
   z-index: 10;
 }
 
-@media screen and (min-width: 640px) {
-  .slick-prev, .slick-next {
+@media screen and (min-width: 1024px) {
+  .slick-prev,
+  .slick-next {
     height: 20px !important;
     width: 20px !important;
     z-index: 10;
@@ -50,5 +53,11 @@ body {
 }
 
 #accordion > div {
-  background-color: #F7F7F7 !important;
+  background-color: #f7f7f7 !important;
+}
+
+#equipe-engagee {
+  background-image: url("/assets/banniere-garanties.png");
+  background-position: center;
+  background-size: cover;
 }
