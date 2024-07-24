@@ -44,6 +44,10 @@ body {
     width: 20px !important;
     z-index: 10;
   }
+  .slick-prev:before,
+  .slick-next:before {
+    display: none;
+  }
 }
 
 #garanties-home {
