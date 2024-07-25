@@ -11,13 +11,13 @@ import InstallationsSolaires from "@/components/InstallationsSolaires";
 export default function Home() {
   return (
     <>
-    <HeaderHome />
-    <Partenaires />
-    <Expertise />
-    <OffresPanneauxSolaires />
-    <GarantiesComplementaires />
-    <SunlineExpertSolaire />
-    <InstallationsSolaires />
+      <HeaderHome />
+      <Partenaires />
+      <Expertise />
+      <OffresPanneauxSolaires />
+      <GarantiesComplementaires />
+      <SunlineExpertSolaire />
+      <InstallationsSolaires />
     </>
   );
 }
