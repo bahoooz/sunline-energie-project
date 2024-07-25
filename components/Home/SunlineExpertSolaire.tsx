@@ -50,7 +50,7 @@ export default function SunlineExpertSolaire() {
           </p>
         </div>
         <div className="h-40 2xl:h-48 bg-[#F4F4F4] flex flex-col justify-center items-center gap-2 xl:px-10 2xl:px-16">
-          <span className="text-5xl">406</span>
+          <span className="text-5xl">826</span>
           <p className="text-center">
             panneaux solaires <br /> installés
           </p>
