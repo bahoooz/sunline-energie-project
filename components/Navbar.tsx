@@ -25,10 +25,7 @@ export default function NavbarComponent() {
       className="h-20 static shadow-md"
     >
       <NavbarContent>
-        <NavbarBrand
-          as={Link}
-          href={"/"}
-        >
+        <NavbarBrand as={Link} href={"/"}>
           <Image
             className="w-40"
             src={"/logo_black.png"}
@@ -47,22 +44,26 @@ export default function NavbarComponent() {
         justify="center"
       >
         <NavbarItem>
-          <Link color="foreground" href="/offres">
+          <Link color="foreground" href="/offres" className="hover:underline">
             Solutions photovoltaïques
           </Link>
         </NavbarItem>
         <NavbarItem>
-          <Link color="foreground" href="/garanties">
+          <Link
+            color="foreground"
+            href="/garanties"
+            className="hover:underline"
+          >
             Garanties
           </Link>
         </NavbarItem>
         <NavbarItem>
-          <Link color="foreground" href="/avis">
+          <Link color="foreground" href="/avis" className="hover:underline">
             Avis
           </Link>
         </NavbarItem>
         <NavbarItem>
-          <Link color="foreground" href="/contact">
+          <Link color="foreground" href="/contact" className="hover:underline">
             Nous contacter
           </Link>
         </NavbarItem>

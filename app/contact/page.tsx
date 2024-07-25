@@ -1,5 +1,6 @@
 /* eslint-disable prettier/prettier */
 import { ContactForm } from "@/components/Contact/ContactForm";
+import FAQ from "@/components/FAQ";
 import InstallationsSolaires from "@/components/InstallationsSolaires";
 import { Facebook, Instagram, Linkedin, Youtube } from "lucide-react";
 import Image from "next/image";
@@ -90,6 +91,7 @@ export default function Contact() {
         </div>
       </div>
       <InstallationsSolaires />
+      <FAQ />
     </div>
   );
 }
