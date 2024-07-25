@@ -8,7 +8,7 @@ export default function Sunprime() {
     <PageSunecoSunprime
       titleGammeOffre="SunPrime"
       descGammeOffre="Le solaire de dernière génération garantie 30 ans, à performances exceptionnelles et au design élégant"
-      priceGammeOffre={"10 430"}
+      priceGammeOffre={"12 390"}
       listGammeOffre={
         <>
           <li className="flex items-center gap-5">
