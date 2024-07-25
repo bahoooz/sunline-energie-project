@@ -37,7 +37,7 @@ export default function Sunprime() {
           <li className="flex items-center gap-5">
             <Check color="#00A06B" size={20} strokeWidth={3} />
             <span className="max-w-[80%]">
-              Installation de qualité par technicien RGE Sunline
+              Installation de qualité par nos techniciens RGE Sunline
             </span>
           </li>
         </>
