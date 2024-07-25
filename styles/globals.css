@@ -15,7 +15,7 @@ body {
 
 #header-home {
   background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)),
-    url("/assets/slider-home-4.png");
+    url("/assets/slider-home-1.png");
   background-position: left;
   background-size: cover;
 }
