@@ -10,25 +10,23 @@ function SliderInstallationsSolaire() {
     autoplay: true,
     autoplaySpeed: 2000,
     cssEase: "linear",
-    slidesToShow: 4,
-    slidesToScroll: 4,
+    slidesToShow: 3,
+    slidesToScroll: 3,
     initialSlide: 0,
     responsive: [
       {
         breakpoint: 3000,
         settings: {
           slidesToShow: 3,
-          slidesToScroll: 3,
-          infinite: true,
-          dots: true,
+          slidesToScroll: 1,
         },
       },
       {
         breakpoint: 1280,
         settings: {
           slidesToShow: 2,
-          slidesToScroll: 2,
-          initialSlide: 2,
+          slidesToScroll: 1,
+          infinite: true,
         },
       },
       {
@@ -36,6 +34,7 @@ function SliderInstallationsSolaire() {
         settings: {
           slidesToShow: 1,
           slidesToScroll: 1,
+          infinite: true,
         },
       },
     ],
