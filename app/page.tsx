@@ -7,6 +7,7 @@ import SunlineExpertSolaire from "@/components/Home/SunlineExpertSolaire";
 import InstallationsSolaires from "@/components/InstallationsSolaires";
 
 /* eslint-disable prettier/prettier */
+// HomePage
 export default function Home() {
   return (
     <>
