@@ -151,7 +151,7 @@ export const ContactForm = () => {
           </p>
         </div>
         <ReCAPTCHA
-          sitekey="6Le3ABYqAAAAADgDwjV9zis9JtUKELNVOCuPyBR_"
+          sitekey="6LdcfBgqAAAAADhBX28ptOEXeiTxKj0NxQzBHRbv"
           className="sm:mx-auto xl:mx-0"
           onChange={onCaptchaChange}
         />
