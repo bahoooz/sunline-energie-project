@@ -42,7 +42,7 @@ export default function GammeOffre({ title, desc, price, list }: GammeOffre) {
             <span className="text-lg">TVA incluse</span>
           </div>
           <p className="font-semibold mb-8">
-            Livrée et posée - Prime à l&apos;autoconsommation déduite
+            Livré et posé - Prime à l&apos;autoconsommation non déduite
           </p>
           <Button
             as={Link}
