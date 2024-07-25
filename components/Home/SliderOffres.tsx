@@ -39,7 +39,7 @@ export default function SliderOffres() {
           title="SunEco"
           price={"6 990"}
           desc="Le solaire abordable, performant et intelligent, rapidement rentable, avec
-ou sans ombrage"
+ou sans ombrage, il s'adapte à tous les environnements."
           link={"/suneco"}
           list={
             <>
