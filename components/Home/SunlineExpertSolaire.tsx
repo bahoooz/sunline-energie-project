@@ -16,7 +16,7 @@ export default function SunlineExpertSolaire() {
         />
         <div className="text-center xl:text-start mt-12 xl:mt-0">
           <h2 className="text-2xl lg:text-3xl font-bold px-8 xl:px-0">
-            Sunline ; l’expert du Solaire <br className="hidden xl:block" /> en
+            Sunline : l’expert du Solaire <br className="hidden xl:block" /> en
             Nouvelle-Aquitaine
           </h2>
           <div className="flex justify-center xl:justify-start">
@@ -44,13 +44,13 @@ export default function SunlineExpertSolaire() {
           </p>
         </div>
         <div className="h-40 2xl:h-48 flex flex-col justify-center items-center gap-2 xl:px-10 2xl:px-16">
-          <span className="text-5xl">319</span>
+          <span className="text-5xl">120</span>
           <p className="text-center">
             installation solaires <br /> réalisées
           </p>
         </div>
         <div className="h-40 2xl:h-48 bg-[#F4F4F4] flex flex-col justify-center items-center gap-2 xl:px-10 2xl:px-16">
-          <span className="text-5xl">1261</span>
+          <span className="text-5xl">406</span>
           <p className="text-center">
             panneaux solaires <br /> installés
           </p>
