@@ -21,9 +21,9 @@ export default function Avis() {
               <Star fill="#FEB50B" strokeWidth={0} size={32} />
               <StarOff fill="#FEB50B" strokeWidth={0} size={32} />
             </div>
-            <span className="font-bold text-2xl">4,6</span>
+            <span className="font-bold text-2xl">5</span>
           </div>
-          <p className="text-xl lg:text-2xl">2241 avis Google et Facebook</p>
+          <p className="text-xl lg:text-2xl">11 avis Google et Facebook</p>
         </div>
       </div>
       <InstallationsSolaires />
