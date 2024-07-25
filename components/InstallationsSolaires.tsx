@@ -12,7 +12,7 @@ export default function InstallationsSolaires() {
       id="installations-solaires"
     >
       <h2 className="text-2xl lg:text-3xl font-bold px-7 mb-12 lg:mb-24">
-        Déjà plus de 300 installations solaires réalisées partout en{" "}
+        Déjà plus de 100 installations solaires réalisées partout en{" "}
         <br className="hidden md:block" />
         Nouvelle-Aquitaine
       </h2>
