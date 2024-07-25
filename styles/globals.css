@@ -50,6 +50,12 @@ body {
   }
 }
 
+#slider-installations-solaire .slick-prev,
+#slider-installations-solaire .slick-next {
+  height: 50px !important;
+  width: 50px !important;
+}
+
 #garanties-home {
   background-image: url("/assets/garanties-img.jpg");
   background-size: cover;

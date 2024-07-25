@@ -1,5 +1,6 @@
 import { Button } from "@nextui-org/button";
 import Image from "next/image";
+import Link from "next/link";
 import React from "react";
 
 export default function SunlineExpertSolaire() {
@@ -26,7 +27,11 @@ export default function SunlineExpertSolaire() {
               meilleur compromis entre prix, rentabilité et performance.
             </p>
           </div>
-          <Button className="mt-10 2xl:mt-20 bg-[#FBAC18] text-white px-7 py-6 rounded-full text-base">
+          <Button
+            as={Link}
+            href="/garanties"
+            className="mt-10 2xl:mt-20 bg-[#FBAC18] text-white px-7 py-6 rounded-full text-base"
+          >
             Découvrez notre entreprise
           </Button>
         </div>

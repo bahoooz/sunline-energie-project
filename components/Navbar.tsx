@@ -22,7 +22,7 @@ export default function NavbarComponent() {
     <Navbar
       onMenuOpenChange={setIsMenuOpen}
       isMenuOpen={isMenuOpen}
-      className="h-20 static shadow-md"
+      className="h-20 shadow-md bg-white"
     >
       <NavbarContent>
         <NavbarBrand as={Link} href={"/"}>
@@ -68,7 +68,7 @@ export default function NavbarComponent() {
           </Link>
         </NavbarItem>
       </NavbarContent>
-      <NavbarMenu className="bg-black bg-opacity-50 text-white pt-8 gap-6 top-20">
+      <NavbarMenu className="bg-black bg-opacity-50 text-white flex flex-col justify-center gap-6 top-20 pb-2 max-h-[260px]">
         <NavbarMenuItem className="text-xl">
           <Link href={"/offres"} onClick={() => setIsMenuOpen(false)}>
             Solutions photovoltaïques
