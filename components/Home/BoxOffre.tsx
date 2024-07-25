@@ -28,7 +28,7 @@ export default function BoxOffre({
           A partir de <span className="text-4xl">{price}€</span>
         </h3>
         <p className="text-sm text-[#425A9E] font-semibold mt-2">
-          Livrée et posée - Aides <br /> déduites
+          Livré et posé - Aides <br /> non déduites
         </p>
         <p className="mt-5">{desc}</p>
       </div>
