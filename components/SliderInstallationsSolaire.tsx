@@ -63,7 +63,7 @@ function SliderInstallationsSolaire() {
             alt="installation solaire 2"
             className="rounded-md mb-3"
           />
-          <h4>Installation solaire - 9kWc - Deux-Sèvres</h4>
+          <h4>Installation solaire - 4kWc - Deux-Sèvres</h4>
         </div>
         <div className="w-[90%] md:w-[70%] mx-auto lg:w-full 2xl:w-[450px]">
           <Image
@@ -73,7 +73,7 @@ function SliderInstallationsSolaire() {
             alt="installation solaire 3"
             className="rounded-md mb-3"
           />
-          <h4>Installation solaire - 9kWc - Vendée</h4>
+          <h4>Installation solaire - 5kWc - Vendée</h4>
         </div>
       </Slider>
     </div>
