@@ -26,7 +26,7 @@ export default function Partenaires() {
           className="w-52 hover:scale-110 transition-all"
           src={"/assets/apsystems-logo-1.png"}
           width={301}
-          height={55}
+          height={97}
           alt="logo apsystems"
         />
       </div>
