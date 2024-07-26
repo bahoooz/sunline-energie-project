@@ -56,8 +56,8 @@ export default function MeilleursProduits() {
         <div className="flex flex-col lg:flex-row lg:justify-center lg:items-center mt-12 lg:mt-20 gap-10 lg:gap-12 xl:gap-24 2xl:gap-32 xl:h-auto">
           <Image
             src={"/assets/IQ8P_image.png"}
-            width={570}
-            height={765}
+            width={765}
+            height={570}
             alt="micro onduleur"
             className="w-[250px] mx-auto lg:m-0 lg:w-[300px] xl:w-[350px] 2xl:w-[400px] object-cover h-[230px] lg:h-[270px] xl:h-[320px] 2xl:h-[360px]"
           />
