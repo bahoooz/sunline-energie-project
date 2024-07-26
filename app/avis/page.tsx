@@ -1,6 +1,7 @@
 /* eslint-disable prettier/prettier */
 import HeaderAvis from "@/components/Avis/HeaderAvis";
 import InstallationsSolaires from "@/components/InstallationsSolaires";
+import FAQ from "@/components/FAQ";
 import { Star, StarOff } from "lucide-react";
 import React from "react";
 
