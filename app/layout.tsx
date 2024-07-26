@@ -14,7 +14,7 @@ export const metadata: Metadata = {
     default: "Sunline Energie",
     template: `Sunline Energie`,
   },
-  description: "",
+  description: "Découvrez Sunline, expert en panneaux photovoltaïques en Nouvelle-Aquitaine. Solutions durables et innovantes pour l'énergie solaire, installations sur mesure, et services professionnels pour particuliers et entreprises.",
   icons: {
     icon: "/logo.png",
   },
