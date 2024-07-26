@@ -69,7 +69,7 @@ performance, durabilité et esthétisme."
       year_info_1_SelectionExperts="de garantie fabricant"
       year_2_SelectionExperts={30}
       year_info_2_SelectionExperts="de garantie de performance à 87%"
-      title_2_SelectionExperts="Micro-onduleurs APSYSTEM avec optimiseur selon votre situation"
+      title_2_SelectionExperts="Micro-onduleurs APSYSTEM DS3 avec optimiseur selon votre situation"
       stars_rating_3_SelectionExperts={
         <div className="flex">
           <Star fill="#FFBB00" stroke="0" />
@@ -89,7 +89,7 @@ performance, durabilité et esthétisme."
         </div>
       }
       desc_2_SelectionExperts="Ce micro onduleur dans sa version DS3 et d'une puissance de sortie
-de 880VA rassemble toutes les innovations des générations précédentes."
+de 960VA rassemble toutes les innovations des générations précédentes."
       year_3_SelectionExperts={20}
       year_info_3_SelectionExperts="de garantie fabricant pour les
 micro-onduleurs"
