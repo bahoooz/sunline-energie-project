@@ -20,7 +20,14 @@ export default function Partenaires() {
           src={"/assets/enphase_logo.png"}
           width={301}
           height={55}
-          alt="logo dualsun"
+          alt="logo dualsun"apsystems-logo-1
+        />
+         <Image
+          className="w-52 hover:scale-110 transition-all"
+          src={"/assets/eapsystems-logo-1"}
+          width={301}
+          height={97}
+          alt="logo apsystem"
         />
       </div>
     </div>
