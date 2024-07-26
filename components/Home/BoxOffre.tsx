@@ -21,35 +21,37 @@ export default function BoxOffre({
   link,
 }: BoxOffre) {
   return (
-    <div className="py-5 px-5 bg-[#F9F9F9]">
-      <div className="text-center">
-        <p className="text-sm font-semibold mb-5">{title}</p>
-        <h3 className="text-2xl font-bold">
-          A partir de <span className="text-4xl">{price}€</span>
-        </h3>
-        <p className="text-sm text-[#425A9E] font-semibold mt-2">
-          Livré et posé - Aides <br /> non déduites
-        </p>
-        <p className="mt-5">{desc}</p>
+    <Link href={link} passHref>
+      <div className="py-5 px-5 bg-[#F9F9F9] cursor-pointer">
+        <div className="text-center">
+          <p className="text-sm font-semibold mb-5">{title}</p>
+          <h3 className="text-2xl font-bold">
+            A partir de <span className="text-4xl">{price}€</span>
+          </h3>
+          <p className="text-sm text-[#425A9E] font-semibold mt-2">
+            Livré et posé - Aides <br /> non déduites
+          </p>
+          <p className="mt-5">{desc}</p>
+        </div>
+        <Image
+          src={"/assets/SunPower_P7_Tier1_6-400x397.png.png"}
+          width={477}
+          height={525}
+          alt="image offre"
+          className="mt-12 w-[300px] mx-auto"
+        />
+        <Button
+          as={Link}
+          href={link}
+          className="bg-[rgb(251,172,24,0.8)] text-white w-full rounded-full text-base py-6 mt-5"
+        >
+          Découvrir l&apos;offre
+        </Button>
+        <ul className="flex flex-col gap-3 mt-12 text-sm font-semibold">
+          {list}
+        </ul>
+        {option}
       </div>
-      <Image
-        src={"/assets/SunPower_P7_Tier1_6-400x397.png.png"}
-        width={477}
-        height={525}
-        alt="image offre"
-        className="mt-12 w-[300px] mx-auto"
-      />
-      <Button
-        as={Link}
-        href={link}
-        className="bg-[rgb(251,172,24,0.8)] text-white w-full rounded-full text-base py-6 mt-5"
-      >
-        Découvrir l&apos;offre
-      </Button>
-      <ul className="flex flex-col gap-3 mt-12 text-sm font-semibold">
-        {list}
-      </ul>
-      {option}
-    </div>
+    </Link>
   );
 }
