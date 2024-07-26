@@ -75,6 +75,16 @@ function SliderInstallationsSolaire() {
           />
           <h4>Installation solaire - 5kWc - Vendée</h4>
         </div>
+        <div className="w-[90%] md:w-[70%] mx-auto lg:w-full 2xl:w-[450px]">
+          <Image
+            src={"/assets/2024-07-03.png"}
+            width={742}
+            height={451}
+            alt="installation solaire 3"
+            className="rounded-md mb-3"
+          />
+          <h4>Installation solaire - 3kWc - Apremont</h4>
+        </div>
       </Slider>
     </div>
   );
