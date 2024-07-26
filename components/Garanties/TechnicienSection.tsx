@@ -10,7 +10,7 @@ export default function TechnicienSection() {
             Des techniciens agréés audités et évalués après chaque intervention
           </h2>
           <p>
-            Nos techniciens locaux agréées interviennent partout en
+            Nos techniciens agréées RGE interviennent partout en
             Nouvelle-Aquitaine, avec les meilleures garanties de prestation de
             pose.
           </p>
