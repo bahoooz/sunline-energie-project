@@ -62,8 +62,8 @@ export default function MeilleursProduits() {
           />
           <div className="bg-[#F5F6F7] text-center lg:text-start px-7 py-8 sm:flex sm:flex-col sm:items-center lg:items-start lg:w-[550px] xl:w-[600px]">
             <h3 className="font-bold text-xl mb-8 sm:w-[500px] md:w-[650px] lg:w-[450px] xl:w-[500px]">
-              Le micro-onduleur le plus puissant d&apos;Enphase, le leader mondial, IQ8P, avec 475 VA de puissance, 
-              assure une connexion optimale de vos panneaux solaires au réseau national.
+              Le micro-onduleur le plus puissant d&apos;Enphase, le leader mondial avec 475 VA de puissance, 
+              assure une production optimale de vos panneaux solaires.
             </h3>
             <p className="mb-8 sm:w-[500px] md:w-[650px] lg:w-[450px] xl:w-[500px]">
               Grâce à la puce intelligente des micro-onduleurs Enphase IQ8P, la
