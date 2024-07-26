@@ -49,7 +49,7 @@ export default function MeilleursProduits() {
            Une sélection de Micro-Onduleur(s) solaires fiables rigoureusement choisies par nos experts en énergie
           </h2>
           <p className="sm:max-w-[600px]">
-            Une centrale solaire avec une solution de pilotage de la production, ainsi qu'une application de suivi de consommation.
+            Une centrale solaire avec une solution de pilotage de la production, ainsi qu&apos;une application de suivi de consommation.
           </p>
         </div>
         <div className="flex flex-col lg:flex-row lg:justify-center lg:items-center mt-12 lg:mt-20 gap-10 lg:gap-12 xl:gap-24 2xl:gap-32 xl:h-auto">
@@ -62,7 +62,7 @@ export default function MeilleursProduits() {
           />
           <div className="bg-[#F5F6F7] text-center lg:text-start px-7 py-8 sm:flex sm:flex-col sm:items-center lg:items-start lg:w-[550px] xl:w-[600px]">
             <h3 className="font-bold text-xl mb-8 sm:w-[500px] md:w-[650px] lg:w-[450px] xl:w-[500px]">
-              Le micro-onduleur le plus puissant d'Enphase le leader mondial, l'IQ8P, avec 475 VA de puissance, 
+              Le micro-onduleur le plus puissant d'Enphase le leader mondial, l&apos;IQ8P, avec 475 VA de puissance, 
               assure une connexion optimale de vos panneaux solaires au réseau national.
             </h3>
             <p className="mb-8 sm:w-[500px] md:w-[650px] lg:w-[450px] xl:w-[500px]">
