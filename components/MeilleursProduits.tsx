@@ -77,6 +77,30 @@ export default function MeilleursProduits() {
             <p className="mt-2">de garantie fabricant</p>
           </div>
         </div>
+        <div className="flex flex-col lg:flex-row lg:justify-center lg:items-center mt-12 lg:mt-20 gap-10 lg:gap-12 xl:gap-24 2xl:gap-32 xl:h-auto">
+          <Image
+            src={"/assets/APsystems_DS3.png"}
+            width={765}
+            height={570}
+            alt="micro onduleur APsystems"
+            className="w-[250px] mx-auto lg:m-0 lg:w-[300px] xl:w-[350px] 2xl:w-[400px] object-cover h-[230px] lg:h-[270px] xl:h-[320px] 2xl:h-[360px]"
+          />
+          <div className="bg-[#F5F6F7] text-center lg:text-start px-7 py-8 sm:flex sm:flex-col sm:items-center lg:items-start lg:w-[550px] xl:w-[600px]">
+            <h3 className="font-bold text-xl mb-8 sm:w-[500px] md:w-[650px] lg:w-[450px] xl:w-[500px]">
+              Une sélection de Micro-Onduleur(s) solaires fiables rigoureusement
+              choisies par nos experts en énergie
+            </h3>
+            <p className="mb-8 sm:w-[500px] md:w-[650px] lg:w-[450px] xl:w-[500px]">
+              Grâce à la puce intelligente des micro-onduleurs Enphase IQ8P la
+              distribution d&apos;électricité dans le logement peut être régulée
+              en temps réel. En optimisant la production d&apos;énergie, vous
+              réduisez les coûts d&apos;électricité..
+            </p>
+            <div className="w-6 h-1 bg-[#2BA0B5] mx-auto lg:mx-0 mb-8"></div>
+            <span className="text-lg font-bold">25 ans</span>
+            <p className="mt-2">de garantie fabricant</p>
+          </div>
+        </div>
       </div>
     </div>
   );
