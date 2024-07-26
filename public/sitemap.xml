@@ -1,39 +1,30 @@
-<?xml version="1.0" encoding="UTF-8"?> 
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"> 
-<url>
-  <loc>http://sunline-energie.fr/</loc>
-  <lastmod>2024-07-26</lastmod>
-</url>
-<url>
-  <loc>http://sunline-energie.fr/offres</loc>
-  <lastmod>2024-07-26</lastmod>
-</url>
-<url>
-  <loc>http://sunline-energie.fr/garanties</loc>
-  <lastmod>2024-07-26</lastmod>
-</url>
-<url>
-  <loc>http://sunline-energie.fr/avis</loc>
-  <lastmod>2024-07-26</lastmod>
-</url>
-<url>
-  <loc>http://sunline-energie.fr/contact</loc>
-  <lastmod>2024-07-26</lastmod>
-</url>
-<url>
-  <loc>http://sunline-energie.fr/suneco</loc>
-  <lastmod>2024-07-26</lastmod>
-</url>
-<url>
-  <loc>http://sunline-energie.fr/sunprime</loc>
-  <lastmod>2024-07-26</lastmod>
-</url>
-<url>
-  <loc>http://sunline-energie.fr/https://www.facebook.com/profile.php?id=61559245282494</loc>
-  <lastmod>2024-07-26</lastmod>
-</url>
-<url>
-  <loc>http://sunline-energie.fr/https://www.instagram.com/sunline_energie</loc>
-  <lastmod>2024-07-26</lastmod>
-</url>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  <url>
+    <loc>http://sunline-energie.fr/</loc>
+    <lastmod>2024-07-26</lastmod>
+  </url>
+  <url>
+    <loc>http://sunline-energie.fr/offres</loc>
+    <lastmod>2024-07-26</lastmod>
+  </url>
+  <url>
+    <loc>http://sunline-energie.fr/garanties</loc>
+    <lastmod>2024-07-26</lastmod>
+  </url>
+  <url>
+    <loc>http://sunline-energie.fr/avis</loc>
+    <lastmod>2024-07-26</lastmod>
+  </url>
+  <url>
+    <loc>http://sunline-energie.fr/contact</loc>
+    <lastmod>2024-07-26</lastmod>
+  </url>
+  <url>
+    <loc>http://sunline-energie.fr/suneco</loc>
+    <lastmod>2024-07-26</lastmod>
+  </url>
+  <url>
+    <loc>http://sunline-energie.fr/sunprime</loc>
+    <lastmod>2024-07-26</lastmod>
+  </url>
 </urlset>
