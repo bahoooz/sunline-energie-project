@@ -59,10 +59,6 @@ ou sans ombrage, il s'adapte à tous les environnements."
               </li>
               <li className="flex gap-3">
                 <Check color="#00A06B" size={20} strokeWidth={3} />
-                <span className="max-w-[80%]">Suivi de consommation</span>
-              </li>
-              <li className="flex gap-3">
-                <Check color="#00A06B" size={20} strokeWidth={3} />
                 <span className="max-w-[80%]">
                   Optimisation de production en cas d’ombrage
                 </span>
