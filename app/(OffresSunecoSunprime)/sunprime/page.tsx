@@ -70,7 +70,7 @@ performance, durabilité et esthétisme."
       year_info_1_SelectionExperts="de garantie fabricant"
       year_2_SelectionExperts={30}
       year_info_2_SelectionExperts="de garantie de performance à 91.8%"
-      title_2_SelectionExperts="Micro-onduleurs ENPHASE avec optimiseur selon votre situation"
+      title_2_SelectionExperts="Micro-onduleurs ENPHASE avec interface de gestion"
       stars_rating_3_SelectionExperts={
         <div className="flex">
           <Star fill="#FFBB00" stroke="0" />
@@ -89,7 +89,7 @@ performance, durabilité et esthétisme."
           <Star fill="#FFBB00" stroke="0" />
         </div>
       }
-      desc_2_SelectionExperts="Les micro-onduleurs IQ8HC Enphase sont la dernière génération de micro-onduleurs. 
+      desc_2_SelectionExperts="Les micro-onduleurs IQ8P Enphase sont la dernière génération de micro-onduleurs. 
 Ils sont conçus pour les modules photovoltaïques dernière génération à haut rendement."
       year_3_SelectionExperts={25}
       year_info_3_SelectionExperts="de garantie fabricant pour les
