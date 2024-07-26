@@ -46,11 +46,10 @@ export default function MeilleursProduits() {
       <div>
         <div className="text-center px-7 flex flex-col gap-5 sm:items-center">
           <h2 className="text-2xl font-bold sm:max-w-[600px]">
-            Une installation solaire qui vous protège des coupures de courant
+           Une sélection de Micro-Onduleur(s) solaires fiables rigoureusement choisies par nos experts en énergie
           </h2>
           <p className="sm:max-w-[600px]">
-            Une centrale solaire avec une solution de stockage intégrée
-            permettant de se prémunir des coupures de courant
+            Une centrale solaire avec une solution de pilotage de la production, ainsi qu'une application de suivi de consommation.
           </p>
         </div>
         <div className="flex flex-col lg:flex-row lg:justify-center lg:items-center mt-12 lg:mt-20 gap-10 lg:gap-12 xl:gap-24 2xl:gap-32 xl:h-auto">
