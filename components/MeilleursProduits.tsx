@@ -11,7 +11,7 @@ export default function MeilleursProduits() {
             rentabilité de votre investissement
           </h2>
           <p className="sm:max-w-[600px]">
-            D’un seul doigt, pilotez vos équipements  énergivores, suivez votre
+            D’un seul doigt, pilotez vos équipements énergivores, suivez votre
             consommation d’énergie et optimisez votre production solaire
             d’énergie
           </p>
@@ -46,7 +46,7 @@ export default function MeilleursProduits() {
       <div>
         <div className="text-center px-7 flex flex-col gap-5 sm:items-center">
           <h2 className="text-2xl font-bold sm:max-w-[600px]">
-           Une sélection de Micro-Onduleur(s) solaires fiables rigoureusement choisies par nos experts en énergie
+            Une sélection de Micro-Onduleur(s) solaires fiables rigoureusement choisies par nos experts en énergie
           </h2>
           <p className="sm:max-w-[600px]">
             Une centrale solaire avec une solution de pilotage de la production, ainsi qu&apos;une application de suivi de consommation.
@@ -62,14 +62,14 @@ export default function MeilleursProduits() {
           />
           <div className="bg-[#F5F6F7] text-center lg:text-start px-7 py-8 sm:flex sm:flex-col sm:items-center lg:items-start lg:w-[550px] xl:w-[600px]">
             <h3 className="font-bold text-xl mb-8 sm:w-[500px] md:w-[650px] lg:w-[450px] xl:w-[500px]">
-              Le micro-onduleur le plus puissant d'Enphase le leader mondial, IQ8P, avec 475 VA de puissance, 
+              Le micro-onduleur le plus puissant d&apos;Enphase, le leader mondial, IQ8P, avec 475 VA de puissance, 
               assure une connexion optimale de vos panneaux solaires au réseau national.
             </h3>
             <p className="mb-8 sm:w-[500px] md:w-[650px] lg:w-[450px] xl:w-[500px]">
-              Grâce à la puce intelligente des micro-onduleurs Enphase IQ8P la
+              Grâce à la puce intelligente des micro-onduleurs Enphase IQ8P, la
               distribution d&apos;électricité dans le logement peut être régulée
               en temps réel. En optimisant la production d&apos;énergie, vous
-              réduisez les coûts d&apos;électricité..
+              réduisez les coûts d&apos;électricité.
             </p>
             <div className="w-6 h-1 bg-[#2BA0B5] mx-auto lg:mx-0 mb-8"></div>
             <span className="text-lg font-bold">25 ans</span>
@@ -89,9 +89,9 @@ export default function MeilleursProduits() {
               APsystems dévoile la série DS3, le micro-onduleur DUO le plus puissant du marché, alliant puissance et rentabilité.
             </h3>
             <p className="mb-8 sm:w-[500px] md:w-[650px] lg:w-[450px] xl:w-[500px]">
-              Grâce à plusieurs offres de puissance pouvant aller jusquà 960 VA.
+              Grâce à plusieurs offres de puissance pouvant aller jusqu&apos;à 960 VA.
               Avec ses 2 MPPT indépendants ainsi qu’une communication Zigbee cryptée, 
-              les DS3 se dotent dune toute nouvelle architecture et sont toujours compatibles avec les micro-onduleurs QS1.
+              les DS3 se dotent d&apos;une toute nouvelle architecture et sont toujours compatibles avec les micro-onduleurs QS1.
             </p>
             <div className="w-6 h-1 bg-[#2BA0B5] mx-auto lg:mx-0 mb-8"></div>
             <span className="text-lg font-bold">20 ans</span>
