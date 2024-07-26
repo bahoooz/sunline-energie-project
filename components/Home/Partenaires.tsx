@@ -24,7 +24,7 @@ export default function Partenaires() {
         />
          <Image
           className="w-52 hover:scale-110 transition-all"
-          src={"/assets/eapsystems-logo-1"}
+          src={"/assets/apsystems-logo-1"}
           width={301}
           height={97}
           alt="logo apsystem"
