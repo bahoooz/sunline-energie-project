@@ -27,7 +27,7 @@ export default function Sunprime() {
           <li className="flex items-center gap-5">
             <Check color="#00A06B" size={20} strokeWidth={3} />
             <span className="max-w-[80%]">
-              Technologie photovoltaïque “Shingle” dernière génération
+              Technologie photovoltaïque “TOPCon” dernière génération
             </span>
           </li>
           <li className="flex items-center gap-5">
