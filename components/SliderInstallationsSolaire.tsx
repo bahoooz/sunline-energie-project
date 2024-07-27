@@ -6,9 +6,9 @@ function SliderInstallationsSolaire() {
   var settings = {
     dots: false,
     infinite: true,
-    speed: 400,
+    speed: 600,
     autoplay: true,
-    autoplaySpeed: 1500,
+    autoplaySpeed: 2200,
     cssEase: "linear",
     slidesToShow: 3,
     slidesToScroll: 3,
