@@ -53,7 +53,7 @@ function SliderInstallationsSolaire() {
             alt="installation solaire 1"
             className="rounded-md mb-3"
           />
-          <h4>Installation solaire - 6kWc - Angoulême</h4>
+          <h4>Installation solaire - 6kWc - Angoulême (16)</h4>
         </div>
         <div className="w-[90%] md:w-[70%] mx-auto lg:w-full 2xl:w-[450px]">
           <Image
@@ -63,17 +63,17 @@ function SliderInstallationsSolaire() {
             alt="installation solaire 2"
             className="rounded-md mb-3"
           />
-          <h4>Installation solaire - 4kWc - Deux-Sèvres</h4>
+          <h4>Installation solaire - 4kWc - Béssines (79)</h4>
         </div>
         <div className="w-[90%] md:w-[70%] mx-auto lg:w-full 2xl:w-[450px]">
           <Image
-            src={"/assets/installation-solaire-3.png"}
-            width={742}
+            src={"/assets/3kw-vendee.png"}
+            width={743}
             height={451}
             alt="installation solaire 3"
             className="rounded-md mb-3"
           />
-          <h4>Installation solaire - 5kWc - Vendée</h4>
+          <h4>Installation solaire - 5kWc - Les Essarts (85)</h4>
         </div>
         <div className="w-[90%] md:w-[70%] mx-auto lg:w-full 2xl:w-[450px]">
           <Image
@@ -83,7 +83,47 @@ function SliderInstallationsSolaire() {
             alt="installation solaire 3"
             className="rounded-md mb-3"
           />
-          <h4>Installation solaire - 3kWc - Apremont</h4>
+          <h4>Installation solaire - 3kWc - Basse-Goulaine (44)</h4>
+        </div>
+         <div className="w-[90%] md:w-[70%] mx-auto lg:w-full 2xl:w-[450px]">
+          <Image
+            src={"/assets/3kw-44.png"}
+            width={743}
+            height={451}
+            alt="installation solaire 3"
+            className="rounded-md mb-3"
+          />
+          <h4>Installation solaire - 3kWc - Basse-Goulaine (44)</h4>
+        </div>
+         <div className="w-[90%] md:w-[70%] mx-auto lg:w-full 2xl:w-[450px]">
+          <Image
+            src={"/assets/9kw-79.png"}
+            width={742}
+            height={451}
+            alt="installation solaire 3"
+            className="rounded-md mb-3"
+          />
+          <h4>Installation solaire - 9kWc - Bressuire (79)</h4>
+        </div>
+         <div className="w-[90%] md:w-[70%] mx-auto lg:w-full 2xl:w-[450px]">
+          <Image
+            src={"/assets/5kw-85.png"}
+            width={742}
+            height={451}
+            alt="installation solaire 3"
+            className="rounded-md mb-3"
+          />
+          <h4>Installation solaire - 5kWc - Chauché (85)</h4>
+        </div>
+          <div className="w-[90%] md:w-[70%] mx-auto lg:w-full 2xl:w-[450px]">
+          <Image
+            src={"/assets/6kw-85.png"}
+            width={742}
+            height={451}
+            alt="installation solaire 3"
+            className="rounded-md mb-3"
+          />
+          <h4>Installation solaire - 5kWc - Les Moutiers-en-Retz (44)</h4>
         </div>
       </Slider>
     </div>
