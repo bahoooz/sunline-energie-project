@@ -13,7 +13,7 @@ export default function DescriptifTechnique({
   return (
     <div className="my-20 lg:my-28">
       <h2 className="mb-12 md:mb-16 xl:mb-20 px-7 text-center text-2xl lg:text-3xl font-bold">
-        Descriptif technique détaillé pour la gamme {title}
+        Descriptif technique de notre offre {title}
       </h2>
       <div className="xl:flex xl:gap-12 2xl:gap-20 xl:justify-center xl:items-start">
         <table className="border-collapse min-w-[320px] xl:min-w-[700px] mx-auto xl:mx-0">
