@@ -46,7 +46,7 @@ export default function SelectionExperts({
     <div className="mt-20 sm:mt-24 lg:mt-32">
       <div className="text-center px-7">
         <h2 className="text-2xl font-bold mb-5 lg:text-3xl">
-          La sélection de nos experts en énergie
+          Performance et qualité : une gamme testée et optimisée pour vous.
         </h2>
         <p>Les meilleures technologies du moment au meilleur prix</p>
       </div>
