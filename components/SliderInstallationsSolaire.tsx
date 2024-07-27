@@ -80,7 +80,7 @@ function SliderInstallationsSolaire() {
             src={"/assets/2024-07-03.png"}
             width={742}
             height={451}
-            alt="installation solaire 3"
+            alt="installation solaire 4"
             className="rounded-md mb-3"
           />
           <h4>Installation solaire - 3kWc - Basse-Goulaine (44)</h4>
@@ -90,17 +90,17 @@ function SliderInstallationsSolaire() {
             src={"/assets/3kw-44.png"}
             width={743}
             height={451}
-            alt="installation solaire 3"
+            alt="installation solaire 5"
             className="rounded-md mb-3"
           />
-          <h4>Installation solaire - 3kWc - Basse-Goulaine (44)</h4>
+          <h4>Installation solaire - 3kWc - Apremont (85)</h4>
         </div>
          <div className="w-[90%] md:w-[70%] mx-auto lg:w-full 2xl:w-[450px]">
           <Image
             src={"/assets/9kw-79.png"}
             width={742}
             height={451}
-            alt="installation solaire 3"
+            alt="installation solaire 6"
             className="rounded-md mb-3"
           />
           <h4>Installation solaire - 9kWc - Bressuire (79)</h4>
@@ -108,9 +108,9 @@ function SliderInstallationsSolaire() {
          <div className="w-[90%] md:w-[70%] mx-auto lg:w-full 2xl:w-[450px]">
           <Image
             src={"/assets/5kw-85.png"}
-            width={742}
+            width={743}
             height={451}
-            alt="installation solaire 3"
+            alt="installation solaire 7"
             className="rounded-md mb-3"
           />
           <h4>Installation solaire - 5kWc - Chauché (85)</h4>
@@ -118,9 +118,9 @@ function SliderInstallationsSolaire() {
           <div className="w-[90%] md:w-[70%] mx-auto lg:w-full 2xl:w-[450px]">
           <Image
             src={"/assets/6kw-85.png"}
-            width={742}
+            width={743}
             height={451}
-            alt="installation solaire 3"
+            alt="installation solaire 8"
             className="rounded-md mb-3"
           />
           <h4>Installation solaire - 5kWc - Les Moutiers-en-Retz (44)</h4>
