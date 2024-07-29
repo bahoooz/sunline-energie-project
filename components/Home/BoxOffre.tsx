@@ -34,7 +34,7 @@ export default function BoxOffre({
           <p className="mt-5">{desc}</p>
         </div>
         <Image
-          src={"/assets/SunPower_P7_Tier1_6-400x397.png.png"}
+          src={"/assets/dualsun-flash-500Topcon.png"}
           width={477}
           height={525}
           alt="image offre"
