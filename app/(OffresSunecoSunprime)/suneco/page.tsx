@@ -69,7 +69,7 @@ performance, durabilité et esthétisme."
       year_info_1_SelectionExperts="de garantie fabricant"
       year_2_SelectionExperts={30}
       year_info_2_SelectionExperts="de garantie de performance à 87%"
-      title_2_SelectionExperts="Micro-onduleurs APSYSTEM DS3 avec optimiseur selon votre situation"
+      title_2_SelectionExperts="Micro-onduleurs APSYSTEM DS3 avec pilotage selon votre situation"
       stars_rating_3_SelectionExperts={
         <div className="flex">
           <Star fill="#FFBB00" stroke="0" />
