@@ -59,13 +59,13 @@ export default function SelectionExperts({
             <div className="flex gap-3 w-[280px] justify-between">
               <span>Performance</span>{" "}
               <div className="flex gap-2">
-                {stars_rating_1} <p>4 / 5</p>
+                {stars_rating_1} <p>5 / 5</p>
               </div>
             </div>
             <div className="flex gap-3 w-[280px] justify-between">
               <span>Durabilité</span>{" "}
               <div className="flex gap-2">
-                {stars_rating_2} <p>4 / 5</p>
+                {stars_rating_2} <p>5 / 5</p>
               </div>
             </div>
             <div className="flex gap-3 w-[280px] justify-between">
