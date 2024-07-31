@@ -11,10 +11,12 @@ const lato = Lato({ subsets: ["latin"], weight: "400" });
 
 export const metadata: Metadata = {
   title: {
-    default: "Sunline Energie - Spécialiste du Photovoltaïque en Nouvelle-Aquitaine",
+    default:
+      "Sunline Energie - Spécialiste du Photovoltaïque en Nouvelle-Aquitaine",
     template: `Sunline Energie - Spécialiste du Photovoltaïque en Nouvelle-Aquitaine`,
   },
-  description: "Découvrez Sunline, expert en panneaux photovoltaïques en Nouvelle-Aquitaine. Solutions durables et innovantes dans le solaire, installations sur mesure, et services professionnels pour particuliers et entreprises.",
+  description:
+    "Découvrez Sunline, expert en panneaux photovoltaïques en Nouvelle-Aquitaine. Solutions durables et innovantes dans le solaire, installations sur mesure, et services professionnels pour particuliers et entreprises.",
   icons: {
     icon: "/logo.png",
   },

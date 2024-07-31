@@ -64,13 +64,6 @@ génération avec technologie Half-Cut Bi-Facial"
           <Star fill="#FFBB00" stroke="0" />
         </div>
       }
-      descSelectionExperts="Recyclable à 95%, cette sélection de panneaux solaires allie
-performance, durabilité et esthétisme."
-      year_1_SelectionExperts={30}
-      year_info_1_SelectionExperts="de garantie fabricant"
-      year_2_SelectionExperts={30}
-      year_info_2_SelectionExperts="de garantie de performance à 91.8%"
-      title_2_SelectionExperts="Micro-onduleurs ENPHASE avec interface de gestion"
       stars_rating_3_SelectionExperts={
         <div className="flex">
           <Star fill="#FFBB00" stroke="0" />
@@ -80,6 +73,16 @@ performance, durabilité et esthétisme."
           <Star fill="#FFBB00" stroke="0" />
         </div>
       }
+      note_rating_1_SelectionExperts={5}
+      note_rating_2_SelectionExperts={5}
+      note_rating_3_SelectionExperts={5}
+      descSelectionExperts="Recyclable à 95%, cette sélection de panneaux solaires allie
+performance, durabilité et esthétisme."
+      year_1_SelectionExperts={30}
+      year_info_1_SelectionExperts="de garantie fabricant"
+      year_2_SelectionExperts={30}
+      year_info_2_SelectionExperts="de garantie de performance à 91.8%"
+      title_2_SelectionExperts="Micro-onduleurs ENPHASE avec interface de gestion"
       stars_rating_4_SelectionExperts={
         <div className="flex">
           <Star fill="#FFBB00" stroke="0" />
@@ -89,6 +92,27 @@ performance, durabilité et esthétisme."
           <Star fill="#FFBB00" stroke="0" />
         </div>
       }
+      stars_rating_5_SelectionExperts={
+        <div className="flex">
+          <Star fill="#FFBB00" stroke="0" />
+          <Star fill="#FFBB00" stroke="0" />
+          <Star fill="#FFBB00" stroke="0" />
+          <Star fill="#FFBB00" stroke="0" />
+          <Star fill="#FFBB00" stroke="0" />
+        </div>
+      }
+      stars_rating_6_SelectionExperts={
+        <div className="flex">
+          <Star fill="#FFBB00" stroke="0" />
+          <Star fill="#FFBB00" stroke="0" />
+          <Star fill="#FFBB00" stroke="0" />
+          <Star fill="#FFBB00" stroke="0" />
+          <Star fill="#FFBB00" stroke="0" />
+        </div>
+      }
+      note_rating_4_SelectionExperts={5}
+      note_rating_5_SelectionExperts={5}
+      note_rating_6_SelectionExperts={5}
       desc_2_SelectionExperts="Les micro-onduleurs IQ8P Enphase sont la dernière génération de micro-onduleurs. 
 Ils sont conçus pour les modules photovoltaïques dernière génération à haut rendement."
       year_3_SelectionExperts={25}

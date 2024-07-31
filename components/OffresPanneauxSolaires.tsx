@@ -15,11 +15,11 @@ export default function OffresPanneauxSolaires() {
         <div className="flex justify-center">
           <p className="px-8 mt-10 md:max-w-[1000px]">
             Sunline vous accompagne tout au long de votre projet d’installation
-            de panneaux solaires : dimensionnement de l’installation,
-            étude de faisabilité, des techniciens professionnels RGE,
-            contrôle qualité de l’installation. On s’occupe même des démarches
-            administratives pour vous faire bénéficier des aides panneau solaire
-            accordées par l’Etat !
+            de panneaux solaires : dimensionnement de l’installation, étude de
+            faisabilité, des techniciens professionnels RGE, contrôle qualité de
+            l’installation. On s’occupe même des démarches administratives pour
+            vous faire bénéficier des aides panneau solaire accordées par l’Etat
+            !
           </p>
         </div>
       </div>

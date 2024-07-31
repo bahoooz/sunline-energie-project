@@ -17,14 +17,22 @@ interface PageSunecoSunprime {
   titleSelectionExperts: string;
   stars_rating_1_SelectionExperts: HTMLDivElement | any;
   stars_rating_2_SelectionExperts: HTMLDivElement | any;
+  stars_rating_3_SelectionExperts: HTMLDivElement | any;
+  note_rating_1_SelectionExperts: Number;
+  note_rating_2_SelectionExperts: Number;
+  note_rating_3_SelectionExperts: Number;
   descSelectionExperts: string;
   year_1_SelectionExperts: number;
   year_2_SelectionExperts: number;
   year_info_1_SelectionExperts: string;
   year_info_2_SelectionExperts: string;
   title_2_SelectionExperts: string;
-  stars_rating_3_SelectionExperts: HTMLDivElement | any;
   stars_rating_4_SelectionExperts: HTMLDivElement | any;
+  stars_rating_5_SelectionExperts: HTMLDivElement | any;
+  stars_rating_6_SelectionExperts: HTMLDivElement | any;
+  note_rating_4_SelectionExperts: Number;
+  note_rating_5_SelectionExperts: Number;
+  note_rating_6_SelectionExperts: Number;
   desc_2_SelectionExperts: string;
   year_3_SelectionExperts: number;
   year_4_SelectionExperts: number;
@@ -45,20 +53,27 @@ export default function PageSunecoSunprime({
   titleSelectionExperts,
   stars_rating_1_SelectionExperts,
   stars_rating_2_SelectionExperts,
+  stars_rating_3_SelectionExperts,
+  note_rating_1_SelectionExperts,
+  note_rating_2_SelectionExperts,
+  note_rating_3_SelectionExperts,
   descSelectionExperts,
   year_1_SelectionExperts,
   year_2_SelectionExperts,
   year_info_1_SelectionExperts,
   year_info_2_SelectionExperts,
   title_2_SelectionExperts,
-  stars_rating_3_SelectionExperts,
   stars_rating_4_SelectionExperts,
+  stars_rating_5_SelectionExperts,
+  stars_rating_6_SelectionExperts,
+  note_rating_4_SelectionExperts,
+  note_rating_5_SelectionExperts,
+  note_rating_6_SelectionExperts,
   desc_2_SelectionExperts,
   year_3_SelectionExperts,
   year_4_SelectionExperts,
   year_info_3_SelectionExperts,
   year_info_4_SelectionExperts,
-  durability_rating_SelectionExperts,
   titleDescriptifTechnique,
   yearDescriptionTechnique,
 }: PageSunecoSunprime) {
@@ -78,20 +93,27 @@ export default function PageSunecoSunprime({
         title={titleSelectionExperts}
         stars_rating_1={stars_rating_1_SelectionExperts}
         stars_rating_2={stars_rating_2_SelectionExperts}
+        stars_rating_3={stars_rating_3_SelectionExperts}
+        note_rating_1={note_rating_1_SelectionExperts}
+        note_rating_2={note_rating_2_SelectionExperts}
+        note_rating_3={note_rating_3_SelectionExperts}
         desc={descSelectionExperts}
         year_1={year_1_SelectionExperts}
         year_info_1={year_info_1_SelectionExperts}
         year_2={year_2_SelectionExperts}
         year_info_2={year_info_2_SelectionExperts}
         title_2={title_2_SelectionExperts}
-        stars_rating_3={stars_rating_3_SelectionExperts}
         stars_rating_4={stars_rating_4_SelectionExperts}
+        stars_rating_5={stars_rating_5_SelectionExperts}
+        stars_rating_6={stars_rating_6_SelectionExperts}
+        note_rating_4={note_rating_4_SelectionExperts}
+        note_rating_5={note_rating_5_SelectionExperts}
+        note_rating_6={note_rating_6_SelectionExperts}
         desc_2={desc_2_SelectionExperts}
         year_3={year_3_SelectionExperts}
         year_info_3={year_info_3_SelectionExperts}
         year_4={year_4_SelectionExperts}
         year_info_4={year_info_4_SelectionExperts}
-        durability_rating={durability_rating_SelectionExperts}
       />
       <BaisseFacture />
       <DescriptifTechnique

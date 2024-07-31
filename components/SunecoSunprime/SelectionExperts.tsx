@@ -1,4 +1,3 @@
-import { Star } from "lucide-react";
 import Image from "next/image";
 import React from "react";
 
@@ -6,26 +5,37 @@ interface SelectionExperts {
   title: string;
   stars_rating_1: HTMLDivElement | any;
   stars_rating_2: HTMLDivElement | any;
+  stars_rating_3: HTMLDivElement | any;
+  note_rating_1: Number;
+  note_rating_2: Number;
+  note_rating_3: Number;
   desc: string;
   year_1: number;
   year_info_1: string;
   year_2: number;
   year_info_2: string;
   title_2: string;
-  stars_rating_3: HTMLDivElement | any;
   stars_rating_4: HTMLDivElement | any;
+  stars_rating_5: HTMLDivElement | any;
+  stars_rating_6: HTMLDivElement | any;
+  note_rating_4: Number;
+  note_rating_5: Number;
+  note_rating_6: Number;
   desc_2: string;
   year_3: number;
   year_info_3: string;
   year_4: number;
   year_info_4: string;
-  durability_rating?: number;
 }
 
 export default function SelectionExperts({
   title,
   stars_rating_1,
   stars_rating_2,
+  stars_rating_3,
+  note_rating_1,
+  note_rating_2,
+  note_rating_3,
   desc,
   year_1,
   year_info_1,
@@ -33,14 +43,17 @@ export default function SelectionExperts({
   year_info_2,
 
   title_2,
-  stars_rating_3,
   stars_rating_4,
+  stars_rating_5,
+  stars_rating_6,
+  note_rating_4,
+  note_rating_5,
+  note_rating_6,
   desc_2,
   year_3,
   year_info_3,
   year_4,
   year_info_4,
-  durability_rating,
 }: SelectionExperts) {
   return (
     <div className="mt-20 sm:mt-24 lg:mt-32">
@@ -59,26 +72,20 @@ export default function SelectionExperts({
             <div className="flex gap-3 w-[280px] justify-between">
               <span>Performance</span>{" "}
               <div className="flex gap-2">
-                {stars_rating_1} <p>5 / 5</p>
+                {stars_rating_1} <p>{note_rating_1} / 5</p>
               </div>
             </div>
             <div className="flex gap-3 w-[280px] justify-between">
               <span>Durabilité</span>{" "}
               <div className="flex gap-2">
-                {stars_rating_2} <p>5 / 5</p>
+                {stars_rating_2} <p>{note_rating_2} / 5</p>
               </div>
             </div>
             <div className="flex gap-3 w-[280px] justify-between">
               <span>Esthétisme</span>
+
               <div className="flex gap-2">
-                <div className="flex">
-                  <Star fill="#FFBB00" stroke="0" />
-                  <Star fill="#FFBB00" stroke="0" />
-                  <Star fill="#FFBB00" stroke="0" />
-                  <Star fill="#FFBB00" stroke="0" />
-                  <Star fill="#FFBB00" stroke="0" />
-                </div>
-                <p>5 / 5</p>
+                {stars_rating_3} <p>{note_rating_3} / 5</p>
               </div>
             </div>
           </div>
@@ -108,26 +115,20 @@ export default function SelectionExperts({
             <div className="flex gap-3 w-[280px] justify-between">
               <span>Performance</span>{" "}
               <div className="flex gap-2">
-                {stars_rating_3} <p>5 / 5</p>
+                {stars_rating_4} <p>{note_rating_4} / 5</p>
               </div>
             </div>
             <div className="flex gap-3 w-[280px] justify-between">
               <span>Durabilité</span>{" "}
               <div className="flex gap-2">
-                {stars_rating_4} <p>{durability_rating} / 5</p>
+                {stars_rating_5} <p>{note_rating_5} / 5</p>
               </div>
             </div>
             <div className="flex gap-3 w-[280px] justify-between">
               <span>Esthétisme</span>
               <div className="flex gap-2">
-                <div className="flex">
-                  <Star fill="#FFBB00" stroke="0" />
-                  <Star fill="#FFBB00" stroke="0" />
-                  <Star fill="#FFBB00" stroke="0" />
-                  <Star fill="#FFBB00" stroke="0" />
-                  <Star fill="#FFBB00" stroke="0" />
-                </div>
-                <p>5 / 5</p>
+                {stars_rating_6}
+                <p>{note_rating_6} / 5</p>
               </div>
             </div>
           </div>
