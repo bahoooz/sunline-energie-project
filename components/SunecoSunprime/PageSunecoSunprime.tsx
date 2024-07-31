@@ -18,9 +18,9 @@ interface PageSunecoSunprime {
   stars_rating_1_SelectionExperts: HTMLDivElement | any;
   stars_rating_2_SelectionExperts: HTMLDivElement | any;
   stars_rating_3_SelectionExperts: HTMLDivElement | any;
-  note_rating_1_SelectionExperts: Number;
-  note_rating_2_SelectionExperts: Number;
-  note_rating_3_SelectionExperts: Number;
+  note_rating_1_SelectionExperts: Number | string | any;
+  note_rating_2_SelectionExperts: Number | string | any;
+  note_rating_3_SelectionExperts: Number | string | any;
   descSelectionExperts: string;
   year_1_SelectionExperts: number;
   year_2_SelectionExperts: number;
@@ -30,9 +30,9 @@ interface PageSunecoSunprime {
   stars_rating_4_SelectionExperts: HTMLDivElement | any;
   stars_rating_5_SelectionExperts: HTMLDivElement | any;
   stars_rating_6_SelectionExperts: HTMLDivElement | any;
-  note_rating_4_SelectionExperts: Number;
-  note_rating_5_SelectionExperts: Number;
-  note_rating_6_SelectionExperts: Number;
+  note_rating_4_SelectionExperts: Number | string | any;
+  note_rating_5_SelectionExperts: Number | string | any;
+  note_rating_6_SelectionExperts: Number | string | any;
   desc_2_SelectionExperts: string;
   year_3_SelectionExperts: number;
   year_4_SelectionExperts: number;

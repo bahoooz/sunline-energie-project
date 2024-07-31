@@ -6,9 +6,9 @@ interface SelectionExperts {
   stars_rating_1: HTMLDivElement | any;
   stars_rating_2: HTMLDivElement | any;
   stars_rating_3: HTMLDivElement | any;
-  note_rating_1: Number;
-  note_rating_2: Number;
-  note_rating_3: Number;
+  note_rating_1: Number | String | any;
+  note_rating_2: Number | String | any;
+  note_rating_3: Number | String | any;
   desc: string;
   year_1: number;
   year_info_1: string;
@@ -18,9 +18,9 @@ interface SelectionExperts {
   stars_rating_4: HTMLDivElement | any;
   stars_rating_5: HTMLDivElement | any;
   stars_rating_6: HTMLDivElement | any;
-  note_rating_4: Number;
-  note_rating_5: Number;
-  note_rating_6: Number;
+  note_rating_4: Number | String | any;
+  note_rating_5: Number | String | any;
+  note_rating_6: Number | String | any;
   desc_2: string;
   year_3: number;
   year_info_3: string;
