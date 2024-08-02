@@ -86,7 +86,7 @@ export default function Footer() {
         </p>
         <div className="flex justify-center gap-3 xl:gap-5 mt-8 xl:mt-0">
           <Link
-            href={"/https://www.facebook.com/profile.php?id=61559245282494"}
+            href={"https://www.facebook.com/profile.php?id=61559245282494"}
             target="_blank"
           >
             <Facebook
@@ -112,7 +112,7 @@ export default function Footer() {
             />
           </Link>
           <Link
-            href={"/https://www.instagram.com/sunline_energie/"}
+            href={"https://www.instagram.com/sunline_energie/"}
             target="_blank"
           >
             <Instagram className="hover:scale-110 transition-all" />
