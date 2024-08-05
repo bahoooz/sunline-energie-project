@@ -140,7 +140,7 @@ micro-onduleurs"
             src={"/assets/apsystems-logo-1.png"}
             width={301}
             height={97}
-            alt="logo enphase"
+            alt="logo apsystem"
             className="w-[270px] hover:scale-110 transition-all"
           />
         </div>
