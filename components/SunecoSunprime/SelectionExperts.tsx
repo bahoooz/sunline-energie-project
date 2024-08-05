@@ -1,5 +1,5 @@
 import Image from "next/image";
-import React from "react";
+import React, { ReactElement } from "react";
 
 interface SelectionExperts {
   title: string;
@@ -26,6 +26,7 @@ interface SelectionExperts {
   year_info_3: string;
   year_4: number;
   year_info_4: string;
+  logoApsystems: HTMLDivElement | string | any;
 }
 
 export default function SelectionExperts({
@@ -54,6 +55,8 @@ export default function SelectionExperts({
   year_info_3,
   year_4,
   year_info_4,
+
+  logoApsystems,
 }: SelectionExperts) {
   return (
     <div className="mt-20 sm:mt-24 lg:mt-32">
@@ -168,6 +171,7 @@ export default function SelectionExperts({
           alt="logo enphase"
           className="w-[250px] hover:scale-110 transition-all"
         />
+        {logoApsystems}
       </div>
     </div>
   );

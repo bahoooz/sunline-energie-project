@@ -1,6 +1,7 @@
 /* eslint-disable prettier/prettier */
 import PageSunecoSunprime from "@/components/SunecoSunprime/PageSunecoSunprime";
 import { Check, Star } from "lucide-react";
+import Image from "next/image";
 import React from "react";
 
 export default function Suneco() {
@@ -40,6 +41,17 @@ export default function Suneco() {
             </span>
           </li>
         </>
+      }
+      imgGammeOffre={
+        <div>
+          <Image
+            src={"/assets/SunPower_P7_Tier1_6-400x397_sans_garantie.png"}
+            width={675}
+            height={785}
+            alt="image flash black"
+            className="w-[80%] mx-auto mt-8 md:w-[600px] xl:w-full"
+          />
+        </div>
       }
       percentOffreSolairePerformante={50}
       kwhOffreSolairePerformante="3 400"
@@ -122,6 +134,17 @@ micro-onduleurs"
       durability_rating_SelectionExperts={4}
       titleDescriptifTechnique="SunEco"
       yearDescriptionTechnique={20}
+      logoApsystemsDescriptionTechnique={
+        <div>
+          <Image
+            src={"/assets/apsystems-logo-1.png"}
+            width={301}
+            height={97}
+            alt="logo enphase"
+            className="w-[270px] hover:scale-110 transition-all"
+          />
+        </div>
+      }
     />
   );
 }

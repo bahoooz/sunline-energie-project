@@ -9,9 +9,16 @@ interface GammeOffre {
   desc: string;
   price: string | number;
   list: ReactElement;
+  img: HTMLDivElement | any;
 }
 
-export default function GammeOffre({ title, desc, price, list }: GammeOffre) {
+export default function GammeOffre({
+  title,
+  desc,
+  price,
+  list,
+  img,
+}: GammeOffre) {
   return (
     <div className="py-12 lg:py-20 bg-[#F5F8F9]">
       <p className="pl-5 sm:pl-8 lg:pl-16 2xl:pl-24 mb-8 sm:mb-12 lg:mb-20 2xl:mb-24">
@@ -26,13 +33,7 @@ export default function GammeOffre({ title, desc, price, list }: GammeOffre) {
             <h1 className="text-2xl font-bold mb-5">Gamme {title}</h1>
             <p className="px-7 xl:px-0">{desc}</p>
           </div>
-          <Image
-            src={"/assets/SunPower_P7_Tier1_6-400x397_sans_garantie.png"}
-            width={675}
-            height={785}
-            alt="image flash black"
-            className="w-[80%] mx-auto mt-8 md:w-[600px] xl:w-full"
-          />
+          {img}
         </div>
         <div className="bg-white w-[80%] md:w-[600px] xl:w-[500px] mx-auto xl:mx-0 text-start px-5 xl:px-8 py-8 xl:py-12 xl:h-[750px]">
           <div className="mb-8">

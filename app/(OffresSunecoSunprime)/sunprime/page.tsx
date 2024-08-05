@@ -1,6 +1,7 @@
 /* eslint-disable prettier/prettier */
 import PageSunecoSunprime from "@/components/SunecoSunprime/PageSunecoSunprime";
 import { Check, Star } from "lucide-react";
+import Image from "next/image";
 import React from "react";
 
 export default function Sunprime() {
@@ -41,6 +42,17 @@ export default function Sunprime() {
             </span>
           </li>
         </>
+      }
+      imgGammeOffre={
+        <div>
+          <Image
+            src={"/assets/SunPower_P7_Tier1_6-400x397_sans_garantie.png"}
+            width={675}
+            height={785}
+            alt="image flash black"
+            className="w-[80%] mx-auto mt-8 md:w-[600px] xl:w-full"
+          />
+        </div>
       }
       percentOffreSolairePerformante={60}
       kwhOffreSolairePerformante="6 800"

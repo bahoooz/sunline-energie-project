@@ -12,6 +12,7 @@ interface PageSunecoSunprime {
   descGammeOffre: string;
   priceGammeOffre: string | number;
   listGammeOffre: ReactElement;
+  imgGammeOffre: HTMLDivElement | any;
   percentOffreSolairePerformante: number;
   kwhOffreSolairePerformante: string | number;
   titleSelectionExperts: string;
@@ -41,6 +42,7 @@ interface PageSunecoSunprime {
   durability_rating_SelectionExperts?: number;
   titleDescriptifTechnique: string;
   yearDescriptionTechnique: number;
+  logoApsystemsDescriptionTechnique?: HTMLDivElement | string | any;
 }
 
 export default function PageSunecoSunprime({
@@ -48,6 +50,7 @@ export default function PageSunecoSunprime({
   descGammeOffre,
   priceGammeOffre,
   listGammeOffre,
+  imgGammeOffre,
   percentOffreSolairePerformante,
   kwhOffreSolairePerformante,
   titleSelectionExperts,
@@ -76,6 +79,7 @@ export default function PageSunecoSunprime({
   year_info_4_SelectionExperts,
   titleDescriptifTechnique,
   yearDescriptionTechnique,
+  logoApsystemsDescriptionTechnique,
 }: PageSunecoSunprime) {
   return (
     <>
@@ -84,6 +88,7 @@ export default function PageSunecoSunprime({
         desc={descGammeOffre}
         price={priceGammeOffre}
         list={listGammeOffre}
+        img={imgGammeOffre}
       />
       <OffreSolairePerformante
         percent={percentOffreSolairePerformante}
@@ -114,6 +119,7 @@ export default function PageSunecoSunprime({
         year_info_3={year_info_3_SelectionExperts}
         year_4={year_4_SelectionExperts}
         year_info_4={year_info_4_SelectionExperts}
+        logoApsystems={logoApsystemsDescriptionTechnique}
       />
       <BaisseFacture />
       <DescriptifTechnique
