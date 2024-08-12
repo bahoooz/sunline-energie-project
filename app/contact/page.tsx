@@ -19,8 +19,7 @@ export default function Contact() {
             Nos experts se feront un plaisir de répondre à toutes vos demandes
             et vous fournir tous les renseignements nécessaires.
           </p>
-         <script type="text/javascript" src="https://apps.reonic.de/elements/reonic-loader.js" defer></script>
-         <div data-reonic-type="element" data-product="energyhouse" data-client-id="8802b02f-711e-4b78-ba14-aa0453d6c062"></div>
+       <ContactForm />
         </div>
         <div className="sm:w-[550px] sm:mx-auto xl:mx-0 xl:w-[400px]">
           <Image
