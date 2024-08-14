@@ -21,7 +21,7 @@ export default function HeaderHome() {
               Simulez votre installation Solaire
             </Button>
             <p className="text-white text-sm lg:mt-2">
-              Recevez immédiatement l'étude détaillée
+              Recevez immédiatement votre etude
             </p>
           </div>
         </div>
