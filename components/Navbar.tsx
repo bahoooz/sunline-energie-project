@@ -58,6 +58,15 @@ export default function NavbarComponent() {
           </Link>
         </NavbarItem>
         <NavbarItem>
+          <Link
+            color="foreground"
+            href="/simulateur"
+            className="hover:underline"
+          >
+            Simulateur
+          </Link>
+        </NavbarItem>
+        <NavbarItem>
           <Link color="foreground" href="/avis" className="hover:underline">
             Avis
           </Link>
@@ -77,6 +86,11 @@ export default function NavbarComponent() {
         <NavbarMenuItem className="text-xl">
           <Link href={"/garanties"} onClick={() => setIsMenuOpen(false)}>
             Garanties
+          </Link>
+        </NavbarMenuItem>
+        <NavbarMenuItem className="text-xl">
+          <Link href={"/simulateur"} onClick={() => setIsMenuOpen(false)}>
+            Simulateur
           </Link>
         </NavbarMenuItem>
         <NavbarMenuItem className="text-xl">
