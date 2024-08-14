@@ -6,14 +6,14 @@ import HeaderGaranties from "@/components/Garanties/HeaderGaranties";
 import Partenaires from "@/components/Home/Partenaires";
 import InstallationsSolaires from "@/components/InstallationsSolaires";
 import MeilleursProduits from "@/components/MeilleursProduits";
-import simulateur from "@/components/simulateur";
+import PageSimulateur from "@/components/Simulateur";
 import React from "react";
 
 export default function Garanties() {
   return (
     <>
       <HeaderGaranties />
-      <simulateur />
+      <PageSimulateur />
       <GarantiesExclusives />
       <MeilleursProduits />
       <Partenaires />
