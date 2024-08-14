@@ -15,7 +15,7 @@ export default function HeaderHome() {
           <div className="flex flex-col items-center gap-5 lg:flex-row lg:items-center">
             <Button
               as={Link}
-              href="#offres-panneaux-solaires"
+              href="#page-simulateur"
               className="bg-[#292929] text-white text-base px-8 py-6 w-fit"
             >
               Découvrez nos offres
