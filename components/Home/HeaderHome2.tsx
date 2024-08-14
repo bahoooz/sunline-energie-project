@@ -26,29 +26,6 @@ export default function HeaderHome() {
           </div>
         </div>
       </div>
-      <div className="flex flex-col items-center gap-14 xl:gap-20 -mt-20 lg:-mt-32 md:flex-row md:flex-wrap md:justify-center sm:px-12">
-        <BoxHeaderHome
-          title="Autoconsommation"
-          desc="L’autoconsommation solaire permet de produire et consommer sa propre électricité à partir du soleil. C’est une solution durable qui réduit les factures d’énergie, en optant pour l’énergie solaire, vous contribuez activement à la transition énergétique."
-          link_tag="Nos offres"
-          link="/offres"
-        />
-        <BoxHeaderHome
-          title="Qualité"
-          desc="Nous nous engageons à fournir des produits et des services de la plus haute qualité. Nous travaillons avec des fabricants réputés et nous assurons que nos installations répondent aux normes les plus élevées."
-          link_tag="Nos réalisations"
-          link="#installations-solaires"
-        />
-        <BoxHeaderHome
-          title="Service Client"
-          desc="Nous accordons une grande importance à la satisfaction de nos clients.
-Pendant 10 ans, si vous ne faites pas les
-économies promises, on vous rembourse la
-différence. Nous vous offrons également la maintenance de votre installation pendant 5ans."
-          link_tag="Nos garanties"
-          link="/garanties"
-        />
-      </div>
     </div>
   );
 }
