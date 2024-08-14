@@ -7,7 +7,7 @@ export default function PageSimulateur() {
     const script = document.createElement("script");
     script.src = "https://apps.reonic.de/elements/reonic-loader.js";
     script.type = "text/javascript";
-    script.defer = true;
+    script.defer = false;
     document.body.appendChild(script);
 
     return () => {
