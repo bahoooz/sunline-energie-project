@@ -16,7 +16,7 @@ export default function HeaderHome() {
             <Button
               as={Link}
               href="#page-simulateur"
-              className="bg-[#EA4335] text-white text-base px-8 py-6 w-fit"
+              className="bg-[#FBAC18] text-white text-base px-8 py-6 w-fit"
             >
               Simulez votre installation Solaire
             </Button>
