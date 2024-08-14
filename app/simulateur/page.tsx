@@ -4,6 +4,7 @@ import EquipeEngagée from "@/components/Garanties/EquipeEngagée";
 import GarantiesExclusives from "@/components/Garanties/GarantiesExclusives";
 import HeaderOffres from "@/components/Offres/HeaderOffres";
 import Partenaires from "@/components/Home/Partenaires";
+import Expertise from "@/components/Home/Expertise";
 import InstallationsSolaires from "@/components/InstallationsSolaires";
 import MeilleursProduits from "@/components/MeilleursProduits";
 import PageSimulateur from "@/components/Simulateur/PageSimulateur";
@@ -13,6 +14,7 @@ export default function Garanties() {
   return (
     <>
 
+      <Expertise />
       <HeaderOffres />
       <PageSimulateur />
       <GarantiesExclusives />
