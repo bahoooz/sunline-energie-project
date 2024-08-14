@@ -2,7 +2,7 @@
 import FAQ from "@/components/FAQ";
 import EquipeEngagée from "@/components/Garanties/EquipeEngagée";
 import GarantiesExclusives from "@/components/Garanties/GarantiesExclusives";
-import HeaderOffres from "@/components/Offres/HeaderOffres";
+import HeaderHome from "@/components/Home/HeaderHome";
 import Partenaires from "@/components/Home/Partenaires";
 import Expertise from "@/components/Home/Expertise";
 import InstallationsSolaires from "@/components/InstallationsSolaires";
@@ -14,7 +14,7 @@ export default function Garanties() {
   return (
     <>
 
-      <Expertise />
+      <HeaderHome />
       <PageSimulateur />
       <GarantiesExclusives />
       <MeilleursProduits />
