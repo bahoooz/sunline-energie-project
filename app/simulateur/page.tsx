@@ -13,6 +13,7 @@ export default function Garanties() {
   return (
     <>
       <HeaderGaranties />
+      <simulateur />
       <GarantiesExclusives />
       <MeilleursProduits />
       <Partenaires />
