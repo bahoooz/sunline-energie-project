@@ -9,7 +9,7 @@ export default function Suneco() {
     <PageSunecoSunprime
       titleGammeOffre="SunEco"
       descGammeOffre="Performance et flexibilité permettant d’optimiser la production et l’autoconsommation"
-      priceGammeOffre={"6990"}
+      priceGammeOffre={"5990"}
       listGammeOffre={
         <>
           <li className="flex items-center gap-5">
