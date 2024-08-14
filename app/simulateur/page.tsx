@@ -12,9 +12,9 @@ export default function Garanties() {
   return (
     <>
       <HeaderGaranties />
-      <Partenaires />
       <GarantiesExclusives />
       <MeilleursProduits />
+      <Partenaires />
       <EquipeEngagée />
       <InstallationsSolaires />
       <FAQ />
