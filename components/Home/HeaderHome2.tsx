@@ -18,10 +18,10 @@ export default function HeaderHome() {
               href="#page-simulateur"
               className="bg-[#292929] text-white text-base px-8 py-6 w-fit"
             >
-              Découvrez nos offres
+              Simulez votre installation Solaire
             </Button>
             <p className="text-white text-sm lg:mt-2">
-              Expert solaire en Nouvelle Aquitaine
+              Recevez immédiatement l'étude détaillée
             </p>
           </div>
         </div>
