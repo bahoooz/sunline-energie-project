@@ -21,7 +21,7 @@ body {
 }
 #header-home2 {
   background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)),
-    url("/assets/slider-home-1.png");
+    url("/assets/slider-new.png");
   background-position: left;
   background-size: cover;
 }
