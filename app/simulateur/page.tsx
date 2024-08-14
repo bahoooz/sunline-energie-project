@@ -12,7 +12,6 @@ import React from "react";
 export default function Garanties() {
   return (
     <>
-      <HeaderHome />
       <PageSimulateur />
       <GarantiesExclusives />
       <MeilleursProduits />
