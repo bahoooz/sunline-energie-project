@@ -11,12 +11,12 @@ export default function PageSimulateur() {
     document.body.appendChild(script);
 
     return () => {
-      document.body.removeChild(script); // Nettoyage si le composant est démonté
+      document.body.removeChild(script); 
     };
   }, []);
 
   return (
-    <div className="mt-20" id="page-simulateur">
+    <div className="mt-12" id="page-simulateur">
       <div
         data-reonic-type="element"
         data-product="energyhouse"
