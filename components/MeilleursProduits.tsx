@@ -3,7 +3,7 @@ import React from "react";
 
 export default function MeilleursProduits() {
   return (
-    <div className="mt-20 flex flex-col gap-16 xl:gap-24 lg:items-center">
+    <div className="mt-12 flex flex-col gap-16 xl:gap-24 lg:items-center">
       <div>
         <div className="text-center px-7 flex flex-col gap-5 sm:items-center">
           <h2 className="text-2xl font-bold sm:max-w-[600px]">
