@@ -3,9 +3,8 @@ import PageSimulateur from "@/components/Simulateur/PageSimulateur";
 import FAQ from "@/components/FAQ";
 import EquipeEngagée from "@/components/Garanties/EquipeEngagée";
 import GarantiesExclusives from "@/components/Garanties/GarantiesExclusives";
-import HeaderHome from "@/components/Home/HeaderHome2";
+import HeaderHome2 from "@/components/Home/HeaderHome2";
 import Partenaires from "@/components/Home/Partenaires";
-import Expertise from "@/components/Home/Expertise";
 import InstallationsSolaires from "@/components/InstallationsSolaires";
 import MeilleursProduits from "@/components/MeilleursProduits";
 
@@ -14,8 +13,7 @@ import React from "react";
 export default function Garanties() {
   return (
     <>
-
-      <HeaderHome />
+      <HeaderHome2 />
       <PageSimulateur />
       <GarantiesExclusives />
       <MeilleursProduits />

@@ -2,7 +2,7 @@
 import { ContactForm } from "@/components/Contact/ContactForm";
 import FAQ from "@/components/FAQ";
 import InstallationsSolaires from "@/components/InstallationsSolaires";
-import { Facebook, Instagram, Linkedin, Youtube } from "lucide-react";
+import { Facebook, Instagram, Linkedin, MoveRight, Youtube } from "lucide-react";
 import Image from "next/image";
 import Link from "next/link";
 import React from "react";
@@ -10,7 +10,7 @@ import React from "react";
 export default function Contact() {
   return (
     <div className="my-20 lg:my-24">
-      <div className="flex flex-col xl:flex-row-reverse xl:justify-center gap-20 xl:gap-16 2xl:gap-20">
+      <div className="mt-52 flex flex-col xl:flex-row-reverse xl:justify-center gap-20 xl:gap-16 2xl:gap-20">
         <div className="md:w-[700px] md:mx-auto xl:mx-0 xl:w-[600px]">
           <h2 className="text-center xl:text-start text-2xl lg:text-3xl px-7 xl:px-0 font-bold">
             Vous souhaitez passer au solaire ?
@@ -19,7 +19,7 @@ export default function Contact() {
             Nos experts se feront un plaisir de répondre à toutes vos demandes
             et vous fournir tous les renseignements nécessaires.
           </p>
-       <ContactForm />
+          <ContactForm />
         </div>
         <div className="sm:w-[550px] sm:mx-auto xl:mx-0 xl:w-[400px]">
           <Image
@@ -28,7 +28,7 @@ export default function Contact() {
             height={342}
             alt="énergie"
           />
-          <div className="bg-[#FBAC18] py-24 xl:py-32 px-12 flex flex-col gap-8 text-white">
+          <div className="bg-[#FBAC18] py-24 xl:py-20 px-12 flex flex-col gap-8 text-white">
             <div>
               <h4 className="font-bold text-lg lg:text-xl mb-4">
                 Heures d&apos;ouverture
@@ -44,6 +44,12 @@ export default function Contact() {
               <p>
                 14, Rue Augustin Fresnel <br /> 17180 PERIGNY
               </p>
+            </div>
+            <div>
+            <h4 className="font-bold text-lg lg:text-xl mb-4">
+                Nous joindre par téléphone
+              </h4>
+              <Link className="flex gap-2 underline" href={"tel:+330975309157"}><MoveRight /> 09 75 30 91 57</Link>
             </div>
             <div>
               <h4 className="font-bold text-lg lg:text-xl mb-4">Nous suivre</h4>

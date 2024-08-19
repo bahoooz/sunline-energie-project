@@ -1,16 +1,15 @@
 import React from "react";
 import { Button } from "@nextui-org/button";
-import BoxHeaderHome from "./BoxHeaderHome";
 import Link from "next/link";
 
-export default function HeaderHome() {
+export default function HeaderHome2() {
   return (
     <div>
-      <div id="header-home2" className="h-[50vh]">
+      <div id="header-home2" className="h-[50vh] mt-32 ">
         <div className="text-center lg:text-start flex flex-col gap-10 pt-24 2xl:pt-32 px-6 lg:px-24 2xl:px-48">
           <h1 className="text-white text-3xl lg:text-5xl font-semibold">
-            En quelques clics, <br className="hidden lg:block" /> simulez
-            votre installation photovoltaïque
+            En quelques clics, <br className="hidden lg:block" /> simulez votre
+            installation photovoltaïque
           </h1>
           <div className="flex flex-col items-center gap-5 lg:flex-row lg:items-center">
             <Button

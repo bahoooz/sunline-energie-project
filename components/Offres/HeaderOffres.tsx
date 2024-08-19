@@ -6,7 +6,7 @@ import React from "react";
 export default function HeaderOffres() {
   return (
     <div>
-      <div className="lg:flex lg:h-[500px]">
+      <div className="mt-32 lg:flex lg:h-[500px]">
         <Image
           src={"/assets/header-offres-img.png"}
           width={1037}
