@@ -1,3 +1,4 @@
+/* eslint-disable @typescript-eslint/no-explicit-any */
 import { Button } from "@nextui-org/button";
 import Image from "next/image";
 import Link from "next/link";
@@ -9,7 +10,7 @@ interface BoxOffre {
   desc: string;
   list: ReactElement;
   option?: HTMLDivElement | any;
-  link?: string | any;
+  link?: string;
 }
 
 export default function BoxOffre({
@@ -21,7 +22,7 @@ export default function BoxOffre({
   link,
 }: BoxOffre) {
   return (
-    <Link href={link} passHref>
+    <Link href={link}>
       <div className="py-5 px-5 bg-[#F9F9F9] cursor-pointer">
         <div className="text-center">
           <p className="text-sm font-semibold mb-5">{title}</p>

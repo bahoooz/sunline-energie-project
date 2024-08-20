@@ -22,7 +22,7 @@ export default function Partenaires() {
           height={55}
           alt="logo dualsun"
         />
-         <Image
+        <Image
           className="w-52 hover:scale-110 transition-all"
           src={"/assets/apsystems-logo-1.png"}
           width={301}

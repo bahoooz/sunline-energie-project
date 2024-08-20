@@ -4,27 +4,27 @@ import HeaderAvis from "@/components/Avis/HeaderAvis";
 import InstallationsSolaires from "@/components/InstallationsSolaires";
 import FAQ from "@/components/FAQ";
 import { Star } from "lucide-react";
-import React, { useEffect, useState } from "react";
+import React from "react";
 
 export default function Avis() {
-  const [reviews, setReviews] = useState([]);
+  // const [reviews, setReviews] = useState([]);
 
-  useEffect(() => {
-    const getReviews = async () => {
-      try {
-        const response = await fetch("/api/reviews");
-        if (!response.ok) {
-          throw new Error("Network response was not ok");
-        }
-        const data = await response.json();
-        setReviews(data);
-      } catch (error) {
-        console.error("Erreur lors de la récupération des avis :", error);
-      }
-    };
+  // useEffect(() => {
+  //   const getReviews = async () => {
+  //     try {
+  //       const response = await fetch("/api/reviews");
+  //       if (!response.ok) {
+  //         throw new Error("Network response was not ok");
+  //       }
+  //       const data = await response.json();
+  //       setReviews(data);
+  //     } catch (error) {
+  //       console.error("Erreur lors de la récupération des avis :", error);
+  //     }
+  //   };
 
-    getReviews();
-  }, []);
+  //   getReviews();
+  // }, []);
 
   return (
     <div className="mt-32">
