@@ -1,8 +1,8 @@
+/* eslint-disable @typescript-eslint/no-explicit-any */
 import { Button } from "@nextui-org/button";
 import { Link } from "@nextui-org/link";
 import { ChevronsRight } from "lucide-react";
-import Image from "next/image";
-import React, { ReactElement, ReactFragment } from "react";
+import React, { ReactElement } from "react";
 
 interface GammeOffre {
   title: string;

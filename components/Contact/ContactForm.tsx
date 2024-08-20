@@ -1,3 +1,4 @@
+/* eslint-disable @typescript-eslint/no-explicit-any */
 /* eslint-disable prettier/prettier */
 /* eslint-disable jsx-a11y/label-has-associated-control */
 "use client";
@@ -15,12 +16,12 @@ import { Button } from "@nextui-org/button";
 import Link from "next/link";
 
 export const ContactForm = () => {
-  const form = useRef<HTMLFormElement | any>(null);
+  const form = useRef<any>(null);
   const [captchaVerified, setCaptchaVerified] = useState(false);
   const [commentary, setCommentary] = useState("");
   const { isOpen, onOpen, onOpenChange } = useDisclosure();
 
-  const sendEmail = (e: Event | any) => {
+  const sendEmail = (e: any) => {
     e.preventDefault();
 
     if (!captchaVerified) {
