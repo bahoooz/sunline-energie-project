@@ -48,7 +48,7 @@ export default function Avis() {
             {/* {reviews.length} avis Google et Facebook */}
             11 avis Google et Facebook
           </p>
-          <div>
+          {/* <div>
             {reviews.map((review, index) => (
               <div key={index} className="mt-4">
                 <p className="font-bold">{review.author_name}</p>
@@ -63,7 +63,7 @@ export default function Avis() {
                 </div>
               </div>
             ))}
-          </div>
+          </div> */}
         </div>
       </div>
       <FAQ />
