@@ -25,7 +25,7 @@ export default function NavbarComponent() {
         id="navbar"
         className="h-12 bg-[#FBAC18] flex justify-between px-12 text-white items-center"
       >
-        <Button className="h-8 bg-white text-[#FBAC18] lg:hidden">
+        <Button as={Link} href="/simulateur" className="h-8 bg-white text-[#FBAC18] lg:hidden">
           Obtenir un devis
         </Button>
         <Link className="lg:hidden" href={"tel:+330975309157"}>
