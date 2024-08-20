@@ -10,7 +10,7 @@ interface BoxOffre {
   desc: string;
   list: ReactElement;
   option?: HTMLDivElement | any;
-  link?: string;
+  link?: any;
 }
 
 export default function BoxOffre({
