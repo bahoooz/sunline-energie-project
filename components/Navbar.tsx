@@ -31,6 +31,9 @@ export default function NavbarComponent() {
         <Link className="lg:hidden" href={"tel:+330975309157"}>
           09 75 30 91 57
         </Link>
+         <div className="hidden lg:flex">
+          <h3 className="underline"></h3>
+        </div>
         <div className="hidden lg:flex gap-8">
           <div className="flex items-center gap-3">
     
