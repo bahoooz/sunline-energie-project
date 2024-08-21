@@ -6,9 +6,15 @@ import InstallationsSolaires from "@/components/InstallationsSolaires";
 import FAQ from "@/components/FAQ";
 import { Star } from "lucide-react";
 
+// Déclaration d'une interface pour la fonction tmary
+interface TmaryFunction {
+  (command: string, id: string): void;
+  q?: unknown[];
+}
+
 declare global {
   interface Window {
-    tmary: ((...args: any[]) => void) & { q?: any[] } | undefined;
+    tmary?: TmaryFunction;
   }
 }
 
@@ -22,13 +28,18 @@ export default function Avis() {
 
     script.onload = () => {
       if (typeof window.tmary === "undefined") {
-        window.tmary = function (...args) {
-          (window.tmary!.q = window.tmary!.q || []).push(args);
+        window.tmary = function (command: string, id: string) {
+          if (!window.tmary) {
+            window.tmary = function (cmd: string, identifier: string) {
+              (window.tmary!.q = window.tmary!.q || []).push([cmd, identifier]);
+            };
+          }
+          (window.tmary.q = window.tmary.q || []).push([command, id]);
         };
       }
       window.tmary('app', 'jkrmJBDvb');
     };
-    
+
     return () => {
       document.body.removeChild(script);
     };
