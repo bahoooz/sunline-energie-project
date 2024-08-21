@@ -8,7 +8,7 @@ import { Star } from "lucide-react";
 
 declare global {
   interface Window {
-    tmary: any;
+    tmary: ((...args: any[]) => void) | undefined;
   }
 }
 
@@ -21,10 +21,12 @@ export default function Avis() {
     document.body.appendChild(script);
 
     script.onload = () => {
-      window.tmary = window.tmary || function() {
-        (window.tmary.q = window.tmary.q || []).push(arguments);
-      };
-      window.tmary('app', '8Fbj3GBuLv');
+      window.tmary =
+        window.tmary ||
+        function (...args) {
+          (window.tmary?.q = window.tmary?.q || []).push(args);
+        };
+      window.tmary('app', 'jkrmJBDvb');
     };
 
     return () => {
@@ -50,9 +52,7 @@ export default function Avis() {
             </div>
             <span className="font-bold text-2xl">5</span>
           </div>
-          <p className="text-xl lg:text-2xl">
-            11 avis Google et Facebook
-          </p>
+          <p className="text-xl lg:text-2xl">11 avis Google et Facebook</p>
           {/* Point d'ancrage pour le widget Trustmary */}
           <div data-trustmary-widget="jkrmJBDvb"></div>
         </div>
