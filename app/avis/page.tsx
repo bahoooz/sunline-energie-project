@@ -6,8 +6,13 @@ import InstallationsSolaires from "@/components/InstallationsSolaires";
 import FAQ from "@/components/FAQ";
 import { Star } from "lucide-react";
 
-export default function Avis() {
+declare global {
+  interface Window {
+    tmary: any;
+  }
+}
 
+export default function Avis() {
   useEffect(() => {
     const script = document.createElement("script");
     script.id = "trustmary-embed";
@@ -48,6 +53,7 @@ export default function Avis() {
           <p className="text-xl lg:text-2xl">
             11 avis Google et Facebook
           </p>
+          {/* Point d'ancrage pour le widget Trustmary */}
           <div data-trustmary-widget="jkrmJBDvb"></div>
         </div>
       </div>
