@@ -52,21 +52,8 @@ export default function Avis() {
         <h2 className="text-center font-bold text-2xl lg:text-3xl px-7">
           Ils ont été installés par Sunline
         </h2>
-        <div className="flex flex-col items-center mt-12 gap-12">
-          <div className="flex items-end gap-3">
-            <div className="flex">
-              <Star fill="#FEB50B" strokeWidth={0} size={32} />
-              <Star fill="#FEB50B" strokeWidth={0} size={32} />
-              <Star fill="#FEB50B" strokeWidth={0} size={32} />
-              <Star fill="#FEB50B" strokeWidth={0} size={32} />
-              <Star fill="#FEB50B" strokeWidth={0} size={32} />
-            </div>
-            <span className="font-bold text-2xl">5</span>
-          </div>
-          <p className="text-xl lg:text-2xl">11 avis Google et Facebook</p>
-          {/* Point d'ancrage pour le widget Trustmary */}
+           {/* Point d'ancrage pour le widget Trustmary */}
           <div data-trustmary-widget="jkrmJBDvb"></div>
-        </div>
       </div>
       <FAQ />
       <InstallationsSolaires />
