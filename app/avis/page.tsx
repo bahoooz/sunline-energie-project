@@ -8,7 +8,7 @@ import { Star } from "lucide-react";
 
 declare global {
   interface Window {
-    tmary: ((...args: any[]) => void) | undefined;
+    tmary: ((...args: any[]) => void) & { q?: any[] } | undefined;
   }
 }
 
@@ -21,14 +21,14 @@ export default function Avis() {
     document.body.appendChild(script);
 
     script.onload = () => {
-      window.tmary =
-        window.tmary ||
-        function (...args) {
-          (window.tmary?.q = window.tmary?.q || []).push(args);
+      if (typeof window.tmary === "undefined") {
+        window.tmary = function (...args) {
+          (window.tmary!.q = window.tmary!.q || []).push(args);
         };
+      }
       window.tmary('app', 'jkrmJBDvb');
     };
-
+    
     return () => {
       document.body.removeChild(script);
     };
