@@ -63,6 +63,7 @@ export default function Avis() {
             </div>
             <span className="font-bold text-2xl">5</span>
           </div>
+           </div>
            {/* Point d'ancrage pour le widget Trustmary */}
           <div data-trustmary-widget="jkrmJBDvb"></div>
       </div>
