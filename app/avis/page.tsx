@@ -37,7 +37,7 @@ export default function Avis() {
           (window.tmary.q = window.tmary.q || []).push([command, id]);
         };
       }
-      window.tmary('app', 'jkrmJBDvb');
+      window.tmary("app", "jkrmJBDvb");
     };
 
     return () => {
@@ -52,7 +52,7 @@ export default function Avis() {
         <h2 className="text-center font-bold text-2xl lg:text-3xl px-7">
           Ils ont été installés par Sunline
         </h2>
-         <div className="flex flex-col items-center mt-12 gap-12">
+        <div className="flex flex-col items-center mt-12 gap-12">
           <div className="flex items-end gap-3">
             <div className="flex">
               <Star fill="#FEB50B" strokeWidth={0} size={32} />
@@ -63,9 +63,9 @@ export default function Avis() {
             </div>
             <span className="font-bold text-2xl">5</span>
           </div>
-           </div>
-           {/* Point d'ancrage pour le widget Trustmary */}
-          <div data-trustmary-widget="jkrmJBDvb"></div>
+        </div>
+        {/* Point d'ancrage pour le widget Trustmary */}
+        <div data-trustmary-widget="jkrmJBDvb"></div>
       </div>
       <FAQ />
       <InstallationsSolaires />

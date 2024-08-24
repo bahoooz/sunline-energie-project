@@ -28,6 +28,7 @@ interface SelectionExperts {
   year_4: number;
   year_info_4: string;
   logoApsystems: HTMLDivElement | string | any;
+  LogoEnphase: HTMLDivElement | string | any;
 }
 
 export default function SelectionExperts({
@@ -58,6 +59,7 @@ export default function SelectionExperts({
   year_info_4,
 
   logoApsystems,
+  LogoEnphase,
 }: SelectionExperts) {
   return (
     <div className="mt-20 sm:mt-24 lg:mt-32">
@@ -165,13 +167,7 @@ export default function SelectionExperts({
           alt="logo dualsun"
           className="w-[270px] hover:scale-110 transition-all"
         />
-        <Image
-          src={"/assets/enphase_logo.png"}
-          width={301}
-          height={55}
-          alt="logo enphase"
-          className="w-[250px] hover:scale-110 transition-all"
-        />
+        {LogoEnphase}
         {logoApsystems}
       </div>
     </div>

@@ -135,6 +135,17 @@ micro-onduleurs"
       durability_rating_SelectionExperts={5}
       titleDescriptifTechnique="SunPrime"
       yearDescriptionTechnique={25}
+      logoEnphaseDescriptionTechnique={
+        <div>
+          <Image
+            src={"/assets/enphase_logo.png"}
+            width={301}
+            height={55}
+            alt="logo enphase"
+            className="w-[250px] hover:scale-110 transition-all"
+          />
+        </div>
+      }
     />
   );
 }
