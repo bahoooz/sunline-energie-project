@@ -2,6 +2,7 @@ import "@/styles/globals.css";
 import { Metadata } from "next";
 
 import NavbarComponent from "@/components/Navbar";
+import Head from "next/head";
 import Footer from "@/components/Footer";
 import { Lato } from "next/font/google";
 import "slick-carousel/slick/slick.css";
@@ -29,6 +30,14 @@ export default function RootLayout({
 }) {
   return (
     <html suppressHydrationWarning lang="fr">
+      <Head>
+          <meta charSet="UTF-8" />
+          <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+          <meta property="og:type" content="website" />
+
+          <link rel="icon" href="/assets/favicon.ico" sizes="any" />
+
+        </Head>
       <head />
 
       <body className={lato.className}>
