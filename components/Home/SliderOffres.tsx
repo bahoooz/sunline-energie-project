@@ -38,7 +38,7 @@ export default function SliderOffres() {
       <Slider {...settings}>
         <BoxOffre
           title="SunEco"
-          price={"6 990"}
+          price={"5 990"}
           desc="Le solaire abordable, performant et intelligent, rapidement rentable, avec
 ou sans ombrage, il s'adapte à tous les environnements."
           link={"/suneco"}
