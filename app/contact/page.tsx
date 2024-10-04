@@ -12,9 +12,9 @@ export default function Contact() {
     <div className="my-20 lg:my-24">
       <div className="mt-52 flex flex-col xl:flex-row-reverse xl:justify-center gap-20 xl:gap-16 2xl:gap-20">
         <div className="md:w-[700px] md:mx-auto xl:mx-0 xl:w-[600px]">
-          <h2 className="text-center xl:text-start text-2xl lg:text-3xl px-7 xl:px-0 font-bold">
+          <h1 className="text-center xl:text-start text-2xl lg:text-3xl px-7 xl:px-0 font-bold">
             Vous souhaitez passer au solaire ?
-          </h2>
+          </h1>
           <p className="text-center xl:text-start px-7 xl:px-0 my-8">
             Nos experts se feront un plaisir de répondre à toutes vos demandes
             et vous fournir tous les renseignements nécessaires.
