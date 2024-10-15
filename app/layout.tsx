@@ -17,7 +17,7 @@ export const metadata: Metadata = {
   description:
     "Découvrez Sunline, expert des panneaux photovoltaïques en Nouvelle-Aquitaine. Solutions sur mesure, et services professionnels pour particuliers et entreprises.",
   icons: {
-    icon: "/assets/favicon.ico",
+    icon: "/assets/logo.png",
   },
   openGraph: {
     type: "website",
@@ -60,7 +60,7 @@ export default function RootLayout({
         <link rel="canonical" href="https://www.sunline-energie.com" />
 
         {/* Favicon */}
-        <link rel="icon" href="/assets/favicon.ico" sizes="any" />
+        <link rel="icon" href="/assets/logo.png" sizes="any" />
 
         {/* Structured Data (Schema.org) */}
         <script type="application/ld+json">
