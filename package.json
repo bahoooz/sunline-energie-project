@@ -4,7 +4,7 @@
 	"private": true,
 	"scripts": {
 		"dev": "next dev",
-		"build": "npm install --legacy-peer-deps && next build",
+		"build": "next build",
 		"start": "next start -p 3000",
 		"lint": "eslint . --ext .ts,.tsx -c .eslintrc.json --fix"
 	},
@@ -16,7 +16,7 @@
 		"@nextui-org/link": "2.0.32",
 		"@nextui-org/modal": "^2.0.39",
 		"@nextui-org/navbar": "2.0.33",
-		"@nextui-org/system": "2.2.1",
+		"@nextui-org/system": "^2.4.0",
 		"@nextui-org/theme": "^2.2.9",
 		"@react-aria/ssr": "3.9.4",
 		"@react-aria/visually-hidden": "3.8.12",
