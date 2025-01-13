@@ -61,7 +61,7 @@ export default function Avis() {
               <Star fill="#FEB50B" strokeWidth={0} size={32} />
               <Star fill="#FEB50B" strokeWidth={0} size={32} />
             </div>
-            <span className="font-bold text-2xl">5</span>
+            <span className="font-bold text-2xl">4.9</span>
           </div>
         </div>
         {/* Point d'ancrage pour le widget Trustmary */}
