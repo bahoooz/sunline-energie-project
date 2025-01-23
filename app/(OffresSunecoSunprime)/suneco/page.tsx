@@ -9,7 +9,7 @@ export default function Suneco() {
     <PageSunecoSunprime
       titleGammeOffre="SunEco"
       descGammeOffre="Performance et flexibilité permettant d’optimiser la production et l’autoconsommation"
-      priceGammeOffre={"5990"}
+      priceGammeOffre={"5890"}
       listGammeOffre={
         <>
           <li className="flex items-center gap-5">
@@ -45,10 +45,10 @@ export default function Suneco() {
       imgGammeOffre={
         <div>
           <Image
-            src={"/assets/SunPower_P7_Tier1_6-400x397_sans_garantie.png"}
+            src={"/assets/dmegc-pv.png"}
             width={675}
             height={785}
-            alt="image flash black"
+            alt="image dmegc flash black"
             className="w-[80%] mx-auto mt-8 md:w-[600px] xl:w-full"
           />
         </div>
