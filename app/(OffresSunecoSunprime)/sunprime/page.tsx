@@ -22,7 +22,7 @@ export default function Sunprime() {
           <li className="flex items-center gap-5">
             <Check color="#00A06B" size={20} strokeWidth={3} />
             <span className="max-w-[80%]">
-              Gestionnaire d’énergie intelligent inclus (Arsun)
+              Pilotage du ballon d'eau chaude 
             </span>
           </li>
           <li className="flex items-center gap-5">
@@ -46,10 +46,10 @@ export default function Sunprime() {
       imgGammeOffre={
         <div>
           <Image
-            src={"/assets/SunPower_P7_Tier1_6-400x397_sans_garantie.png"}
+            src={"/assets/dual-pv.png"}
             width={675}
             height={785}
-            alt="image flash black"
+            alt="image 500wc flash black"
             className="w-[80%] mx-auto mt-8 md:w-[600px] xl:w-full"
           />
         </div>
