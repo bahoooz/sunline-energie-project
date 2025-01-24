@@ -41,6 +41,7 @@ export default function SliderOffres() {
           price={"5 890"}
           desc="Le solaire abordable, performant et intelligent, rapidement rentable, avec
 ou sans ombrage, il s'adapte à tous les environnements."
+          image="/assets/suneco.png"
           link={"/suneco"}
           list={
             <>
@@ -90,6 +91,7 @@ ou sans ombrage, il s'adapte à tous les environnements."
           price={"12 390"}
           desc="Le solaire de dernière génération garantie 30 ans, aux
 performances exceptionnelles et au design élégant"
+          image="/assets/sunprime.png"
           link={"/sunprime"}
           list={
             <>
