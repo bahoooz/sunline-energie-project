@@ -126,9 +126,7 @@ export default function NavbarComponent() {
             </Link>
           </NavbarItem>
         </NavbarContent>
-        <NavbarMenu
-          className={`bg-white text-black flex flex-col justify-center gap-6 top-0 left-0 w-full max-h-[60vh] pb-2 overflow-y-auto transition-transform duration-300 ${isMenuOpen ? "translate-y-0" : "-translate-y-full"}`}
-        >
+        <NavbarMenu className="bg-white text-black flex flex-col justify-center gap-6 top-0 left-0 w-full pb-2">
           <NavbarMenuItem className="text-xl">
             <Link href={"/offres"} onClick={() => setIsMenuOpen(false)} className="hover:text-[#FBAC18] transition-colors duration-300">
               Solutions photovoltaïques
