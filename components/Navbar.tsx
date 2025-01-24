@@ -32,7 +32,7 @@ export default function NavbarComponent() {
         </Button>
         <Link href="tel:+330975309157" className="lg:hidden">
           <Button
-            className="flex items-center gap-2 bg-white text-[#FBAC18] border border-[#FBAC18] rounded-xl px-4 py-2 h-8 hover:bg-[#FBAC18] hover:text-white transition-all duration-300"
+            className="flex items-center justify-center w-10 h-10 bg-[#FBAC18] text-white border border-[#FBAC18] rounded-full hover:bg-[#FBAC18] hover:text-white transition-all duration-300"
           >
             <Phone size={18} />
             09 75 30 91 57
@@ -54,7 +54,7 @@ export default function NavbarComponent() {
           <div className="flex items-center gap-3">
             <Link href="tel:+330975309157">
               <Button
-                className="flex items-center gap-2 bg-white text-[#FBAC18] border border-[#FBAC18] rounded-xl px-4 py-2 h-8 hover:bg-[#FBAC18] hover:text-white transition-all duration-300"
+                className="flex items-center justify-center w-10 h-10 bg-[#FBAC18] text-white border border-[#FBAC18] rounded-full hover:bg-[#FBAC18] hover:text-white transition-all duration-300"
               >
                 <Phone size={18} />
                 09 75 30 91 57
