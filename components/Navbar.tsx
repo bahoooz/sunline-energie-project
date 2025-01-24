@@ -66,7 +66,7 @@ export default function NavbarComponent() {
       <Navbar
         onMenuOpenChange={setIsMenuOpen}
         isMenuOpen={isMenuOpen}
-        className="h-20 shadow-md bg-white"
+        className={`h-20 shadow-md bg-white ${isMenuOpen ? "overflow-auto" : ""}`}
         id="navbar"
       >
         <NavbarContent>
@@ -126,7 +126,7 @@ export default function NavbarComponent() {
             </Link>
           </NavbarItem>
         </NavbarContent>
-        <NavbarMenu className="bg-white text-black flex flex-col justify-center gap-6 top-0 left-0 w-full min-h-screen pb-2">
+        <NavbarMenu className="bg-white text-black flex flex-col justify-center gap-6 top-0 left-0 w-full max-h-[80vh] pb-2 overflow-y-auto">
           <NavbarMenuItem className="text-xl">
             <Link href={"/offres"} onClick={() => setIsMenuOpen(false)} className="hover:text-[#FBAC18] transition-colors duration-300">
               Solutions photovoltaïques
