@@ -29,6 +29,8 @@ interface SelectionExperts {
   year_info_4: string;
   logoApsystems: HTMLDivElement | string | any;
   LogoEnphase: HTMLDivElement | string | any;
+  LogoDual: HTMLDivElement | string | any;
+  LogoDmegc: HTMLDivElement | string | any;
 }
 
 export default function SelectionExperts({
@@ -60,6 +62,8 @@ export default function SelectionExperts({
 
   logoApsystems,
   LogoEnphase,
+  LogoDual,
+  LogoDmegc,
 }: SelectionExperts) {
   return (
     <div className="mt-20 sm:mt-24 lg:mt-32">
@@ -160,13 +164,8 @@ export default function SelectionExperts({
         </div>
       </div>
       <div className="flex flex-col md:flex-row md:justify-center items-center mt-20 gap-5 md:gap-12 lg:gap-32 xl:gap-48">
-        <Image
-          src={"/assets/dualsun_logo.png"}
-          width={322}
-          height={82}
-          alt="logo dualsun"
-          className="w-[270px] hover:scale-110 transition-all"
-        />
+        {LogoDmegc}
+        {LogoDual}
         {LogoEnphase}
         {logoApsystems}
       </div>
