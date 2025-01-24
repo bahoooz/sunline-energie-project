@@ -1,7 +1,7 @@
 import { Button } from "@nextui-org/button";
 import Image from "next/image";
 import Link from "next/link";
-import React, { ReactElement } from "react";
+import React, { ReactElement, ReactNode } from "react";
 
 interface BoxOffre {
   title: string;
@@ -9,8 +9,8 @@ interface BoxOffre {
   desc: string;
   image: string;
   list: ReactElement;
-  option?: HTMLDivElement | any;
-  link?: any;
+  option?: ReactNode;
+  link: string; // Assuré d'être une chaîne
 }
 
 export default function BoxOffre({
