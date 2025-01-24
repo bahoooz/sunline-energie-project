@@ -1,5 +1,6 @@
 import { Button } from "@nextui-org/button";
 import { ChevronRight } from "lucide-react";
+import Link from "next/link";
 import React from "react";
 
 export default function SunlineAccompagne() {
@@ -26,7 +27,10 @@ export default function SunlineAccompagne() {
         </p>
       </div>
       <div className="sm:flex sm:justify-center">
-        <Button className="mt-12 md:mt-16 w-full sm:w-[300px] bg-[#FBAC18] py-7 text-base text-white rounded-full">
+        <Button className="mt-12 md:mt-16 w-full sm:w-[300px] bg-[#FBAC18] py-7 text-base text-white rounded-full"
+              as={Link}
+              href="/garanties"
+            >
           Nos engagements <ChevronRight />
         </Button>
       </div>
