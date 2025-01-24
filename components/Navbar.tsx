@@ -23,45 +23,50 @@ export default function NavbarComponent() {
 
   return (
     <div className="fixed w-full z-20 top-0">
-      <div className="h-16 bg-[#FBAC18] flex justify-between px-4 items-center shadow-lg md:hidden">
-        <div className="flex items-center gap-4">
-          <button
-            aria-label={isMenuOpen ? "Close menu" : "Open menu"}
-            className="focus:outline-none"
-            onClick={() => setIsMenuOpen(!isMenuOpen)}
+      <div
+        id="navbar"
+        className="h-12 bg-[#FBAC18] flex justify-between px-12 text-white items-center"
+      >
+        <Button as={Link} href="/simulateur" className="h-8 bg-white text-[#FBAC18] lg:hidden">
+          Obtenir un devis
+        </Button>
+        <Link href="tel:+330975309157" className="lg:hidden">
+          <Button
+            className="flex items-center gap-2 bg-white text-[#FBAC18] border border-[#FBAC18] rounded-xl px-4 py-2 h-8 hover:bg-[#FBAC18] hover:text-white transition-all duration-300"
           >
-            <div className="w-6 h-6 bg-white rounded-md flex items-center justify-center">
-              <span
-                className={`block w-4 h-0.5 bg-[#FBAC18] transform transition-transform duration-300 ${
-                  isMenuOpen ? "rotate-45 translate-y-1.5" : ""
-                }`}
-              ></span>
-              <span
-                className={`block w-4 h-0.5 bg-[#FBAC18] transform transition-opacity duration-300 ${
-                  isMenuOpen ? "opacity-0" : ""
-                }`}
-              ></span>
-              <span
-                className={`block w-4 h-0.5 bg-[#FBAC18] transform transition-transform duration-300 ${
-                  isMenuOpen ? "-rotate-45 -translate-y-1.5" : ""
-                }`}
-              ></span>
-            </div>
-          </button>
-          <Link href="tel:+330975309157">
-            <button
-              aria-label="Call us"
-              className="flex items-center justify-center w-10 h-10 bg-white text-[#FBAC18] border border-[#FBAC18] rounded-full hover:bg-[#FBAC18] hover:text-white transition-all duration-300"
+            <Phone size={18} />
+            09 75 30 91 57
+          </Button>
+        </Link>
+        <div className="hidden lg:flex">
+          <h3 className="underline"> </h3>
+        </div>
+        <div className="hidden lg:flex gap-8">
+          <div className="flex items-center gap-3">
+            <Button
+              as={Link}
+              href="/simulateur"
+              className="h-8 bg-white text-[#FBAC18]"
             >
-              <Phone size={20} />
-            </button>
-          </Link>
+              Obtenir un devis
+            </Button>
+          </div>
+          <div className="flex items-center gap-3">
+            <Link href="tel:+330975309157">
+              <Button
+                className="flex items-center gap-2 bg-white text-[#FBAC18] border border-[#FBAC18] rounded-xl px-4 py-2 h-8 hover:bg-[#FBAC18] hover:text-white transition-all duration-300"
+              >
+                <Phone size={18} />
+                09 75 30 91 57
+              </Button>
+            </Link>
+          </div>
         </div>
       </div>
       <Navbar
         onMenuOpenChange={setIsMenuOpen}
         isMenuOpen={isMenuOpen}
-        className="h-20 shadow-md bg-white hidden md:block"
+        className="h-20 shadow-md bg-white"
         id="navbar"
       >
         <NavbarContent>
@@ -74,6 +79,10 @@ export default function NavbarComponent() {
               alt="logo"
             />
           </NavbarBrand>
+          <NavbarMenuToggle
+            aria-label={isMenuOpen ? "Close menu" : "Open menu"}
+            className="md:hidden"
+          />
         </NavbarContent>
         <NavbarContent
           className="hidden md:flex gap-8 font-bold"
@@ -117,28 +126,34 @@ export default function NavbarComponent() {
             </Link>
           </NavbarItem>
         </NavbarContent>
-      </Navbar>
-      {isMenuOpen && (
-        <div className="bg-white w-full fixed top-16 left-0 z-10 text-black shadow-md md:hidden">
-          <div className="flex flex-col gap-4 p-4 text-lg font-semibold">
-            <Link href="/offres" onClick={() => setIsMenuOpen(false)} className="hover:text-[#FBAC18] transition-all duration-300">
+       <NavbarMenu className="bg-white text-black flex flex-col justify-center gap-6 top-32 pb-2 max-h-[260px]">
+          <NavbarMenuItem className="text-xl">
+            <Link href={"/offres"} onClick={() => setIsMenuOpen(false)} className="hover:text-[#FBAC18] transition-colors duration-300">
               Solutions photovoltaïques
             </Link>
-            <Link href="/garanties" onClick={() => setIsMenuOpen(false)} className="hover:text-[#FBAC18] transition-all duration-300">
+          </NavbarMenuItem>
+          <NavbarMenuItem className="text-xl">
+            <Link href={"/garanties"} onClick={() => setIsMenuOpen(false)} className="hover:text-[#FBAC18] transition-colors duration-300">
               Garanties
             </Link>
-            <Link href="/simulateur" onClick={() => setIsMenuOpen(false)} className="hover:text-[#FBAC18] transition-all duration-300">
+          </NavbarMenuItem>
+          <NavbarMenuItem className="text-xl">
+            <Link href={"/simulateur"} onClick={() => setIsMenuOpen(false)} className="hover:text-[#FBAC18] transition-colors duration-300">
               Simulateur
             </Link>
-            <Link href="/avis" onClick={() => setIsMenuOpen(false)} className="hover:text-[#FBAC18] transition-all duration-300">
+          </NavbarMenuItem>
+          <NavbarMenuItem className="text-xl">
+            <Link href={"/avis"} onClick={() => setIsMenuOpen(false)} className="hover:text-[#FBAC18] transition-colors duration-300">
               Avis
             </Link>
-            <Link href="/contact" onClick={() => setIsMenuOpen(false)} className="hover:text-[#FBAC18] transition-all duration-300">
+          </NavbarMenuItem>
+          <NavbarMenuItem className="text-xl">
+            <Link href={"/contact"} onClick={() => setIsMenuOpen(false)} className="hover:text-[#FBAC18] transition-colors duration-300">
               Nous contacter
             </Link>
-          </div>
-        </div>
-      )}
+          </NavbarMenuItem>
+        </NavbarMenu>
+      </Navbar>
     </div>
   );
 }
