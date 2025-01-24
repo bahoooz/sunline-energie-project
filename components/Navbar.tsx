@@ -95,7 +95,7 @@ export default function NavbarComponent() {
               className="hover:text-[#FBAC18] transition-colors duration-300 relative group"
             >
               Solutions photovoltaïques
-              <span className="absolute bottom-[-2px] left-0 w-0 h-[2px] bg-[#FBAC18] transition-all duration-300 group-hover:w-full"></span>
+              <span className="absolute bottom-0 left-0 w-0 h-[2px] bg-[#FBAC18] transition-all duration-300 group-hover:w-full"></span>
             </Link>
           </NavbarItem>
           <NavbarItem>
@@ -105,7 +105,7 @@ export default function NavbarComponent() {
               className="hover:text-[#FBAC18] transition-colors duration-300 relative group"
             >
               Garanties
-              <span className="absolute bottom-[-2px] left-0 w-0 h-[2px] bg-[#FBAC18] transition-all duration-300 group-hover:w-full"></span>
+              <span className="absolute bottom-0 left-0 w-0 h-[2px] bg-[#FBAC18] transition-all duration-300 group-hover:w-full"></span>
             </Link>
           </NavbarItem>
           <NavbarItem>
@@ -115,7 +115,7 @@ export default function NavbarComponent() {
               className="hover:text-[#FBAC18] transition-colors duration-300 relative group"
             >
               Simulateur
-              <span className="absolute bottom-[-2px] left-0 w-0 h-[2px] bg-[#FBAC18] transition-all duration-300 group-hover:w-full"></span>
+              <span className="absolute bottom-0 left-0 w-0 h-[2px] bg-[#FBAC18] transition-all duration-300 group-hover:w-full"></span>
             </Link>
           </NavbarItem>
           <NavbarItem>
@@ -125,7 +125,7 @@ export default function NavbarComponent() {
               className="hover:text-[#FBAC18] transition-colors duration-300 relative group"
             >
               Avis
-              <span className="absolute bottom-[-2px] left-0 w-0 h-[2px] bg-[#FBAC18] transition-all duration-300 group-hover:w-full"></span>
+              <span className="absolute bottom-0 left-0 w-0 h-[2px] bg-[#FBAC18] transition-all duration-300 group-hover:w-full"></span>
             </Link>
           </NavbarItem>
           <NavbarItem>
@@ -135,7 +135,7 @@ export default function NavbarComponent() {
               className="hover:text-[#FBAC18] transition-colors duration-300 relative group"
             >
               Nous contacter
-              <span className="absolute bottom-[-2px] left-0 w-0 h-[2px] bg-[#FBAC18] transition-all duration-300 group-hover:w-full"></span>
+              <span className="absolute bottom-0 left-0 w-0 h-[2px] bg-[#FBAC18] transition-all duration-300 group-hover:w-full"></span>
             </Link>
           </NavbarItem>
         </NavbarContent>
