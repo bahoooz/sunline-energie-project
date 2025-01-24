@@ -135,6 +135,17 @@ micro-onduleurs"
       durability_rating_SelectionExperts={5}
       titleDescriptifTechnique="SunPrime"
       yearDescriptionTechnique={25}
+      logoDualDescriptionTechnique={
+      <div>
+        <Image
+          src={"/assets/dualsun_logo.png"}
+          width={322}
+          height={82}
+          alt="logo dualsun"
+          className="w-[270px] hover:scale-110 transition-all"
+          />
+        </div>
+        }
       logoEnphaseDescriptionTechnique={
         <div>
           <Image
