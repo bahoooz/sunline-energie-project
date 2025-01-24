@@ -25,7 +25,7 @@ export default function NavbarComponent() {
     <div className="fixed w-full z-20 top-0">
       <div
         id="navbar"
-        className="h-12 bg-[#FBAC18] flex justify-between px-12 text-white items-center relative"
+        className="h-12 bg-[#FBAC18] flex justify-between px-12 text-white items-center"
       >
         <Button as={Link} href="/simulateur" className="h-8 bg-white text-[#FBAC18] lg:hidden">
           Obtenir un devis
@@ -62,7 +62,6 @@ export default function NavbarComponent() {
             </Link>
           </div>
         </div>
-        <span className="absolute bottom-0 left-0 w-full h-[2px] bg-[#FBAC18]"></span>
       </div>
       <Navbar
         onMenuOpenChange={setIsMenuOpen}
@@ -90,11 +89,7 @@ export default function NavbarComponent() {
           justify="center"
         >
           <NavbarItem>
-            <Link
-              color="foreground"
-              href="/offres"
-              className="hover:text-[#FBAC18] transition-colors duration-300 relative group"
-            >
+            <Link color="foreground" href="/offres" className="hover:text-[#FBAC18] transition-colors duration-300">
               Solutions photovoltaïques
             </Link>
           </NavbarItem>
@@ -102,7 +97,7 @@ export default function NavbarComponent() {
             <Link
               color="foreground"
               href="/garanties"
-              className="hover:text-[#FBAC18] transition-colors duration-300 relative group"
+              className="hover:text-[#FBAC18] transition-colors duration-300"
             >
               Garanties
             </Link>
@@ -111,17 +106,13 @@ export default function NavbarComponent() {
             <Link
               color="foreground"
               href="/simulateur"
-              className="hover:text-[#FBAC18] transition-colors duration-300 relative group"
+              className="hover:text-[#FBAC18] transition-colors duration-300"
             >
               Simulateur
             </Link>
           </NavbarItem>
           <NavbarItem>
-            <Link
-              color="foreground"
-              href="/avis"
-              className="hover:text-[#FBAC18] transition-colors duration-300 relative group"
-            >
+            <Link color="foreground" href="/avis" className="hover:text-[#FBAC18] transition-colors duration-300">
               Avis
             </Link>
           </NavbarItem>
@@ -129,13 +120,13 @@ export default function NavbarComponent() {
             <Link
               color="foreground"
               href="/contact"
-              className="hover:text-[#FBAC18] transition-colors duration-300 relative group"
+              className="hover:text-[#FBAC18] transition-colors duration-300"
             >
               Nous contacter
             </Link>
           </NavbarItem>
         </NavbarContent>
-        <NavbarMenu className="bg-white text-black flex flex-col justify-center gap-6 top-32 pb-2 max-h-[260px]">
+       <NavbarMenu className="bg-white text-black flex flex-col justify-center gap-6 top-32 pb-2 max-h-[260px]">
           <NavbarMenuItem className="text-xl">
             <Link href={"/offres"} onClick={() => setIsMenuOpen(false)} className="hover:text-[#FBAC18] transition-colors duration-300">
               Solutions photovoltaïques
