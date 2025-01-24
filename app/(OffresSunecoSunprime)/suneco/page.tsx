@@ -141,7 +141,7 @@ micro-onduleurs"
           width={310}
           height={82}
           alt="logo dmegc"
-          className="w-[270px] hover:scale-110 transition-all"
+          className="w-[250px] hover:scale-110 transition-all"
           />
         </div>
         }
