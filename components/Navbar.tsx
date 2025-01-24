@@ -32,9 +32,9 @@ export default function NavbarComponent() {
         </Button>
         <Link href="tel:+330975309157" className="lg:hidden">
           <Button
-            className="flex items-center gap-2 bg-transparent border border-white text-white hover:bg-white hover:text-[#FBAC18]"
+            className="flex items-center gap-2 bg-[#ffffff80] text-white border border-white rounded-full px-4 py-2 hover:bg-white hover:text-[#FBAC18] transition-all duration-200"
           >
-            <Phone size={16} />
+            <Phone size={18} />
             09 75 30 91 57
           </Button>
         </Link>
@@ -55,9 +55,9 @@ export default function NavbarComponent() {
             <h3>Nous contacter :</h3>
             <Link href="tel:+330975309157">
               <Button
-                className="flex items-center gap-2 bg-transparent border border-[#FBAC18] text-[#FBAC18] hover:bg-[#FBAC18] hover:text-white"
+                className="flex items-center gap-2 bg-[#ffffff80] text-[#FBAC18] border border-[#FBAC18] rounded-full px-4 py-2 hover:bg-[#FBAC18] hover:text-white transition-all duration-200"
               >
-                <Phone size={16} />
+                <Phone size={18} />
                 09 75 30 91 57
               </Button>
             </Link>
