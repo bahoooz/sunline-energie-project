@@ -32,7 +32,7 @@ export default function NavbarComponent() {
         </Button>
         <Link href="tel:+330975309157" className="lg:hidden">
           <Button
-            className="flex items-center gap-2 bg-white text-[#FBAC18] border border-[#FBAC18] rounded px-4 py-2 h-8 hover:bg-[#FBAC18] hover:text-white transition-all duration-300"
+            className="flex items-center gap-2 bg-white text-[#FBAC18] border border-[#FBAC18] rounded-lg px-4 py-2 h-8 hover:bg-[#FBAC18] hover:text-white transition-all duration-300"
           >
             <Phone size={18} />
             09 75 30 91 57
@@ -54,7 +54,7 @@ export default function NavbarComponent() {
           <div className="flex items-center gap-3">
             <Link href="tel:+330975309157">
               <Button
-                className="flex items-center gap-2 bg-white text-[#FBAC18] border border-[#FBAC18] rounded px-4 py-2 h-8 hover:bg-[#FBAC18] hover:text-white transition-all duration-300"
+                className="flex items-center gap-2 bg-white text-[#FBAC18] border border-[#FBAC18] rounded-lg px-4 py-2 h-8 hover:bg-[#FBAC18] hover:text-white transition-all duration-300"
               >
                 <Phone size={18} />
                 09 75 30 91 57
@@ -126,7 +126,7 @@ export default function NavbarComponent() {
             </Link>
           </NavbarItem>
         </NavbarContent>
-        <NavbarMenu className="bg-black bg-opacity-50 text-white flex flex-col justify-center gap-6 top-32 pb-2 max-h-[260px] transition-all duration-300 ease-in-out transform origin-top scale-y-[1]">
+        <NavbarMenu className="bg-white text-black flex flex-col justify-center gap-6 top-32 pb-2 max-h-[260px]">
           <NavbarMenuItem className="text-xl">
             <Link href={"/offres"} onClick={() => setIsMenuOpen(false)} className="hover:text-[#FBAC18] transition-colors duration-300">
               Solutions photovoltaïques
