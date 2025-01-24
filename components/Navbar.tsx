@@ -32,7 +32,7 @@ export default function NavbarComponent() {
         </Button>
         <Link href="tel:+330975309157" className="lg:hidden">
           <Button
-            className="flex items-center gap-2 bg-white text-[#FBAC18] border border-[#FBAC18] rounded-full px-4 py-2 h-8 hover:bg-[#FBAC18] hover:text-white transition-all duration-300"
+            className="flex items-center gap-2 bg-white text-[#FBAC18] border border-[#FBAC18] rounded px-4 py-2 h-8 hover:bg-[#FBAC18] hover:text-white transition-all duration-300"
           >
             <Phone size={18} />
             09 75 30 91 57
@@ -54,7 +54,7 @@ export default function NavbarComponent() {
           <div className="flex items-center gap-3">
             <Link href="tel:+330975309157">
               <Button
-                className="flex items-center gap-2 bg-white text-[#FBAC18] border border-[#FBAC18] rounded-full px-4 py-2 h-8 hover:bg-[#FBAC18] hover:text-white transition-all duration-300"
+                className="flex items-center gap-2 bg-white text-[#FBAC18] border border-[#FBAC18] rounded px-4 py-2 h-8 hover:bg-[#FBAC18] hover:text-white transition-all duration-300"
               >
                 <Phone size={18} />
                 09 75 30 91 57
@@ -89,7 +89,7 @@ export default function NavbarComponent() {
           justify="center"
         >
           <NavbarItem>
-            <Link color="foreground" href="/offres" className="hover:underline">
+            <Link color="foreground" href="/offres" className="hover:text-[#FBAC18] transition-colors duration-300">
               Solutions photovoltaïques
             </Link>
           </NavbarItem>
@@ -97,7 +97,7 @@ export default function NavbarComponent() {
             <Link
               color="foreground"
               href="/garanties"
-              className="hover:underline"
+              className="hover:text-[#FBAC18] transition-colors duration-300"
             >
               Garanties
             </Link>
@@ -106,13 +106,13 @@ export default function NavbarComponent() {
             <Link
               color="foreground"
               href="/simulateur"
-              className="hover:underline"
+              className="hover:text-[#FBAC18] transition-colors duration-300"
             >
               Simulateur
             </Link>
           </NavbarItem>
           <NavbarItem>
-            <Link color="foreground" href="/avis" className="hover:underline">
+            <Link color="foreground" href="/avis" className="hover:text-[#FBAC18] transition-colors duration-300">
               Avis
             </Link>
           </NavbarItem>
@@ -120,35 +120,35 @@ export default function NavbarComponent() {
             <Link
               color="foreground"
               href="/contact"
-              className="hover:underline"
+              className="hover:text-[#FBAC18] transition-colors duration-300"
             >
               Nous contacter
             </Link>
           </NavbarItem>
         </NavbarContent>
-        <NavbarMenu className="bg-black bg-opacity-50 text-white flex flex-col justify-center gap-6 top-32 pb-2 max-h-[260px]">
+        <NavbarMenu className="bg-black bg-opacity-50 text-white flex flex-col justify-center gap-6 top-32 pb-2 max-h-[260px] transition-all duration-300 ease-in-out transform origin-top scale-y-[1]">
           <NavbarMenuItem className="text-xl">
-            <Link href={"/offres"} onClick={() => setIsMenuOpen(false)}>
+            <Link href={"/offres"} onClick={() => setIsMenuOpen(false)} className="hover:text-[#FBAC18] transition-colors duration-300">
               Solutions photovoltaïques
             </Link>
           </NavbarMenuItem>
           <NavbarMenuItem className="text-xl">
-            <Link href={"/garanties"} onClick={() => setIsMenuOpen(false)}>
+            <Link href={"/garanties"} onClick={() => setIsMenuOpen(false)} className="hover:text-[#FBAC18] transition-colors duration-300">
               Garanties
             </Link>
           </NavbarMenuItem>
           <NavbarMenuItem className="text-xl">
-            <Link href={"/simulateur"} onClick={() => setIsMenuOpen(false)}>
+            <Link href={"/simulateur"} onClick={() => setIsMenuOpen(false)} className="hover:text-[#FBAC18] transition-colors duration-300">
               Simulateur
             </Link>
           </NavbarMenuItem>
           <NavbarMenuItem className="text-xl">
-            <Link href={"/avis"} onClick={() => setIsMenuOpen(false)}>
+            <Link href={"/avis"} onClick={() => setIsMenuOpen(false)} className="hover:text-[#FBAC18] transition-colors duration-300">
               Avis
             </Link>
           </NavbarMenuItem>
           <NavbarMenuItem className="text-xl">
-            <Link href={"/contact"} onClick={() => setIsMenuOpen(false)}>
+            <Link href={"/contact"} onClick={() => setIsMenuOpen(false)} className="hover:text-[#FBAC18] transition-colors duration-300">
               Nous contacter
             </Link>
           </NavbarMenuItem>
