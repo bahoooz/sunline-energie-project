@@ -126,7 +126,7 @@ export default function NavbarComponent() {
             </Link>
           </NavbarItem>
         </NavbarContent>
-        <NavbarMenu className="bg-white text-black flex flex-col justify-center gap-6 top-0 left-0 w-full pb-2">
+       <NavbarMenu className="bg-white text-black flex flex-col justify-center gap-6 top-32 pb-2 max-h-[260px]">
           <NavbarMenuItem className="text-xl">
             <Link href={"/offres"} onClick={() => setIsMenuOpen(false)} className="hover:text-[#FBAC18] transition-colors duration-300">
               Solutions photovoltaïques
