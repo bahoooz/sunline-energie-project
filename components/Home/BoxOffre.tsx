@@ -1,4 +1,3 @@
-/* eslint-disable @typescript-eslint/no-explicit-any */
 import { Button } from "@nextui-org/button";
 import Image from "next/image";
 import Link from "next/link";
@@ -9,6 +8,7 @@ interface BoxOffre {
   price: string;
   desc: string;
   list: ReactElement;
+  image: string;
   option?: HTMLDivElement | any;
   link?: any;
 }
@@ -18,6 +18,7 @@ export default function BoxOffre({
   price,
   desc,
   list,
+  image,
   option,
   link,
 }: BoxOffre) {
@@ -35,10 +36,10 @@ export default function BoxOffre({
           <p className="mt-5">{desc}</p>
         </div>
         <Image
-          src={"/assets/dualsun-flash-500Topcon.png"}
+          src={image}
           width={477}
           height={525}
-          alt="image offre"
+          alt={`Offre ${title}`}
           className="mt-12 w-[300px] mx-auto"
         />
         <Button
