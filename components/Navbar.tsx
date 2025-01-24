@@ -84,59 +84,59 @@ export default function NavbarComponent() {
             className="md:hidden"
           />
         </NavbarContent>
-        <NavbarContent
-          className="hidden md:flex gap-8 font-bold"
+          <NavbarContent
+          className="hidden md:flex gap-8 font-bold relative"
           justify="center"
         >
-          <NavbarItem>
+          <NavbarItem className="relative group">
             <Link
               color="foreground"
               href="/offres"
-              className="hover:text-[#FBAC18] transition-colors duration-300 relative group"
+              className="hover:text-[#FBAC18] transition-colors duration-300"
             >
               Solutions photovoltaïques
-              <span className="absolute bottom-0 left-0 w-0 h-[2px] bg-[#FBAC18] transition-all duration-300 group-hover:w-full"></span>
             </Link>
+            <span className="absolute bottom-0 left-0 w-0 h-[2px] bg-[#FBAC18] transition-all duration-300 group-hover:w-full"></span>
           </NavbarItem>
-          <NavbarItem>
+          <NavbarItem className="relative group">
             <Link
               color="foreground"
               href="/garanties"
-              className="hover:text-[#FBAC18] transition-colors duration-300 relative group"
+              className="hover:text-[#FBAC18] transition-colors duration-300"
             >
               Garanties
-              <span className="absolute bottom-0 left-0 w-0 h-[2px] bg-[#FBAC18] transition-all duration-300 group-hover:w-full"></span>
             </Link>
+            <span className="absolute bottom-0 left-0 w-0 h-[2px] bg-[#FBAC18] transition-all duration-300 group-hover:w-full"></span>
           </NavbarItem>
-          <NavbarItem>
+          <NavbarItem className="relative group">
             <Link
               color="foreground"
               href="/simulateur"
-              className="hover:text-[#FBAC18] transition-colors duration-300 relative group"
+              className="hover:text-[#FBAC18] transition-colors duration-300"
             >
               Simulateur
-              <span className="absolute bottom-0 left-0 w-0 h-[2px] bg-[#FBAC18] transition-all duration-300 group-hover:w-full"></span>
             </Link>
+            <span className="absolute bottom-0 left-0 w-0 h-[2px] bg-[#FBAC18] transition-all duration-300 group-hover:w-full"></span>
           </NavbarItem>
-          <NavbarItem>
+          <NavbarItem className="relative group">
             <Link
               color="foreground"
               href="/avis"
-              className="hover:text-[#FBAC18] transition-colors duration-300 relative group"
+              className="hover:text-[#FBAC18] transition-colors duration-300"
             >
               Avis
-              <span className="absolute bottom-0 left-0 w-0 h-[2px] bg-[#FBAC18] transition-all duration-300 group-hover:w-full"></span>
             </Link>
+            <span className="absolute bottom-0 left-0 w-0 h-[2px] bg-[#FBAC18] transition-all duration-300 group-hover:w-full"></span>
           </NavbarItem>
-          <NavbarItem>
+          <NavbarItem className="relative group">
             <Link
               color="foreground"
               href="/contact"
-              className="hover:text-[#FBAC18] transition-colors duration-300 relative group"
+              className="hover:text-[#FBAC18] transition-colors duration-300"
             >
               Nous contacter
-              <span className="absolute bottom-0 left-0 w-0 h-[2px] bg-[#FBAC18] transition-all duration-300 group-hover:w-full"></span>
             </Link>
+            <span className="absolute bottom-0 left-0 w-0 h-[2px] bg-[#FBAC18] transition-all duration-300 group-hover:w-full"></span>
           </NavbarItem>
         </NavbarContent>
         <NavbarMenu className="bg-white text-black flex flex-col justify-center gap-6 top-32 pb-2 max-h-[260px]">
