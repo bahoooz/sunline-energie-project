@@ -45,6 +45,8 @@ interface PageSunecoSunprime {
   yearDescriptionTechnique: number;
   logoApsystemsDescriptionTechnique?: HTMLDivElement | string | any;
   logoEnphaseDescriptionTechnique?: HTMLDivElement | string | any;
+  logoDualDescriptionTechnique?: HTMLDivElement | string | any;
+  logoDmegcDescriptionTechnique?: HTMLDivElement | string | any;
 }
 
 export default function PageSunecoSunprime({
@@ -83,6 +85,8 @@ export default function PageSunecoSunprime({
   yearDescriptionTechnique,
   logoApsystemsDescriptionTechnique,
   logoEnphaseDescriptionTechnique,
+  logoDualDescriptionTechnique,
+  logoDmegcDescriptionTechnique,
 }: PageSunecoSunprime) {
   return (
     <>
@@ -124,6 +128,8 @@ export default function PageSunecoSunprime({
         year_info_4={year_info_4_SelectionExperts}
         logoApsystems={logoApsystemsDescriptionTechnique}
         LogoEnphase={logoEnphaseDescriptionTechnique}
+        LogoDual={logoDualDescriptionTechnique}
+        LogoDmegc={logoDmegcDescriptionTechnique}
       />
       <BaisseFacture />
       <DescriptifTechnique
