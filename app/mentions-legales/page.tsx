@@ -9,7 +9,7 @@ export default function MentionsLegales() {
         <section className="mb-6">
           <h2 className="text-xl font-semibold mb-2">Éditeur du site</h2>
           <p>
-            Nom de l'entreprise : <strong>Votre Entreprise</strong>
+            Nom de l&#39;entreprise : <strong>Votre Entreprise</strong>
             <br />
             Adresse : 123 Rue Exemple, 75000 Paris, France
             <br />
@@ -24,7 +24,7 @@ export default function MentionsLegales() {
         <section className="mb-6">
           <h2 className="text-xl font-semibold mb-2">Hébergement</h2>
           <p>
-            Hébergeur : <strong>Nom de l'hébergeur</strong>
+            Hébergeur : <strong>Nom de l&#39;hébergeur</strong>
             <br />
             Adresse : 456 Rue Hébergeur, 75001 Paris, France
             <br />
@@ -37,8 +37,8 @@ export default function MentionsLegales() {
         <section className="mb-6">
           <h2 className="text-xl font-semibold mb-2">Propriété intellectuelle</h2>
           <p>
-            Tous les contenus présents sur ce site (textes, images, logos, etc.) sont protégés par le droit d'auteur.
-            Toute reproduction, distribution ou modification de ces contenus est interdite sans l'autorisation écrite
+            Tous les contenus présents sur ce site (textes, images, logos, etc.) sont protégés par le droit d&#39;auteur.
+            Toute reproduction, distribution ou modification de ces contenus est interdite sans l&#39;autorisation écrite
             préalable de <strong>Votre Entreprise</strong>.
           </p>
         </section>
@@ -47,8 +47,8 @@ export default function MentionsLegales() {
           <h2 className="text-xl font-semibold mb-2">Données personnelles</h2>
           <p>
             Les données personnelles collectées sur ce site sont destinées exclusivement à <strong>Votre Entreprise</strong>.
-            Vous disposez d’un droit d’accès, de modification et de suppression de vos données, conformément à la loi
-            Informatique et Libertés. Pour toute demande, contactez-nous à l’adresse : contact@votreentreprise.com.
+            Vous disposez d&#39;un droit d&#39;accès, de modification et de suppression de vos données, conformément à la loi
+            Informatique et Libertés. Pour toute demande, contactez-nous à l&#39;adresse : contact@votreentreprise.com.
           </p>
         </section>
 
@@ -56,7 +56,7 @@ export default function MentionsLegales() {
           <h2 className="text-xl font-semibold mb-2">Responsabilité</h2>
           <p>
             <strong>Votre Entreprise</strong> ne peut être tenue responsable des dommages directs ou indirects résultant
-            de l’utilisation de ce site ou de l’impossibilité d’y accéder.
+            de l&#39;utilisation de ce site ou de l&#39;impossibilité d&#39;y accéder.
           </p>
         </section>
       </div>
