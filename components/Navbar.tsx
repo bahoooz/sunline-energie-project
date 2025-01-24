@@ -34,10 +34,10 @@ export default function NavbarComponent() {
           </Button>
         </Link>
         <div className="hidden lg:flex gap-8 items-center">
-          <Link href={"/"}>
+          <Link href="/">
             <Image
               className="w-32"
-              src={"/logo_black.png"}
+              src="/logo_black.png"
               width={252}
               height={83}
               alt="logo"
@@ -57,7 +57,21 @@ export default function NavbarComponent() {
           onClick={() => setIsMenuOpen(!isMenuOpen)}
         >
           <div className="w-6 h-6 bg-white rounded-md flex items-center justify-center">
-            <span className="block w-4 h-0.5 bg-[#FBAC18] transform transition-transform duration-300"></span>
+            <span
+              className={`block w-4 h-0.5 bg-[#FBAC18] transform transition-transform duration-300 ${
+                isMenuOpen ? "rotate-45 translate-y-1.5" : ""
+              }`}
+            ></span>
+            <span
+              className={`block w-4 h-0.5 bg-[#FBAC18] transform transition-opacity duration-300 ${
+                isMenuOpen ? "opacity-0" : ""
+              }`}
+            ></span>
+            <span
+              className={`block w-4 h-0.5 bg-[#FBAC18] transform transition-transform duration-300 ${
+                isMenuOpen ? "-rotate-45 -translate-y-1.5" : ""
+              }`}
+            ></span>
           </div>
         </button>
       </div>
