@@ -69,62 +69,77 @@ export default function NavbarComponent() {
         className="h-20 shadow-md bg-white"
         id="navbar"
       >
-       <NavbarContent
-  className="hidden md:flex gap-8 font-bold"
-  justify="center"
->
-  <NavbarItem>
-    <Link
-      color="foreground"
-      href="/offres"
-      className="hover:text-[#FBAC18] transition-colors duration-300 relative"
-    >
-      Solutions photovoltaïques
-      <span className="absolute bottom-0 left-0 w-0 h-[2px] bg-[#FBAC18] transition-all duration-300 group-hover:w-full"></span>
-    </Link>
-  </NavbarItem>
-  <NavbarItem>
-    <Link
-      color="foreground"
-      href="/garanties"
-      className="hover:text-[#FBAC18] transition-colors duration-300 relative"
-    >
-      Garanties
-      <span className="absolute bottom-0 left-0 w-0 h-[2px] bg-[#FBAC18] transition-all duration-300 group-hover:w-full"></span>
-    </Link>
-  </NavbarItem>
-  <NavbarItem>
-    <Link
-      color="foreground"
-      href="/simulateur"
-      className="hover:text-[#FBAC18] transition-colors duration-300 relative"
-    >
-      Simulateur
-      <span className="absolute bottom-0 left-0 w-0 h-[2px] bg-[#FBAC18] transition-all duration-300 group-hover:w-full"></span>
-    </Link>
-  </NavbarItem>
-  <NavbarItem>
-    <Link
-      color="foreground"
-      href="/avis"
-      className="hover:text-[#FBAC18] transition-colors duration-300 relative"
-    >
-      Avis
-      <span className="absolute bottom-0 left-0 w-0 h-[2px] bg-[#FBAC18] transition-all duration-300 group-hover:w-full"></span>
-    </Link>
-  </NavbarItem>
-  <NavbarItem>
-    <Link
-      color="foreground"
-      href="/contact"
-      className="hover:text-[#FBAC18] transition-colors duration-300 relative"
-    >
-      Nous contacter
-      <span className="absolute bottom-0 left-0 w-0 h-[2px] bg-[#FBAC18] transition-all duration-300 group-hover:w-full"></span>
-    </Link>
-  </NavbarItem>
-</NavbarContent>
-       <NavbarMenu className="bg-white text-black flex flex-col justify-center gap-6 top-32 pb-2 max-h-[260px]">
+        <NavbarContent>
+          <NavbarBrand as={Link} href={"/"}>
+            <Image
+              className="w-40"
+              src={"/logo_black.png"}
+              width={252}
+              height={83}
+              alt="logo"
+            />
+          </NavbarBrand>
+          <NavbarMenuToggle
+            aria-label={isMenuOpen ? "Close menu" : "Open menu"}
+            className="md:hidden"
+          />
+        </NavbarContent>
+        <NavbarContent
+          className="hidden md:flex gap-8 font-bold"
+          justify="center"
+        >
+          <NavbarItem>
+            <Link
+              color="foreground"
+              href="/offres"
+              className="hover:text-[#FBAC18] transition-colors duration-300 relative group"
+            >
+              Solutions photovoltaïques
+              <span className="absolute bottom-[-2px] left-0 w-0 h-[2px] bg-[#FBAC18] transition-all duration-300 group-hover:w-full"></span>
+            </Link>
+          </NavbarItem>
+          <NavbarItem>
+            <Link
+              color="foreground"
+              href="/garanties"
+              className="hover:text-[#FBAC18] transition-colors duration-300 relative group"
+            >
+              Garanties
+              <span className="absolute bottom-[-2px] left-0 w-0 h-[2px] bg-[#FBAC18] transition-all duration-300 group-hover:w-full"></span>
+            </Link>
+          </NavbarItem>
+          <NavbarItem>
+            <Link
+              color="foreground"
+              href="/simulateur"
+              className="hover:text-[#FBAC18] transition-colors duration-300 relative group"
+            >
+              Simulateur
+              <span className="absolute bottom-[-2px] left-0 w-0 h-[2px] bg-[#FBAC18] transition-all duration-300 group-hover:w-full"></span>
+            </Link>
+          </NavbarItem>
+          <NavbarItem>
+            <Link
+              color="foreground"
+              href="/avis"
+              className="hover:text-[#FBAC18] transition-colors duration-300 relative group"
+            >
+              Avis
+              <span className="absolute bottom-[-2px] left-0 w-0 h-[2px] bg-[#FBAC18] transition-all duration-300 group-hover:w-full"></span>
+            </Link>
+          </NavbarItem>
+          <NavbarItem>
+            <Link
+              color="foreground"
+              href="/contact"
+              className="hover:text-[#FBAC18] transition-colors duration-300 relative group"
+            >
+              Nous contacter
+              <span className="absolute bottom-[-2px] left-0 w-0 h-[2px] bg-[#FBAC18] transition-all duration-300 group-hover:w-full"></span>
+            </Link>
+          </NavbarItem>
+        </NavbarContent>
+        <NavbarMenu className="bg-white text-black flex flex-col justify-center gap-6 top-32 pb-2 max-h-[260px]">
           <NavbarMenuItem className="text-xl">
             <Link href={"/offres"} onClick={() => setIsMenuOpen(false)} className="hover:text-[#FBAC18] transition-colors duration-300">
               Solutions photovoltaïques
