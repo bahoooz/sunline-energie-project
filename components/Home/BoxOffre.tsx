@@ -7,8 +7,8 @@ interface BoxOffre {
   title: string;
   price: string;
   desc: string;
-  list: ReactElement;
   image: string;
+  list: ReactElement;
   option?: HTMLDivElement | any;
   link?: any;
 }
@@ -17,8 +17,8 @@ export default function BoxOffre({
   title,
   price,
   desc,
-  list,
   image,
+  list,
   option,
   link,
 }: BoxOffre) {
