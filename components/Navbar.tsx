@@ -52,7 +52,6 @@ export default function NavbarComponent() {
             </Button>
           </div>
           <div className="flex items-center gap-3">
-            <h3>Nous contacter :</h3>
             <Link href="tel:+330975309157">
               <Button
                 className="flex items-center gap-2 bg-[#ffffff80] text-[#FBAC18] border border-[#FBAC18] rounded-full px-4 py-2 hover:bg-[#FBAC18] hover:text-white transition-all duration-200"
