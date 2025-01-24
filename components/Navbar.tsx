@@ -23,29 +23,46 @@ export default function NavbarComponent() {
 
   return (
     <div className="fixed w-full z-20 top-0">
-      {/* Barre supérieure avec numéro de téléphone */}
-      <div className="bg-[#FBAC18] text-white py-2 px-6 flex justify-between items-center">
-        <div className="flex items-center gap-2">
-          <strong>UNE QUESTION ?</strong> Contactez-nous gratuitement
-        </div>
-        <div className="flex gap-4">
-          <Link
-            href="tel:+33973052851"
-            className="flex items-center gap-2 bg-white text-[#FBAC18] px-4 py-2 rounded-full border border-white hover:bg-[#FBAC18] hover:text-white transition-all"
+      <div
+        id="navbar"
+        className="h-12 bg-[#FBAC18] flex justify-between px-12 text-white items-center"
+      >
+        <Button as={Link} href="/simulateur" className="h-8 bg-white text-[#FBAC18] lg:hidden">
+          Obtenir un devis
+        </Button>
+        <Link href="tel:+330975309157" className="lg:hidden">
+          <Button
+            className="flex items-center gap-2 bg-[#FBAC18] text-white border border-[#FBAC18] rounded-xl px-4 py-2 h-8 hover:bg-white hover:text-[#FBAC18] transition-all duration-300"
           >
             <Phone size={18} />
-            09 73 05 28 51
-          </Link>
-          <Link
-            href="/contact"
-            className="bg-white text-[#FBAC18] px-4 py-2 rounded-full border border-white hover:bg-[#FBAC18] hover:text-white transition-all"
-          >
-            Être rappelé(e)
-          </Link>
+            09 75 30 91 57
+          </Button>
+        </Link>
+        <div className="hidden lg:flex">
+          <h3 className="underline"> </h3>
+        </div>
+        <div className="hidden lg:flex gap-8">
+          <div className="flex items-center gap-3">
+            <Button
+              as={Link}
+              href="/simulateur"
+              className="h-8 bg-white text-[#FBAC18]"
+            >
+              Obtenir un devis
+            </Button>
+          </div>
+          <div className="flex items-center gap-3">
+            <Link href="tel:+330975309157">
+              <Button
+                className="flex items-center gap-2 bg-[#FBAC18] text-white border border-[#FBAC18] rounded-xl px-4 py-2 h-8 hover:bg-white hover:text-[#FBAC18] transition-all duration-300"
+              >
+                <Phone size={18} />
+                09 75 30 91 57
+              </Button>
+            </Link>
+          </div>
         </div>
       </div>
-
-      {/* Section principale du Navbar */}
       <Navbar
         onMenuOpenChange={setIsMenuOpen}
         isMenuOpen={isMenuOpen}
@@ -71,7 +88,6 @@ export default function NavbarComponent() {
           className="hidden md:flex gap-8 font-bold"
           justify="center"
         >
-          {/* Les éléments de navigation */}
           <NavbarItem>
             <Link color="foreground" href="/offres" className="hover:text-[#FBAC18] transition-colors duration-300">
               Solutions photovoltaïques
@@ -110,7 +126,7 @@ export default function NavbarComponent() {
             </Link>
           </NavbarItem>
         </NavbarContent>
-        <NavbarMenu className="bg-white text-black flex flex-col justify-center gap-6 top-32 pb-2 max-h-[260px]">
+       <NavbarMenu className="bg-white text-black flex flex-col justify-center gap-6 top-32 pb-2 max-h-[260px]">
           <NavbarMenuItem className="text-xl">
             <Link href={"/offres"} onClick={() => setIsMenuOpen(false)} className="hover:text-[#FBAC18] transition-colors duration-300">
               Solutions photovoltaïques
