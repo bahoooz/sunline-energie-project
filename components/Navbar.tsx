@@ -16,6 +16,8 @@ import {
 import Image from "next/image";
 import Link from "next/link";
 import { Button } from "@nextui-org/button";
+import { Phone } from "lucide-react"; // Import de l'icône téléphone
+
 export default function NavbarComponent() {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
 
@@ -28,15 +30,19 @@ export default function NavbarComponent() {
         <Button as={Link} href="/simulateur" className="h-8 bg-white text-[#FBAC18] lg:hidden">
           Obtenir un devis
         </Button>
-        <Link className="lg:hidden" href={"tel:+330975309157"}>
-          09 75 30 91 57
+        <Link href="tel:+330975309157" className="lg:hidden">
+          <Button
+            className="flex items-center gap-2 bg-transparent border border-white text-white hover:bg-white hover:text-[#FBAC18]"
+          >
+            <Phone size={16} />
+            09 75 30 91 57
+          </Button>
         </Link>
-         <div className="hidden lg:flex">
+        <div className="hidden lg:flex">
           <h3 className="underline"> </h3>
         </div>
         <div className="hidden lg:flex gap-8">
           <div className="flex items-center gap-3">
-    
             <Button
               as={Link}
               href="/simulateur"
@@ -47,7 +53,14 @@ export default function NavbarComponent() {
           </div>
           <div className="flex items-center gap-3">
             <h3>Nous contacter :</h3>
-            <Link href={"tel:+330975309157"}>09 75 30 91 57</Link>
+            <Link href="tel:+330975309157">
+              <Button
+                className="flex items-center gap-2 bg-transparent border border-[#FBAC18] text-[#FBAC18] hover:bg-[#FBAC18] hover:text-white"
+              >
+                <Phone size={16} />
+                09 75 30 91 57
+              </Button>
+            </Link>
           </div>
         </div>
       </div>
