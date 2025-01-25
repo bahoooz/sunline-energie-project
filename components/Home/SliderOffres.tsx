@@ -37,7 +37,7 @@ export default function SliderOffres() {
     <div className="slider-container w-[350px] sm:w-[500px] lg:w-[900px] overflow-hidden">
       <Slider {...settings}>
         <BoxOffre
-          title="SunEco"
+          title="SunEco - 3kWc"
           price={"5 890"}
           desc="Le solaire abordable, performant et intelligent, rapidement rentable, avec
 ou sans ombrage, il s'adapte à tous les environnements."
@@ -48,7 +48,7 @@ ou sans ombrage, il s'adapte à tous les environnements."
               <li className="flex gap-3">
                 <Check color="#00A06B" size={20} strokeWidth={3} />
                 <span className="max-w-[80%]">
-                  Panneaux solaires de dernière génération
+                 6 Panneaux solaires de 500 Wc dernière génération
                 </span>
               </li>
               <li className="flex gap-3">
@@ -79,7 +79,7 @@ ou sans ombrage, il s'adapte à tous les environnements."
               <p className="text-start text-sm flex gap-3 mt-5">
                 <CheckCheck size={20} strokeWidth={3} />{" "}
                 <span className="max-w-[90%]">
-                  Module de pilotage du ballon d’eau chaude ou Borne de recharge
+                  Pilotage du ballon d’eau chaude ou Borne de recharge
                   pour véhicule électrique{" "}
                 </span>
               </p>
@@ -87,7 +87,7 @@ ou sans ombrage, il s'adapte à tous les environnements."
           }
         />
         <BoxOffre
-          title="SunPrime"
+          title="SunPrime - 6kWc"
           price={"12 390"}
           desc="Le solaire de dernière génération garantie 30 ans, aux
 performances exceptionnelles et au design élégant"
@@ -98,7 +98,7 @@ performances exceptionnelles et au design élégant"
               <li className="flex gap-3">
                 <Check color="#00A06B" size={20} strokeWidth={3} />
                 <span className="max-w-[80%]">
-                  Panneaux solaires ultra-performants de dernière génération
+                 12 Panneaux solaires de 500Wc ultra-performants de dernière génération
                 </span>
               </li>
               <li className="flex gap-3">
@@ -130,7 +130,7 @@ performances exceptionnelles et au design élégant"
               <li className="flex gap-3">
                 <Check color="#00A06B" size={20} strokeWidth={3} />
                 <span className="max-w-[80%]">
-                  Module de pilotage du ballon d’eau chaude ou Borne de recharge
+                  Pilotage du ballon d’eau chaude ou Borne de recharge
                   pour véhicule électrique
                 </span>
               </li>
