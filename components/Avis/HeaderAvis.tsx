@@ -14,11 +14,11 @@ export default function HeaderAvis() {
         />
         <div className="bg-[#EA4335] text-white text-center px-7 lg:px-16 2xl:px-44 py-12 flex flex-col gap-8 sm:gap-10 lg:justify-center lg:text-start lg:w-full">
           <h1 className="text-2xl lg:text-3xl font-bold">
-            100 clients heureux d’être devenus{" "}
+            Des clients heureux d’être devenus{" "}
             <br className="hidden lg:block" /> producteurs d’énergie
           </h1>
           <p>
-            Depuis 2019, Sunline s’est engagé à faire profiter sans risque à
+            Depuis 2022, Sunline s’est engagé à faire profiter sans risque à
             tous du meilleur de la technologie solaire,{" "}
             <br className="hidden lg:block" /> pour la production d’énergie
             locale et en circuit court. Nous remercions nos clients pour leur
