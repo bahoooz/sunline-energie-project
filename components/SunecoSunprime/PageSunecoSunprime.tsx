@@ -7,6 +7,7 @@ import BaisseFacture from "./BaisseFacture";
 import DescriptifTechnique from "./DescriptifTechnique";
 import SunlineAccompagne from "./SunlineAccompagne";
 import Etapes from "./Etapes";
+import InstallationsSolaires from "@/components/InstallationsSolaires";
 
 interface PageSunecoSunprime {
   titleGammeOffre: string;
@@ -138,6 +139,7 @@ export default function PageSunecoSunprime({
       />
       <SunlineAccompagne />
       <Etapes />
+      <InstallationsSolaires />
     </>
   );
 }
