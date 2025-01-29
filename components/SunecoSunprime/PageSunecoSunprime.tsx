@@ -3,6 +3,7 @@ import React, { ReactElement } from "react";
 import GammeOffre from "./GammeOffre";
 import OffreSolairePerformante from "./OffreSolairePerformante";
 import SelectionExperts from "./SelectionExperts";
+import MeilleursProduits from "@/components/MeilleursProduits";
 import BaisseFacture from "./BaisseFacture";
 import DescriptifTechnique from "./DescriptifTechnique";
 import SunlineAccompagne from "./SunlineAccompagne";
