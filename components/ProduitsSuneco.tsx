@@ -1,12 +1,12 @@
 import Image from "next/image";
 import React from "react";
 
-export default function MeilleursProduits() {
+export default function ProduitsSuneco() {
   return (
-    <div className="mt-12 flex flex-col gap-16 xl:gap-24 lg:items-center">
+    <div className="mt-20 sm:mt-24 lg:mt-32 flex flex-col gap-16 xl:gap-24 lg:items-center">
       <div>
         <div className="text-center px-7 flex flex-col gap-5 sm:items-center">
-          <h2 className="text-2xl font-bold sm:max-w-[600px]">
+          <h2 className="text-3xl font-bold sm:max-w-[600px]">
             Une installation solaire avec les meilleurs produits, la clef de la
             rentabilité de votre investissement
           </h2>
@@ -43,15 +43,6 @@ export default function MeilleursProduits() {
           </div>
         </div>
       </div>
-      <div>
-        <div className="text-center px-7 flex flex-col gap-5 sm:items-center">
-          <h2 className="text-2xl font-bold sm:max-w-[600px]">
-            Une sélection de Micro-Onduleur(s) solaires fiables rigoureusement choisies par nos experts en énergie
-          </h2>
-          <p className="sm:max-w-[600px]">
-            Une centrale solaire avec une solution de pilotage de la production, ainsi qu&apos;une application de suivi de consommation.
-          </p>
-        </div>
         <div className="flex flex-col lg:flex-row lg:justify-center lg:items-center mt-12 lg:mt-20 gap-10 lg:gap-12 xl:gap-24 2xl:gap-32 xl:h-auto">
           <Image
             src={"/assets/IQ8P_image.png"}
