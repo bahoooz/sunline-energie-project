@@ -1,0 +1,103 @@
+import Image from "next/image";
+import React from "react";
+
+export default function ProduitsSunprime() {
+  return (
+    <div className="mt-20 sm:mt-24 lg:mt-32 flex flex-col gap-16 xl:gap-24 lg:items-center">
+      <div>
+        <div className="text-center px-7 flex flex-col gap-5 sm:items-center">
+          <h2 className="text-3xl font-bold sm:max-w-[600px]">
+            TEST
+          </h2>
+          <p className="sm:max-w-[600px]">
+            D’un seul doigt, pilotez vos équipements énergivores, suivez votre
+            consommation d’énergie et optimisez votre production solaire
+            d’énergie
+          </p>
+        </div>
+        <div className="flex flex-col lg:flex-row lg:justify-center lg:items-center mt-12 lg:mt-20 gap-10 lg:gap-12 xl:gap-24 2xl:gap-32">
+          <Image
+            src={"/assets/dualsun-flash-vue-regroupee-panneaux-1024x576 1.png"}
+            width={592}
+            height={508}
+            alt="panneaux photovoltaïques"
+            className="w-[250px] mx-auto lg:m-0 lg:w-[300px] xl:w-[350px] 2xl:w-[400px]"
+          />
+          <div className="bg-[#F5F6F7] text-center lg:text-start px-7 py-8 sm:flex sm:flex-col sm:items-center lg:items-start lg:w-[550px] xl:w-[600px]">
+            <h3 className="font-bold text-xl mb-8 sm:w-[500px] md:w-[650px] lg:w-[450px] xl:w-[500px]">
+              Des panneaux photovoltaïques dernière génération assemblé en
+              France
+            </h3>
+            <p className="mb-8 sm:w-[500px] md:w-[650px] lg:w-[450px] xl:w-[500px]">
+              Le panneau solaire FLASH Half-Cut Black de DualSun est conçu pour
+              des projets d’autoconsommation sans compromis sur l’esthétisme
+              afin de conserver toute l’élégance du bâtiment. Un panneau
+              photovoltaïque à haut rendement et bas carbone. Dans des usines
+              sélectionnées avec soin et strictement auditée, et suivant un
+              cahier des charges conçu en Provence par des ingénieurs experts.
+            </p>
+            <div className="w-6 h-1 bg-[#2BA0B5] mx-auto lg:mx-0 mb-8"></div>
+            <span className="text-lg font-bold">30 ans</span>
+            <p className="mt-2">de garantie fabricant</p>
+          </div>
+        </div>
+      </div>
+      <div>
+        <div className="text-center px-7 flex flex-col gap-5 sm:items-center">
+          <h2 className="text-2xl font-bold sm:max-w-[600px]">
+            Une sélection de Micro-Onduleur(s) solaires fiables rigoureusement choisies par nos experts en énergie
+          </h2>
+          <p className="sm:max-w-[600px]">
+            Une centrale solaire avec une solution de pilotage de la production, ainsi qu&apos;une application de suivi de consommation.
+          </p>
+        </div>
+        <div className="flex flex-col lg:flex-row lg:justify-center lg:items-center mt-12 lg:mt-20 gap-10 lg:gap-12 xl:gap-24 2xl:gap-32 xl:h-auto">
+          <Image
+            src={"/assets/IQ8P_image.png"}
+            width={765}
+            height={570}
+            alt="micro onduleur"
+            className="w-[250px] mx-auto lg:m-0 lg:w-[300px] xl:w-[350px] 2xl:w-[400px] object-cover h-[230px] lg:h-[270px] xl:h-[320px] 2xl:h-[360px]"
+          />
+          <div className="bg-[#F5F6F7] text-center lg:text-start px-7 py-8 sm:flex sm:flex-col sm:items-center lg:items-start lg:w-[550px] xl:w-[600px]">
+            <h3 className="font-bold text-xl mb-8 sm:w-[500px] md:w-[650px] lg:w-[450px] xl:w-[500px]">
+              Le micro-onduleur le plus puissant d&apos;Enphase, le leader mondial avec 475 VA de puissance, 
+              assure une production optimale de vos panneaux solaires.
+            </h3>
+            <p className="mb-8 sm:w-[500px] md:w-[650px] lg:w-[450px] xl:w-[500px]">
+              Grâce à la puce intelligente des micro-onduleurs Enphase IQ8P, la
+              distribution d&apos;électricité dans le logement peut être régulée
+              en temps réel. En optimisant la production d&apos;énergie, vous
+              réduisez les coûts d&apos;électricité.
+            </p>
+            <div className="w-6 h-1 bg-[#2BA0B5] mx-auto lg:mx-0 mb-8"></div>
+            <span className="text-lg font-bold">25 ans</span>
+            <p className="mt-2">de garantie fabricant</p>
+          </div>
+        </div>
+        <div className="flex flex-col lg:flex-row lg:justify-center lg:items-center mt-12 lg:mt-20 gap-10 lg:gap-12 xl:gap-24 2xl:gap-32 xl:h-auto">
+          <Image
+            src={"/assets/APsystems_DS3.png"}
+            width={765}
+            height={570}
+            alt="micro onduleur APsystems"
+            className="w-[250px] mx-auto lg:m-0 lg:w-[300px] xl:w-[350px] 2xl:w-[400px] object-cover h-[230px] lg:h-[270px] xl:h-[320px] 2xl:h-[360px]"
+          />
+          <div className="bg-[#F5F6F7] text-center lg:text-start px-7 py-8 sm:flex sm:flex-col sm:items-center lg:items-start lg:w-[550px] xl:w-[600px]">
+            <h3 className="font-bold text-xl mb-8 sm:w-[500px] md:w-[650px] lg:w-[450px] xl:w-[500px]">
+              APsystems dévoile la série DS3, le micro-onduleur DUO le plus puissant du marché, alliant puissance et rentabilité.
+            </h3>
+            <p className="mb-8 sm:w-[500px] md:w-[650px] lg:w-[450px] xl:w-[500px]">
+              Grâce à plusieurs offres de puissance pouvant aller jusqu&apos;à 960 VA.
+              Avec ses 2 MPPT indépendants ainsi qu’une communication Zigbee cryptée, 
+              les DS3 se dotent d&apos;une toute nouvelle architecture et sont toujours compatibles avec les micro-onduleurs QS1.
+            </p>
+            <div className="w-6 h-1 bg-[#2BA0B5] mx-auto lg:mx-0 mb-8"></div>
+            <span className="text-lg font-bold">20 ans</span>
+            <p className="mt-2">de garantie fabricant</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  );
+}
