@@ -1,27 +1,53 @@
-import React from "react";
+/* eslint-disable @typescript-eslint/no-explicit-any */
+import React, { ReactElement } from "react";
 import GammeOffre from "./GammeOffre";
 import OffreSolairePerformante from "./OffreSolairePerformante";
 import SelectionExperts from "./SelectionExperts";
-import ProduitsSuneco from "@/components/ProduitsSuneco";
-import ProduitsSunprime from "@/components/ProduitsSunprime";
 import BaisseFacture from "./BaisseFacture";
 import DescriptifTechnique from "./DescriptifTechnique";
 import SunlineAccompagne from "./SunlineAccompagne";
 import Etapes from "./Etapes";
 import InstallationsSolaires from "@/components/InstallationsSolaires";
 
-interface PageProps {
+interface PageSunecoSunprime {
   titleGammeOffre: string;
   descGammeOffre: string;
   priceGammeOffre: string | number;
-  listGammeOffre: React.ReactElement;
+  listGammeOffre: ReactElement;
   imgGammeOffre: HTMLDivElement | any;
   percentOffreSolairePerformante: number;
   kwhOffreSolairePerformante: string | number;
   titleSelectionExperts: string;
+  stars_rating_1_SelectionExperts: HTMLDivElement | any;
+  stars_rating_2_SelectionExperts: HTMLDivElement | any;
+  stars_rating_3_SelectionExperts: HTMLDivElement | any;
+  note_rating_1_SelectionExperts: number | string | any;
+  note_rating_2_SelectionExperts: number | string | any;
+  note_rating_3_SelectionExperts: number | string | any;
   descSelectionExperts: string;
+  year_1_SelectionExperts: number;
+  year_2_SelectionExperts: number;
+  year_info_1_SelectionExperts: string;
+  year_info_2_SelectionExperts: string;
+  title_2_SelectionExperts: string;
+  stars_rating_4_SelectionExperts: HTMLDivElement | any;
+  stars_rating_5_SelectionExperts: HTMLDivElement | any;
+  stars_rating_6_SelectionExperts: HTMLDivElement | any;
+  note_rating_4_SelectionExperts: number | string | any;
+  note_rating_5_SelectionExperts: number | string | any;
+  note_rating_6_SelectionExperts: number | string | any;
+  desc_2_SelectionExperts: string;
+  year_3_SelectionExperts: number;
+  year_4_SelectionExperts: number;
+  year_info_3_SelectionExperts: string;
+  year_info_4_SelectionExperts: string;
+  durability_rating_SelectionExperts?: number;
   titleDescriptifTechnique: string;
   yearDescriptionTechnique: number;
+  logoApsystemsDescriptionTechnique?: HTMLDivElement | string | any;
+  logoEnphaseDescriptionTechnique?: HTMLDivElement | string | any;
+  logoDualDescriptionTechnique?: HTMLDivElement | string | any;
+  logoDmegcDescriptionTechnique?: HTMLDivElement | string | any;
 }
 
 export default function PageSunecoSunprime({
@@ -33,12 +59,36 @@ export default function PageSunecoSunprime({
   percentOffreSolairePerformante,
   kwhOffreSolairePerformante,
   titleSelectionExperts,
+  stars_rating_1_SelectionExperts,
+  stars_rating_2_SelectionExperts,
+  stars_rating_3_SelectionExperts,
+  note_rating_1_SelectionExperts,
+  note_rating_2_SelectionExperts,
+  note_rating_3_SelectionExperts,
   descSelectionExperts,
+  year_1_SelectionExperts,
+  year_2_SelectionExperts,
+  year_info_1_SelectionExperts,
+  year_info_2_SelectionExperts,
+  title_2_SelectionExperts,
+  stars_rating_4_SelectionExperts,
+  stars_rating_5_SelectionExperts,
+  stars_rating_6_SelectionExperts,
+  note_rating_4_SelectionExperts,
+  note_rating_5_SelectionExperts,
+  note_rating_6_SelectionExperts,
+  desc_2_SelectionExperts,
+  year_3_SelectionExperts,
+  year_4_SelectionExperts,
+  year_info_3_SelectionExperts,
+  year_info_4_SelectionExperts,
   titleDescriptifTechnique,
   yearDescriptionTechnique,
-}: PageProps) {
-  const isSuneco = titleGammeOffre.toLowerCase().includes("suneco");
-
+  logoApsystemsDescriptionTechnique,
+  logoEnphaseDescriptionTechnique,
+  logoDualDescriptionTechnique,
+  logoDmegcDescriptionTechnique,
+}: PageSunecoSunprime) {
   return (
     <>
       <GammeOffre
@@ -54,9 +104,34 @@ export default function PageSunecoSunprime({
       />
       <SelectionExperts
         title={titleSelectionExperts}
+        stars_rating_1={stars_rating_1_SelectionExperts}
+        stars_rating_2={stars_rating_2_SelectionExperts}
+        stars_rating_3={stars_rating_3_SelectionExperts}
+        note_rating_1={note_rating_1_SelectionExperts}
+        note_rating_2={note_rating_2_SelectionExperts}
+        note_rating_3={note_rating_3_SelectionExperts}
         desc={descSelectionExperts}
+        year_1={year_1_SelectionExperts}
+        year_info_1={year_info_1_SelectionExperts}
+        year_2={year_2_SelectionExperts}
+        year_info_2={year_info_2_SelectionExperts}
+        title_2={title_2_SelectionExperts}
+        stars_rating_4={stars_rating_4_SelectionExperts}
+        stars_rating_5={stars_rating_5_SelectionExperts}
+        stars_rating_6={stars_rating_6_SelectionExperts}
+        note_rating_4={note_rating_4_SelectionExperts}
+        note_rating_5={note_rating_5_SelectionExperts}
+        note_rating_6={note_rating_6_SelectionExperts}
+        desc_2={desc_2_SelectionExperts}
+        year_3={year_3_SelectionExperts}
+        year_info_3={year_info_3_SelectionExperts}
+        year_4={year_4_SelectionExperts}
+        year_info_4={year_info_4_SelectionExperts}
+        logoApsystems={logoApsystemsDescriptionTechnique}
+        LogoEnphase={logoEnphaseDescriptionTechnique}
+        LogoDual={logoDualDescriptionTechnique}
+        LogoDmegc={logoDmegcDescriptionTechnique}
       />
-      {isSuneco ? <ProduitsSuneco /> : <ProduitsSunprime />}
       <BaisseFacture />
       <DescriptifTechnique
         title={titleDescriptifTechnique}
