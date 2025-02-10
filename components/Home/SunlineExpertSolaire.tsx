@@ -44,19 +44,19 @@ export default function SunlineExpertSolaire() {
           </p>
         </div>
         <div className="h-40 2xl:h-48 flex flex-col justify-center items-center gap-2 xl:px-10 2xl:px-16">
-          <span className="text-5xl">120</span>
+          <span className="text-5xl">380</span>
           <p className="text-center">
             installation solaires <br /> réalisées
           </p>
         </div>
         <div className="h-40 2xl:h-48 bg-[#F4F4F4] flex flex-col justify-center items-center gap-2 xl:px-10 2xl:px-16">
-          <span className="text-5xl">826</span>
+          <span className="text-5xl">4000</span>
           <p className="text-center">
             panneaux solaires <br /> installés
           </p>
         </div>
         <div className="h-40 2xl:h-48 flex flex-col justify-center items-center gap-2 xl:px-10 2xl:px-16">
-          <span className="text-5xl">1</span>
+          <span className="text-5xl">2</span>
           <p className="text-center">
             MW installés en <br /> Nouvelle-Aquitaine
           </p>
