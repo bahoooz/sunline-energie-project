@@ -8,9 +8,9 @@ import { Pagination } from "@heroui/pagination";
 
 // Ajout du mapping inverse pour la recherche
 const categoryMapReverse: { [key: string]: string } = {
-  "Particuliers": "particuliers",
+  Particuliers: "particuliers",
   "Aides de l'État": "aides-etat",
-  "Société": "societe",
+  Société: "societe",
   "Passer au Solaire": "passer-au-solaire",
   "Technologie Solaire": "technologie-solaire",
   "Pionniers de l'Énergie Solaire": "pionniers-energie-solaire",
@@ -34,20 +34,25 @@ export default function BlogContent({ initialArticles }: BlogContentProps) {
     filteredCategories.length > 0
       ? initialArticles.filter((article) =>
           // Convertir la catégorie formatée en valeur non formatée pour la comparaison
-          filteredCategories.includes(categoryMapReverse[article.category] || article.category)
+          filteredCategories.includes(
+            categoryMapReverse[article.category] || article.category
+          )
         )
       : initialArticles;
 
   // Pagination
   const indexOfLastArticle = currentPage * articlesPerPage;
   const indexOfFirstArticle = indexOfLastArticle - articlesPerPage;
-  const currentArticles = filteredArticles.slice(indexOfFirstArticle, indexOfLastArticle);
+  const currentArticles = filteredArticles.slice(
+    indexOfFirstArticle,
+    indexOfLastArticle
+  );
   const [firstArticle, ...otherArticles] = currentArticles;
   const totalPages = Math.ceil((filteredArticles.length - 1) / articlesPerPage);
 
   const handlePageChange = (page: number) => {
     setCurrentPage(page);
-    window.scrollTo({ top: 0, behavior: 'smooth' });
+    window.scrollTo({ top: 0, behavior: "smooth" });
   };
 
   return (
@@ -65,7 +70,8 @@ export default function BlogContent({ initialArticles }: BlogContentProps) {
               Aucun article
             </h2>
             <p className="text-center">
-              Nous n'avons pas trouvé d'articles correspondant à vos critères.
+              Nous n&apos;avons pas trouvé d&apos;articles correspondant à vos
+              critères.
             </p>
           </motion.div>
         ) : (

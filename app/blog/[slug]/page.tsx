@@ -1,3 +1,6 @@
+/* eslint-disable @typescript-eslint/no-explicit-any */
+/* eslint-disable @typescript-eslint/ban-ts-comment */
+
 import fs from "fs";
 import path from "path";
 import { compileMDX } from "next-mdx-remote/rsc";
@@ -13,6 +16,7 @@ import LastsNews from "@/components/Blog/LastsNews";
 import { Suspense } from "react";
 
 type MDXComponents = {
+  // @ts-ignore - Les composants MDX peuvent avoir des props dynamiques
   [key: string]: ComponentType<any>;
 };
 
@@ -33,6 +37,7 @@ const components: MDXComponents = {
   a: ({
     href = "",
     children,
+    // @ts-ignore - Props additionnelles pour les liens MDX
     ...props
   }: {
     href?: string;
@@ -107,7 +112,7 @@ export default async function ArticlePage({
   const { content: compiledContent } = await compileMDX({
     source: processedContent,
     components,
-    options: { parseFrontmatter: true }
+    options: { parseFrontmatter: true },
   });
 
   return (
@@ -176,6 +181,7 @@ export default async function ArticlePage({
                 href="https://www.facebook.com/people/Sunline/61559245282494/"
                 target="_blank"
                 className="hover:scale-110 transition-all duration-300"
+                rel="noopener noreferrer"
               >
                 <Facebook />
               </a>
@@ -183,6 +189,7 @@ export default async function ArticlePage({
                 href="https://www.instagram.com/sunline_energie/"
                 target="_blank"
                 className="hover:scale-110 transition-all duration-300"
+                rel="noopener noreferrer"
               >
                 <Instagram />
               </a>

@@ -2,15 +2,20 @@
 import { ContactForm } from "@/components/Contact/ContactForm";
 import FAQ from "@/components/FAQ";
 import InstallationsSolaires from "@/components/InstallationsSolaires";
-import { Facebook, Instagram, Linkedin, MoveRight, Youtube } from "lucide-react";
+import {
+  Facebook,
+  Instagram,
+  Linkedin,
+  MoveRight,
+  Youtube,
+} from "lucide-react";
 import Image from "next/image";
 import Link from "next/link";
 import React from "react";
 
 export default function Contact() {
-
   return (
- <div className="my-20 lg:my-24">
+    <div className="my-20 lg:my-24">
       <div className="mt-52 flex flex-col xl:flex-row-reverse xl:justify-center gap-20 xl:gap-16 2xl:gap-20">
         <div className="md:w-[700px] md:mx-auto xl:mx-0 xl:w-[600px]">
           <h1 className="text-center xl:text-start text-2xl lg:text-3xl px-7 xl:px-0 font-bold">
@@ -47,10 +52,12 @@ export default function Contact() {
               </p>
             </div>
             <div>
-            <h4 className="font-bold text-lg lg:text-xl mb-4">
+              <h4 className="font-bold text-lg lg:text-xl mb-4">
                 Nous joindre par téléphone
               </h4>
-              <Link className="flex gap-2 underline" href={"tel:+330975309157"}><MoveRight /> 09 75 30 91 57</Link>
+              <Link className="flex gap-2 underline" href={"tel:+330975309157"}>
+                <MoveRight /> 09 75 30 91 57
+              </Link>
             </div>
             <div>
               <h4 className="font-bold text-lg lg:text-xl mb-4">Nous suivre</h4>
@@ -100,5 +107,5 @@ export default function Contact() {
       <InstallationsSolaires />
       <FAQ />
     </div>
-      );
+  );
 }

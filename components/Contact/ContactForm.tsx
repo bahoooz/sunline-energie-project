@@ -6,12 +6,7 @@
 import React, { useRef, useState } from "react";
 import emailjs from "@emailjs/browser";
 import ReCAPTCHA from "react-google-recaptcha";
-import {
-  Modal,
-  ModalContent,
-  ModalBody,
-  useDisclosure,
-} from "@heroui/modal";
+import { Modal, ModalContent, ModalBody, useDisclosure } from "@heroui/modal";
 import { Button } from "@heroui/button";
 import Link from "next/link";
 

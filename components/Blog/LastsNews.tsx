@@ -31,12 +31,12 @@ function getLastArticles(currentSlug: string) {
     : articles.filter((article) => !article.draft);
 
   return filteredArticles
-    .filter(article => article.slug !== currentSlug)
+    .filter((article) => article.slug !== currentSlug)
     .sort((a, b) => new Date(b.date).getTime() - new Date(a.date).getTime())
     .slice(0, 4);
 }
 
-export default function LastsNews({ currentSlug = '' }) {
+export default function LastsNews({ currentSlug = "" }) {
   const lastArticles = getLastArticles(currentSlug);
 
   return (

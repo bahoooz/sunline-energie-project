@@ -1,11 +1,5 @@
 /* eslint-disable prettier/prettier */
-import {
-  Facebook,
-  Instagram,
-  Linkedin,
-  Star,
-  Youtube,
-} from "lucide-react";
+import { Facebook, Instagram, Linkedin, Star, Youtube } from "lucide-react";
 import Image from "next/image";
 import Link from "next/link";
 import React from "react";

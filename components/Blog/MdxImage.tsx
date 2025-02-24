@@ -7,7 +7,12 @@ interface MdxImageProps {
   height?: number;
 }
 
-export default function MdxImage({ src, alt, width = 800, height = 400 }: MdxImageProps) {
+export default function MdxImage({
+  src,
+  alt,
+  width = 800,
+  height = 400,
+}: MdxImageProps) {
   return (
     <Image
       src={src}

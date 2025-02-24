@@ -11,7 +11,7 @@ export default function PageSimulateur() {
     document.body.appendChild(script);
 
     return () => {
-      document.body.removeChild(script); 
+      document.body.removeChild(script);
     };
   }, []);
 

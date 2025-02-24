@@ -19,12 +19,12 @@ export default function Sunprime() {
               puissance garantie à 91.8% à 30 ans
             </span>
           </li>
-         <li className="flex items-center gap-5">
+          <li className="flex items-center gap-5">
             <Check color="#00A06B" size={20} strokeWidth={3} />
-          <span className="max-w-[80%]">
-          Pilotage du ballon d&apos;eau chaude
-         </span>
-         </li>
+            <span className="max-w-[80%]">
+              Pilotage du ballon d&apos;eau chaude
+            </span>
+          </li>
           <li className="flex items-center gap-5">
             <Check color="#00A06B" size={20} strokeWidth={3} />
             <span className="max-w-[80%]">
@@ -136,16 +136,16 @@ micro-onduleurs"
       titleDescriptifTechnique="SunPrime"
       yearDescriptionTechnique={25}
       logoDualDescriptionTechnique={
-      <div>
-        <Image
-          src={"/assets/dualsun_logo.png"}
-          width={322}
-          height={82}
-          alt="logo dualsun"
-          className="w-[270px] hover:scale-110 transition-all"
+        <div>
+          <Image
+            src={"/assets/dualsun_logo.png"}
+            width={322}
+            height={82}
+            alt="logo dualsun"
+            className="w-[270px] hover:scale-110 transition-all"
           />
         </div>
-        }
+      }
       logoEnphaseDescriptionTechnique={
         <div>
           <Image

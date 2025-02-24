@@ -135,16 +135,16 @@ micro-onduleurs"
       titleDescriptifTechnique="SunEco"
       yearDescriptionTechnique={20}
       logoDmegcDescriptionTechnique={
-      <div>
-        <Image
-          src={"/assets/dmegc_logo.png"}
-          width={310}
-          height={82}
-          alt="logo dmegc"
-          className="w-[250px] hover:scale-110 transition-all"
+        <div>
+          <Image
+            src={"/assets/dmegc_logo.png"}
+            width={310}
+            height={82}
+            alt="logo dmegc"
+            className="w-[250px] hover:scale-110 transition-all"
           />
         </div>
-        }
+      }
       logoApsystemsDescriptionTechnique={
         <div>
           <Image
@@ -154,7 +154,7 @@ micro-onduleurs"
             alt="logo apsystem"
             className="w-[270px] hover:scale-110 transition-all"
           />
-        </div> 
+        </div>
       }
     />
   );

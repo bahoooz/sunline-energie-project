@@ -4,7 +4,6 @@ import HeaderBlog from "@/components/Blog/HeaderBlog";
 import { ArticleMetadata } from "@/types/article";
 import matter from "gray-matter";
 import BlogContent from "@/components/Blog/BlogContent";
-import { categoryMap } from "@/lib/categoryMap";
 function getArticles(): ArticleMetadata[] {
   const articlesDirectory = path.join(process.cwd(), "app/blog/articles");
   const fileNames = fs.readdirSync(articlesDirectory);
@@ -16,7 +15,7 @@ function getArticles(): ArticleMetadata[] {
     const fileContents = fs.readFileSync(fullPath, "utf8");
 
     const { data } = matter(fileContents);
-    const formattedCategory = categoryMap[data.category] || data.category;
+    // const formattedCategory = categoryMap[data.category] || data.category;
 
     return {
       slug,
@@ -57,6 +56,7 @@ export default function BlogPage() {
         <BlogContent initialArticles={articles} />
       </div>
       <iframe
+        title="Contenu du blog"
         src="https://d4ecc8fb.sibforms.com/serve/MUIFALiluoIkaqkwp6E6ZmX-wHCbRIOVBRTGYZ0ytlsdh9oqgJbIlgfxpRjE5N_S-1QUqfP7svHbFbhGuc8Xfl8nvQzUticthdDXr_ja_EyRVN5L47SLM4W518AmtHMxlphsafivn7VeLLsvZ1qvxAYQlx5wAnSQWRjtsKNTCgpY2rlQwY7ict8EgtRjhZQ59k7r6f7iIECP5v0G"
         style={{
           display: "block",

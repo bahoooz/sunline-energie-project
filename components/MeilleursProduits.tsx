@@ -46,10 +46,12 @@ export default function MeilleursProduits() {
       <div>
         <div className="text-center px-7 flex flex-col gap-5 sm:items-center">
           <h2 className="text-2xl font-bold sm:max-w-[600px]">
-            Une sélection de Micro-Onduleur(s) solaires fiables rigoureusement choisies par nos experts en énergie
+            Une sélection de Micro-Onduleur(s) solaires fiables rigoureusement
+            choisies par nos experts en énergie
           </h2>
           <p className="sm:max-w-[600px]">
-            Une centrale solaire avec une solution de pilotage de la production, ainsi qu&apos;une application de suivi de consommation.
+            Une centrale solaire avec une solution de pilotage de la production,
+            ainsi qu&apos;une application de suivi de consommation.
           </p>
         </div>
         <div className="flex flex-col lg:flex-row lg:justify-center lg:items-center mt-12 lg:mt-20 gap-10 lg:gap-12 xl:gap-24 2xl:gap-32 xl:h-auto">
@@ -62,8 +64,9 @@ export default function MeilleursProduits() {
           />
           <div className="bg-[#F5F6F7] text-center lg:text-start px-7 py-8 sm:flex sm:flex-col sm:items-center lg:items-start lg:w-[550px] xl:w-[600px]">
             <h3 className="font-bold text-xl mb-8 sm:w-[500px] md:w-[650px] lg:w-[450px] xl:w-[500px]">
-              Le micro-onduleur le plus puissant d&apos;Enphase, le leader mondial avec 475 VA de puissance, 
-              assure une production optimale de vos panneaux solaires.
+              Le micro-onduleur le plus puissant d&apos;Enphase, le leader
+              mondial avec 475 VA de puissance, assure une production optimale
+              de vos panneaux solaires.
             </h3>
             <p className="mb-8 sm:w-[500px] md:w-[650px] lg:w-[450px] xl:w-[500px]">
               Grâce à la puce intelligente des micro-onduleurs Enphase IQ8P, la
@@ -86,12 +89,15 @@ export default function MeilleursProduits() {
           />
           <div className="bg-[#F5F6F7] text-center lg:text-start px-7 py-8 sm:flex sm:flex-col sm:items-center lg:items-start lg:w-[550px] xl:w-[600px]">
             <h3 className="font-bold text-xl mb-8 sm:w-[500px] md:w-[650px] lg:w-[450px] xl:w-[500px]">
-              APsystems dévoile la série DS3, le micro-onduleur DUO le plus puissant du marché, alliant puissance et rentabilité.
+              APsystems dévoile la série DS3, le micro-onduleur DUO le plus
+              puissant du marché, alliant puissance et rentabilité.
             </h3>
             <p className="mb-8 sm:w-[500px] md:w-[650px] lg:w-[450px] xl:w-[500px]">
-              Grâce à plusieurs offres de puissance pouvant aller jusqu&apos;à 960 VA.
-              Avec ses 2 MPPT indépendants ainsi qu’une communication Zigbee cryptée, 
-              les DS3 se dotent d&apos;une toute nouvelle architecture et sont toujours compatibles avec les micro-onduleurs QS1.
+              Grâce à plusieurs offres de puissance pouvant aller jusqu&apos;à
+              960 VA. Avec ses 2 MPPT indépendants ainsi qu’une communication
+              Zigbee cryptée, les DS3 se dotent d&apos;une toute nouvelle
+              architecture et sont toujours compatibles avec les micro-onduleurs
+              QS1.
             </p>
             <div className="w-6 h-1 bg-[#2BA0B5] mx-auto lg:mx-0 mb-8"></div>
             <span className="text-lg font-bold">20 ans</span>

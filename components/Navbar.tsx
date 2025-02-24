@@ -27,12 +27,19 @@ export default function NavbarComponent() {
         id="navbar"
         className="h-12 bg-[#FBAC18] flex justify-between px-7 sm:px-12 text-white items-center"
       >
-        <Button as={Link} href="/simulateur" className="h-8 bg-white text-[#FBAC18] lg:hidden">
+        <Button
+          as={Link}
+          href="/simulateur"
+          className="h-8 bg-white text-[#FBAC18] lg:hidden"
+        >
           Obtenir un devis
         </Button>
-        <Link href="tel:+330975309157" className="lg:hidden flex items-center gap-2 bg-[#FBAC18] text-white border border-[#FBAC18] rounded-xl px-4 py-2 h-8 hover:bg-white hover:text-[#FBAC18] transition-all duration-300">
-            <Phone size={18} />
-            09 75 30 91 57
+        <Link
+          href="tel:+330975309157"
+          className="lg:hidden flex items-center gap-2 bg-[#FBAC18] text-white border border-[#FBAC18] rounded-xl px-4 py-2 h-8 hover:bg-white hover:text-[#FBAC18] transition-all duration-300"
+        >
+          <Phone size={18} />
+          09 75 30 91 57
         </Link>
         <div className="hidden lg:flex">
           <h3 className="underline"> </h3>
@@ -48,7 +55,10 @@ export default function NavbarComponent() {
             </Button>
           </div>
           <div className="flex items-center gap-3">
-            <Link href="tel:+330975309157" className="flex items-center gap-2 bg-[#FBAC18] text-white border border-[#FBAC18] rounded-xl px-4 py-2 h-8 hover:bg-white hover:text-[#FBAC18] transition-all duration-300">
+            <Link
+              href="tel:+330975309157"
+              className="flex items-center gap-2 bg-[#FBAC18] text-white border border-[#FBAC18] rounded-xl px-4 py-2 h-8 hover:bg-white hover:text-[#FBAC18] transition-all duration-300"
+            >
               <Phone size={18} />
               09 75 30 91 57
             </Link>
@@ -81,7 +91,11 @@ export default function NavbarComponent() {
           justify="center"
         >
           <NavbarItem>
-            <Link color="foreground" href="/offres" className="hover:text-[#FBAC18] transition-colors duration-300">
+            <Link
+              color="foreground"
+              href="/offres"
+              className="hover:text-[#FBAC18] transition-colors duration-300"
+            >
               Solutions photovoltaïques
             </Link>
           </NavbarItem>
@@ -104,12 +118,20 @@ export default function NavbarComponent() {
             </Link>
           </NavbarItem>
           <NavbarItem>
-            <Link color="foreground" href="/avis" className="hover:text-[#FBAC18] transition-colors duration-300">
+            <Link
+              color="foreground"
+              href="/avis"
+              className="hover:text-[#FBAC18] transition-colors duration-300"
+            >
               Avis
             </Link>
           </NavbarItem>
           <NavbarItem>
-            <Link color="foreground" href="/blog" className="hover:text-[#FBAC18] transition-colors duration-300">
+            <Link
+              color="foreground"
+              href="/blog"
+              className="hover:text-[#FBAC18] transition-colors duration-300"
+            >
               Blog
             </Link>
           </NavbarItem>
@@ -123,34 +145,58 @@ export default function NavbarComponent() {
             </Link>
           </NavbarItem>
         </NavbarContent>
-       <NavbarMenu className="bg-white text-black flex flex-col justify-center gap-6 top-32 pb-2 max-h-[340px]">
+        <NavbarMenu className="bg-white text-black flex flex-col justify-center gap-6 top-32 pb-2 max-h-[340px]">
           <NavbarMenuItem className="text-xl">
-            <Link href={"/offres"} onClick={() => setIsMenuOpen(false)} className="hover:text-[#FBAC18] transition-colors duration-300">
+            <Link
+              href={"/offres"}
+              onClick={() => setIsMenuOpen(false)}
+              className="hover:text-[#FBAC18] transition-colors duration-300"
+            >
               Solutions photovoltaïques
             </Link>
           </NavbarMenuItem>
           <NavbarMenuItem className="text-xl">
-            <Link href={"/garanties"} onClick={() => setIsMenuOpen(false)} className="hover:text-[#FBAC18] transition-colors duration-300">
+            <Link
+              href={"/garanties"}
+              onClick={() => setIsMenuOpen(false)}
+              className="hover:text-[#FBAC18] transition-colors duration-300"
+            >
               Garanties
             </Link>
           </NavbarMenuItem>
           <NavbarMenuItem className="text-xl">
-            <Link href={"/simulateur"} onClick={() => setIsMenuOpen(false)} className="hover:text-[#FBAC18] transition-colors duration-300">
+            <Link
+              href={"/simulateur"}
+              onClick={() => setIsMenuOpen(false)}
+              className="hover:text-[#FBAC18] transition-colors duration-300"
+            >
               Simulateur
             </Link>
           </NavbarMenuItem>
           <NavbarMenuItem className="text-xl">
-            <Link href={"/avis"} onClick={() => setIsMenuOpen(false)} className="hover:text-[#FBAC18] transition-colors duration-300">
-                Avis
-              </Link>
-            </NavbarMenuItem>
+            <Link
+              href={"/avis"}
+              onClick={() => setIsMenuOpen(false)}
+              className="hover:text-[#FBAC18] transition-colors duration-300"
+            >
+              Avis
+            </Link>
+          </NavbarMenuItem>
           <NavbarMenuItem className="text-xl">
-            <Link href={"/blog"} onClick={() => setIsMenuOpen(false)} className="hover:text-[#FBAC18] transition-colors duration-300">
+            <Link
+              href={"/blog"}
+              onClick={() => setIsMenuOpen(false)}
+              className="hover:text-[#FBAC18] transition-colors duration-300"
+            >
               Blog
             </Link>
           </NavbarMenuItem>
           <NavbarMenuItem className="text-xl">
-            <Link href={"/contact"} onClick={() => setIsMenuOpen(false)} className="hover:text-[#FBAC18] transition-colors duration-300">
+            <Link
+              href={"/contact"}
+              onClick={() => setIsMenuOpen(false)}
+              className="hover:text-[#FBAC18] transition-colors duration-300"
+            >
               Nous contacter
             </Link>
           </NavbarMenuItem>

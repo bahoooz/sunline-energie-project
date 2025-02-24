@@ -48,7 +48,7 @@ ou sans ombrage, il s'adapte à tous les environnements."
               <li className="flex gap-3">
                 <Check color="#00A06B" size={20} strokeWidth={3} />
                 <span className="max-w-[80%]">
-                 6 Panneaux solaires de 500 Wc dernière génération
+                  6 Panneaux solaires de 500 Wc dernière génération
                 </span>
               </li>
               <li className="flex gap-3">
@@ -79,8 +79,8 @@ ou sans ombrage, il s'adapte à tous les environnements."
               <p className="text-start text-sm flex gap-3 mt-5">
                 <CheckCheck size={20} strokeWidth={3} />{" "}
                 <span className="max-w-[90%]">
-                  Pilotage du ballon d’eau chaude ou Borne de recharge
-                  pour véhicule électrique{" "}
+                  Pilotage du ballon d’eau chaude ou Borne de recharge pour
+                  véhicule électrique{" "}
                 </span>
               </p>
             </div>
@@ -98,7 +98,8 @@ performances exceptionnelles et au design élégant"
               <li className="flex gap-3">
                 <Check color="#00A06B" size={20} strokeWidth={3} />
                 <span className="max-w-[80%]">
-                 12 Panneaux solaires de 500Wc ultra-performants de dernière génération
+                  12 Panneaux solaires de 500Wc ultra-performants de dernière
+                  génération
                 </span>
               </li>
               <li className="flex gap-3">
@@ -130,8 +131,8 @@ performances exceptionnelles et au design élégant"
               <li className="flex gap-3">
                 <Check color="#00A06B" size={20} strokeWidth={3} />
                 <span className="max-w-[80%]">
-                  Pilotage du ballon d’eau chaude ou Borne de recharge
-                  pour véhicule électrique
+                  Pilotage du ballon d’eau chaude ou Borne de recharge pour
+                  véhicule électrique
                 </span>
               </li>
             </>

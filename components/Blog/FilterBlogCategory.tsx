@@ -7,7 +7,9 @@ interface FilterBlogCategoryProps {
   onCategoriesChange: (categories: string[]) => void;
 }
 
-export default function FilterBlogCategory({ onCategoriesChange }: FilterBlogCategoryProps) {
+export default function FilterBlogCategory({
+  onCategoriesChange,
+}: FilterBlogCategoryProps) {
   const [selectedCategories, setSelectedCategories] = useState<string[]>([]);
 
   const handleCategoryChange = (values: string[]) => {
@@ -30,7 +32,7 @@ export default function FilterBlogCategory({ onCategoriesChange }: FilterBlogCat
           Particuliers
         </Checkbox>
         <Checkbox className="h-10 min-w-fit" value="aides-etat">
-          Aides de l'État
+          Aides de l&apos;État
         </Checkbox>
         <Checkbox className="h-10 min-w-fit" value="societe">
           Société
@@ -42,7 +44,7 @@ export default function FilterBlogCategory({ onCategoriesChange }: FilterBlogCat
           Technologie Solaire
         </Checkbox>
         <Checkbox className="h-10 min-w-fit" value="pionniers-energie-solaire">
-          Pionniers de l'Énergie Solaire
+          Pionniers de l&apos;Énergie Solaire
         </Checkbox>
       </CheckboxGroup>
     </div>
