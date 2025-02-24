@@ -11,8 +11,8 @@ import {
   ModalContent,
   ModalBody,
   useDisclosure,
-} from "@nextui-org/modal";
-import { Button } from "@nextui-org/button";
+} from "@heroui/modal";
+import { Button } from "@heroui/button";
 import Link from "next/link";
 
 export const ContactForm = () => {

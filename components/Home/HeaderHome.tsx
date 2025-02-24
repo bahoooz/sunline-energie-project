@@ -1,5 +1,5 @@
 import React from "react";
-import { Button } from "@nextui-org/button";
+import { Button } from "@heroui/button";
 import BoxHeaderHome from "./BoxHeaderHome";
 import Link from "next/link";
 

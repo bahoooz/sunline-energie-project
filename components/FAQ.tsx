@@ -1,7 +1,7 @@
 "use client";
 
 import React from "react";
-import { Accordion, AccordionItem } from "@nextui-org/accordion";
+import { Accordion, AccordionItem } from "@heroui/accordion";
 import { SquarePlus } from "lucide-react";
 import Image from "next/image";
 

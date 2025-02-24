@@ -1,6 +1,6 @@
 import React from "react";
 import BoxExpertise from "./BoxExpertise";
-import { Button } from "@nextui-org/button";
+import { Button } from "@heroui/button";
 import Link from "next/link";
 
 export default function Expertise() {

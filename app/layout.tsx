@@ -7,7 +7,10 @@ import { Lato } from "next/font/google";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 
-const lato = Lato({ subsets: ["latin"], weight: "400" });
+const lato = Lato({ 
+  subsets: ["latin"], 
+  weight: ["100", "300", "400", "700", "900"]
+});
 
 export const metadata: Metadata = {
   title: {
@@ -63,11 +66,12 @@ export default function RootLayout({
         <link rel="icon" href="/assets/favicon.ico" sizes="any" />
 
         {/* Structured Data (Schema.org) */}
-        <script type="application/ld+json">
-          {`
-            {
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{
+            __html: JSON.stringify({
               "@context": "https://schema.org",
-              "@type": "Organization",
+              "@type": "Organization", 
               "name": "Sunline Energie",
               "url": "https://www.sunline-energie.com",
               "logo": "https://www.sunline-energie.com/assets/logo.png",
@@ -75,9 +79,9 @@ export default function RootLayout({
                 "https://www.facebook.com/sunlineenergie",
                 "https://www.linkedin.com/company/sunline-energie/"
               ]
-            }
-          `}
-        </script>
+            })
+          }}
+        />
       </head>
 
       <body className={lato.className}>

@@ -1,4 +1,4 @@
-import { Button } from "@nextui-org/button";
+import { Button } from "@heroui/button";
 import { ChevronRight } from "lucide-react";
 import Link from "next/link";
 import React from "react";
