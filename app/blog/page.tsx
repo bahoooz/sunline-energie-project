@@ -22,8 +22,8 @@ function getArticles(): ArticleMetadata[] {
       slug,
       title: data.title || slug.replace(/-/g, " "),
       date: data.date || "",
-      category: data.category || "uncategorized",
-      image: data.image || "/assets/default-image.jpg",
+      category: data.category || "sans-catégorie",
+      image: data.image || "/logo_grande_version.png",
       draft: data.draft || false,
     };
   });

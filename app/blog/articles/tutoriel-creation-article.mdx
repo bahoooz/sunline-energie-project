@@ -1,0 +1,79 @@
+---
+title: "Tutoriel création d'un article"
+date: "2025-02-23"
+category: "particuliers"
+image: "/logo_grande_version.png"
+draft: true
+---
+
+# Pour créer un article, il faut suivre les étapes suivantes :
+
+## 1. Créer un fichier Markdown (nom-article.mdx)
+
+dans le dossier suivant :
+
+```
+app/blog/articles/nom-article.mdx
+```
+
+## 2. Remplir la partie supérieure du fichier avec les informations suivantes :
+
+```
+---
+- title: "Titre de l'article"
+- date: "Date de l'article" (format: YYYY-MM-DD)
+- category: "Catégorie de l'article" (particuliers, aides-etat, societe, passer-au-solaire, technologie-solaire, pionniers-energie-solaire)
+- image: "/assets/blog/dossier-de-l-article-concerné/image-article.png" (chemin vers l'image de l'article)
+- draft: "true" (true pour garder l'article en brouillon et qu'il soit non visible sur le site, sinon ne rien mettre car false par défaut)
+---
+```
+
+## 3. Remplir le contenu de l'article :
+
+```
+(#) Titre de l'article (avec un # devant sans les parenthèses)
+(##) Sous-titre de l'article (avec un ## devant sans les parenthèses)
+
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+
+Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.
+
+Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem.
+
+(##) Sous-titre numéro 2 de l'article (avec un ## devant sans les parenthèses)
+
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+
+Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.
+
+Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem.
+
+```
+
+## 4. Ajouter une image à l'article :
+
+```
+![Description de l'image](/assets/blog/dossier-de-l-article-concerné/nom-image.png)
+```
+
+image de test :
+
+![Description de l'image](/assets/blog/tutoriel-article/img-article.jpg)
+
+## 5. Ajouter un lien à l'article :
+
+```
+[Lien](https://www.google.com)
+
+[Lien interne à Sunline](/blog/article-1)
+```
+
+liens de test :
+
+[Lien externe](https://www.google.com)
+
+[Lien interne à Sunline](/blog)
+
+## Conclusion
+
+Tutoriel création d'un article terminé, merci pour la lecture !
