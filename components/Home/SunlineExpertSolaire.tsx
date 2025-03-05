@@ -16,8 +16,8 @@ export default function SunlineExpertSolaire() {
         />
         <div className="text-center xl:text-start mt-12 xl:mt-0">
           <h2 className="text-2xl lg:text-3xl font-bold px-8 xl:px-0">
-            Sunline : l’expert du Solaire <br className="hidden xl:block" /> en
-            Nouvelle-Aquitaine
+            Sunline : l’expert du Solaire <br className="hidden xl:block" /> à
+            La Rochelle et ses alentours
           </h2>
           <div className="flex justify-center xl:justify-start">
             <p className="px-8 sm:px-0 sm:max-w-[600px] xl:max-w-[500px] mt-10">
