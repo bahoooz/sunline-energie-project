@@ -27,7 +27,7 @@ export default function Footer() {
                 <Star color="#F6BB06" fill="#F6BB06" />
               </div>
             </div>
-            <span className="font-bold">32 avis Google</span>
+            <span className="font-bold">42 avis Google</span>
           </div>
         </div>
         <div className="mt-5 flex flex-col xl:flex-row gap-8 xl:gap-20">
