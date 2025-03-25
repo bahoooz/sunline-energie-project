@@ -79,7 +79,7 @@ export default function FAQ() {
         <AccordionItem
           title="L’autoconsommation c’est quoi ?"
           indicator={<SquarePlus color="white" fill="#FBAC18" size={32} />}
-          className="px-5 sm:w-[90%] sm:mx-auto xl:w-[1100px]"
+          className="px-5 mb-3 sm:w-[90%] sm:mx-auto xl:w-[1100px]"
         >
           <p>
             L’autoconsommation désigne le fait de consommer l’énergie que l’on
@@ -107,7 +107,7 @@ export default function FAQ() {
         <AccordionItem
   title="Quel est le prix d&apos;une installation photovoltaïque ?"
   indicator={<SquarePlus color="white" fill="#FBAC18" size={32} />}
-  className="px-5 mb-3 sm:w-[90%] sm:mx-auto xl:w-[1100px]"
+  className="px-5 sm:w-[90%] sm:mx-auto xl:w-[1100px]"
 >
   <p>
     Le prix d&apos;une installation photovoltaïque peut varier selon plusieurs facteurs comme 
