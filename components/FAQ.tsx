@@ -105,17 +105,17 @@ export default function FAQ() {
           </p>
         </AccordionItem>
         <AccordionItem
-          title="Quel est le prix d'une installation photovoltaïque ?"
-          indicator={<SquarePlus color="white" fill="#FBAC18" size={32} />}
-          className="px-5 mb-3 sm:w-[90%] sm:mx-auto xl:w-[1100px]"
-        >
-          <p>
-            Le prix d'une installation photovoltaïque, peut varier selon plusieurs facteurs comme 
-            le dimensionnement de l'installation, sa puissance, le type de panneau utilisé, 
-            la main d'oeuvre, les équipements annexes ou encore la technique d'installation. <br /> <br />
-            Néanmoins, on estime que le coût d'une installation en moyenne se situe entre 6000€ et 15 000€.
-          </p>
-        </AccordionItem>
+  title="Quel est le prix d&apos;une installation photovoltaïque ?"
+  indicator={<SquarePlus color="white" fill="#FBAC18" size={32} />}
+  className="px-5 mb-3 sm:w-[90%] sm:mx-auto xl:w-[1100px]"
+>
+  <p>
+    Le prix d&apos;une installation photovoltaïque peut varier selon plusieurs facteurs comme 
+    le dimensionnement de l&apos;installation, sa puissance, le type de panneau utilisé, 
+    la main d&apos;œuvre, les équipements annexes ou encore la technique d&apos;installation. <br /> <br />
+    Néanmoins, on estime que le coût d&apos;une installation en moyenne se situe entre 6000€ et 15 000€.
+  </p>
+</AccordionItem>
       </Accordion>
     </div>
   );
