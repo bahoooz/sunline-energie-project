@@ -23,7 +23,7 @@ export default function SunlineExpertSolaire() {
             <p className="px-8 sm:px-0 sm:max-w-[600px] xl:max-w-[500px] mt-10">
               Sunline est une entreprise de référence dans le milieu de solaire
               et dans les énergies renouvelables. 
-              Sunline s’est donné pour objectif de rendre le solaire accessible à tous, en offrant le
+              Sunline s&apos;est donné pour objectif de rendre le solaire accessible à tous, en offrant le
               meilleur compromis entre prix, rentabilité et performance, nous mettons à votre disposition tout le savoir faire de nos techniciens experts du photovoltaïque.
             </p>
           </div>
