@@ -18,7 +18,7 @@ export default function HeaderBlog() {
           </h1>
           <p>
             Nos experts vous donne les dernières news dans le monde du
-            photovoltaïques, soyer informés de chaque nouvelles avancées dans le
+            photovoltaïques, soyez informés de chaque nouvelles avancées dans le
             monde solaire.
           </p>
         </div>

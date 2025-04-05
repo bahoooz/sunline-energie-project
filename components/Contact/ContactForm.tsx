@@ -86,7 +86,7 @@ export const ContactForm = () => {
       <form
         ref={form}
         onSubmit={sendEmail}
-        className="px-7 xl:px-0 flex flex-col gap-8"
+        className="px-4 xl:px-0 flex flex-col gap-8"
       >
         <div className="flex flex-col sm:flex-row gap-5">
           <div className="flex flex-col gap-1 sm:w-1/2">

@@ -3,7 +3,7 @@
 "use client";
 
 /* eslint-disable prettier/prettier */
-import React, { useState } from "react";
+import React, { useState, useEffect } from "react";
 import {
   Navbar,
   NavbarBrand,
@@ -17,12 +17,24 @@ import Image from "next/image";
 import Link from "next/link";
 import { Button } from "@heroui/button";
 import { Phone } from "lucide-react"; // Import de l'icône téléphone
+import { usePathname } from "next/navigation";
 
-export default function NavbarComponent() {
+function NavbarComponent() {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
+  const pathname = usePathname();
+  const [mounted, setMounted] = useState(false);
+  const hideNavbarPaths = ['/dashboard', '/login'];
+
+  useEffect(() => {
+    setMounted(true);
+  }, []);
+
+  if (!mounted || hideNavbarPaths.includes(pathname)) {
+    return null;
+  }
 
   return (
-    <div className="fixed top-0 z-20 w-full">
+    <div className={`fixed top-0 z-20 w-full`}>
       <div
         id="navbar"
         className="h-12 bg-[#FBAC18] flex justify-between px-7 sm:px-12 text-white items-center"
@@ -204,4 +216,9 @@ export default function NavbarComponent() {
       </Navbar>
     </div>
   );
+}
+
+
+export default function NavbarContainer() {
+  return <NavbarComponent />;
 }

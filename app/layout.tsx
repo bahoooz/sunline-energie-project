@@ -1,11 +1,12 @@
 import "@/styles/globals.css";
 import { Metadata } from "next";
-
-import NavbarComponent from "@/components/Navbar";
+import dynamic from 'next/dynamic';
 import Footer from "@/components/Footer";
 import { Lato } from "next/font/google";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
+import { hideNavbar } from "@/lib/hideNavbar";
+import NavbarContainer from "@/components/Navbar";
 
 const lato = Lato({
   subsets: ["latin"],
@@ -91,8 +92,9 @@ export default function RootLayout({
       </head>
 
       <body className={lato.className}>
-        <NavbarComponent />
-        {children}
+        {/* La navigation conditionnelle sera gérée dans le composant Navbar */}
+        <NavbarContainer />
+        <main>{children}</main>
         <Footer />
       </body>
     </html>

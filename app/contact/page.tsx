@@ -1,5 +1,6 @@
 /* eslint-disable prettier/prettier */
 import { ContactForm } from "@/components/Contact/ContactForm";
+import StepsRdv from "@/components/Contact/Rdv/StepsRdv";
 import FAQ from "@/components/FAQ";
 import InstallationsSolaires from "@/components/InstallationsSolaires";
 import {
@@ -18,10 +19,10 @@ export default function Contact() {
     <div className="my-20 lg:my-24">
       <div className="mt-52 flex flex-col xl:flex-row-reverse xl:justify-center gap-20 xl:gap-16 2xl:gap-20">
         <div className="md:w-[700px] md:mx-auto xl:mx-0 xl:w-[600px]">
-          <h1 className="text-center xl:text-start text-2xl lg:text-3xl px-7 xl:px-0 font-bold">
+          <h1 className="text-center xl:text-start text-2xl lg:text-3xl px-4 xl:px-0 font-bold">
             Vous souhaitez passer au solaire ?
           </h1>
-          <p className="text-center xl:text-start px-7 xl:px-0 my-8">
+          <p className="text-center xl:text-start px-4 xl:px-0 my-8">
             Nos experts se feront un plaisir de répondre à toutes vos demandes
             et vous fournir tous les renseignements nécessaires.
           </p>
@@ -104,6 +105,12 @@ export default function Contact() {
           </div>
         </div>
       </div>
+      <div className="my-20 md:my-28 2xl:my-32 flex items-center px-4 sm:px-12 md:px-24 lg:px-32 gap-12">
+        <div className="w-1/2 h-[1px] bg-black"></div>
+        <span className="uppercase text-xl">Ou</span>
+        <div className="w-1/2 h-[1px] bg-black"></div>
+      </div>
+        <StepsRdv />
       <InstallationsSolaires />
       <FAQ />
     </div>

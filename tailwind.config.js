@@ -8,8 +8,29 @@ module.exports = {
     "./node_modules/@heroui/theme/dist/**/*.{js,ts,jsx,tsx}",
   ],
   theme: {
-    extend: {},
+    screens: {
+      'sm': '640px',
+      'md': '768px',
+      'lg': '1024px',
+      'xl': '1280px',
+      '2xl': '1536px',
+    },
+    extend: {
+      colors: {
+        primary: "#FBAC18",
+        dashboardBlue: "#59A1FF",
+        secondary: "#59A1FF",
+        dashboardGreen: "#6AAD7E",
+        dashboardRed: "#CD5460"
+      },
+    },
+  },
+  corePlugins: {
+    container: false,
   },
   darkMode: "class",
-  plugins: [heroui(), require("@tailwindcss/typography")],
+  plugins: [
+    require("@tailwindcss/typography"), 
+    heroui()
+  ],
 };
